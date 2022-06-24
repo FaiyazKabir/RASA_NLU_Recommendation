@@ -1,0 +1,18 @@
+{
+    Name:gener
+    value: [Male, female, he, she, him, her]
+
+{
+    Name: Size
+    values: [XS, XL]
+}
+
+{
+    Name: Clothing type
+    values: [jacket, jeans, Hoodies]
+}
+
+{
+    Name: Color
+    values: [blue, green]
+}

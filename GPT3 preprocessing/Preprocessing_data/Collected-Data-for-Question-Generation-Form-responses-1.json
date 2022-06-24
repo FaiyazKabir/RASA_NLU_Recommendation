@@ -1,0 +1,82 @@
+[
+ {
+   "Timestamp": "12/06/2022 22:46:47",
+   "What is your preferred color?": "blue",
+   "What type of clothes do you prefer?": "T-shirt",
+   "What is the age?": 21,
+   "What size do you wear?": "M",
+   "What is your gender?": "male"
+ },
+ {
+   "Timestamp": "12/06/2022 22:49:31",
+   "What is your preferred color?": "Navy-Blue",
+   "What type of clothes do you prefer?": "Jeans",
+   "What is the age?": 18,
+   "What size do you wear?": "L",
+   "What is your gender?": "Male"
+ },
+ {
+   "Timestamp": "12/06/2022 22:50:13",
+   "What is your preferred color?": "Black",
+   "What type of clothes do you prefer?": "Shirt",
+   "What is the age?": 24,
+   "What size do you wear?": "L",
+   "What is your gender?": "Male"
+ },
+ {
+   "Timestamp": "12/06/2022 22:52:14",
+   "What is your preferred color?": "Pink",
+   "What type of clothes do you prefer?": "Frock",
+   "What is the age?": 15,
+   "What size do you wear?": "M",
+   "What is your gender?": "Female"
+ },
+ {
+   "Timestamp": "12/06/2022 22:52:59",
+   "What is your preferred color?": "Brown",
+   "What type of clothes do you prefer?": "Shoe",
+   "What is the age?": 35,
+   "What size do you wear?": "M",
+   "What is your gender?": "Male"
+ },
+ {
+   "Timestamp": "12/06/2022 22:53:50",
+   "What is your preferred color?": "Silver",
+   "What type of clothes do you prefer?": "Formal pant",
+   "What is the age?": 27,
+   "What size do you wear?": "L",
+   "What is your gender?": "Male"
+ },
+ {
+   "Timestamp": "12/06/2022 22:54:35",
+   "What is your preferred color?": "Red",
+   "What type of clothes do you prefer?": "T-shirt",
+   "What is the age?": 14,
+   "What size do you wear?": "S",
+   "What is your gender?": "Male"
+ },
+ {
+   "Timestamp": "12/06/2022 22:55:02",
+   "What is your preferred color?": "white",
+   "What type of clothes do you prefer?": "T-shirt",
+   "What is the age?": 24,
+   "What size do you wear?": "S",
+   "What is your gender?": "Female"
+ },
+ {
+   "Timestamp": "12/06/2022 22:56:09",
+   "What is your preferred color?": "Blue",
+   "What type of clothes do you prefer?": "Jeans",
+   "What is the age?": 20,
+   "What size do you wear?": "M",
+   "What is your gender?": "Female"
+ },
+ {
+   "Timestamp": "12/06/2022 22:57:08",
+   "What is your preferred color?": "Green",
+   "What type of clothes do you prefer?": "Jacket",
+   "What is the age?": 30,
+   "What size do you wear?": "XL",
+   "What is your gender?": "Male"
+ }
+]

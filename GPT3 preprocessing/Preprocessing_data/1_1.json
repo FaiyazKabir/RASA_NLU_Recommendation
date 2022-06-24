@@ -1,0 +1,1040 @@
+[
+ {
+  "speaker": "user", 
+  "type": "greeting", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Hi there"
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "greeting", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Hi, tell me how i can help you?"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "I would like to buy some xs sized fullpants for my mother ."
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "user-info", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "she is 40 years of age."
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Thanks for the information"
+  }
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "false nlg": "", 
+   "false images": [
+    "https://images-na.ssl-images-amazon.com/images/I/416-LtNWoOL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Cqb7MsqZL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41jmR3o2kBL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51fNaCZXsML.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51IDKBZdriL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31PKPJMGSRL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41puequyRpL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/510xxZTUvcL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/418RPDguNOL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41WjACFWE5L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41OkXI1xu8L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41nkcXZjYmL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41a-IQ7ykEL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41aESLoKoXL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41XzCWiLTtL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31wq7DftlmL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Lp8W9F7yL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41SgIAHroFL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/3185pPQBqGL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41IjceCj59L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31ulM93BOPL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31BksmAN6hL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31LnJQxjUzL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41F15DSOJjL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41i5oniYl6L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41KOV7Ud2EL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31OTJqzy6oL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41XzvzyZnTL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51TkbZXc4dL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41mN88MG%2BwL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31LblPjH3gL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41f-sVxtuML.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41mGgQTk2iL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41ufH1GpYeL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41rlcZuB1TL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31t2-CdHEDL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31-UcUmjgGL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31QvC06LrvL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41ZCYXA8xvL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41evXqLIX6L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/414UKA9cc8L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51DigzCLHmL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/417iZFKjwiL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41nLTvoZlKL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41cqHyi7UoL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41-78dKcHqL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41owsGroV%2BL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/319vmZHRauL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31fFOPBC%2BbL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41U%2BBEiIELL.jpg"
+   ], 
+   "nlg": null, 
+   "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/410fOZ5ylNL.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/ABOFS16AWFSFB1165502/Front_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/NINES16AWWWTR9U1BK09/Front_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/ABOFS16AWFSFB1165704/Front_Large.jpg", 
+    "http://images.abofcdn.com/catalog/images/2015/ABOFS16AWFSPT1130204/Front_Large.jpg"
+   ]
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": [], 
+   "false images": [], 
+   "nlg": "The 5th one, orange woven casual pants, has an elasticized waistband with drawstring fastening and tasseled detail, two insert pockets on the front.  And regarding the fourth item, don these dhoti pants by teaming it with a white kurta and sandals."
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "suited_for", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Will trousers in the 3rd image be suitable for easy hand washing?"
+  }, 
+  "question-subtype": "ask_if_synset_in_n_suited_for"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "No", 
+   "nlg": "No"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "repeat-question", 
+  "question-type": "suited_for", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "And how about the 4th image"
+  }, 
+  "question-subtype": "ask_if_synset_in_n_suited_for"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "No", 
+   "nlg": "No"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "do_not_like_n_show_result", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "I dont like the type in the 4th image. Can you show me some more"
+  }, 
+  "question-subtype": "do_not_like_attribute_in_n_show_more"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "false nlg": "", 
+   "false images": [
+    "https://images-na.ssl-images-amazon.com/images/I/41YDD99dGcL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31Y9r0gsBsL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41mYLYGHvoL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41Y3bVDKvQL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41HlpHs0NLL.jpg", 
+    "http://ecx.images-amazon.com/images/I/51Rxw3sGVcL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31--rlioBuL.jpg", 
+    "http://ecx.images-amazon.com/images/I/514D3daEFmL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41i15uIi-gL.jpg", 
+    "http://ecx.images-amazon.com/images/I/412dPhHyDOL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41A5Ed-o3hL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/511azWtwpjL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51UpXYJZUjL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41fW7quKB%2BL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51Q1FAT7SuL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41AAdO8rqoL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41I7S3teMlL.jpg", 
+    "http://ecx.images-amazon.com/images/I/519Dfia93bL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41K6tLSooML.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51Gg7aaFqJL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51BmsCHUTKL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51UqH4NvegL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51LMiV8Ed8L.jpg", 
+    "http://ecx.images-amazon.com/images/I/41ZojT5-RQL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41TtHgI3LqL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41jswZpvBIL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41z1sUdedeL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41zJomFkWhL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31EFGwEUrqL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/418DNWSpw9L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41TWRcZ8L8L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51vDpL9YwAL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41LCc1gy5dL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41wXpGLA7ZL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41GGTs1ucTL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41ZLPb4GP-L.jpg", 
+    "http://ecx.images-amazon.com/images/I/415AcBdaj2L.jpg", 
+    "http://ecx.images-amazon.com/images/I/41qCQP2bEPL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41qscZfVRtL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41OxXFgyOuL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/618Qs269JFL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41sDru9nDJL.jpg", 
+    "http://ecx.images-amazon.com/images/I/4126d5a7bIL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41mbU7MZoLL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41pXt0VGHpL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/3188m-jkk9L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41crJbJ3hYL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31ETSKX-koL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41yuVRxROzL.jpg", 
+    "http://ecx.images-amazon.com/images/I/513HduJ-lxL.jpg"
+   ], 
+   "nlg": null, 
+   "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/31jp5305dHL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31KKxmXbV7L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/312gzV3pR%2BL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51Xmae8pUeL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41ISx3hScIL.jpg"
+   ]
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": [], 
+   "false images": [], 
+   "nlg": "About the 1st item, featuring a full-leg fit for comfort and classic outdoor style, this sun protection, rain-resisting pant excels at wilderness adventures and day-to-day errands alike. And what you see in the fourth item, do not bleach ,dry clean and tumble dry."
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "sort_results", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Sort these by best seller ranking"
+  }, 
+  "question-subtype": "sort_by_bestSellerRanking"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/31KKxmXbV7L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31jp5305dHL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41ISx3hScIL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/312gzV3pR%2BL.jpg"
+   ], 
+   "false images": [
+    "https://images-na.ssl-images-amazon.com/images/I/41NVWrJZL2L.jpg", 
+    "http://static4.jassets.com/p/Juan-David-Tan-Lifestyle-Shoes-9984-0252553-4-pdp_slider_m.jpg", 
+    "http://static1.jassets.com/p/Uptowngaleria-Aqua-Blue-Solid-Camisole-7961-9839022-2-pdp_slider_m.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41KTBBrZWOL.jpg"
+   ], 
+   "false nlg": null, 
+   "nlg": "Sorry i dont have the best seller ranking information for the rest"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "go_with", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "What is your opinion whether the comfy fit trousers in the 4th image go with wind cheater?"
+  }, 
+  "question-subtype": "ask_if_synset_attribute_in_n_will_go_with_synset"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "No", 
+   "nlg": "No"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "do_not_like_n_show_result", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "I dont like the fit in the 4th image. Can you show me some more"
+  }, 
+  "question-subtype": "do_not_like_attribute_in_n_show_more"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "false nlg": "", 
+   "false images": [
+    "https://images-na.ssl-images-amazon.com/images/I/41l91tyXcCL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/316WfZhDcAL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41EH9zfX%2BVL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41755z458vL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51t0OCYB8OL.jpg"
+   ], 
+   "nlg": null, 
+   "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/51Xmae8pUeL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Hx6UAR2jL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31df8qJGz4L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41mXMHLd2JL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31yirw6ht3L.jpg"
+   ]
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": [], 
+   "false images": [], 
+   "nlg": "Regarding the first image, do not bleach ,dry clean and tumble dry. And about the fifth one, giftpocket maternity legging pants  our maternity legging pants is made from high quality cotton, the fabric is eco-friendly and skin-friendly."
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "do_not_like_earlier_show_result", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "I dont like the 4th result . Show me something in fit as in the 3rd image from what you had previously shown me in trousers"
+  }, 
+  "question-subtype": "do_not_like_n_show_in_attribute_as_in_m_earlier"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "false nlg": "", 
+   "false images": [
+    "https://images-na.ssl-images-amazon.com/images/I/416-LtNWoOL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Cqb7MsqZL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41jmR3o2kBL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51fNaCZXsML.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51IDKBZdriL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31PKPJMGSRL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41puequyRpL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/510xxZTUvcL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/418RPDguNOL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41WjACFWE5L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41OkXI1xu8L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41nkcXZjYmL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41a-IQ7ykEL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41aESLoKoXL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41XzCWiLTtL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31wq7DftlmL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Lp8W9F7yL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41SgIAHroFL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/3185pPQBqGL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41IjceCj59L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31ulM93BOPL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31BksmAN6hL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31LnJQxjUzL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41F15DSOJjL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41i5oniYl6L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41KOV7Ud2EL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31OTJqzy6oL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41XzvzyZnTL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51TkbZXc4dL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41mN88MG%2BwL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31LblPjH3gL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41f-sVxtuML.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41mGgQTk2iL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41ufH1GpYeL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41rlcZuB1TL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31t2-CdHEDL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31-UcUmjgGL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31QvC06LrvL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41ZCYXA8xvL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41evXqLIX6L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/414UKA9cc8L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51DigzCLHmL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/417iZFKjwiL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41nLTvoZlKL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41cqHyi7UoL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41-78dKcHqL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41owsGroV%2BL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/319vmZHRauL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31fFOPBC%2BbL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41U%2BBEiIELL.jpg"
+   ], 
+   "nlg": null, 
+   "images": [
+    "http://ecx.images-amazon.com/images/I/318wkXWUgeL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41Cw0VmN5HL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41fQ8juxyEL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41ppPp6r6KL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/312M2muEkQL.jpg"
+   ]
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": [], 
+   "false images": [], 
+   "nlg": "See the 4th item, blue jeans. made from cotton stretch, these jeans have three front and two back pockets."
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "do_not_like_show_result", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "No these are not quite to my taste. Show me more in style as in 2nd image"
+  }, 
+  "question-subtype": "do_not_like_show_in_attribute_as_in_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "false nlg": "", 
+   "false images": [
+    "https://images-na.ssl-images-amazon.com/images/I/416-LtNWoOL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Cqb7MsqZL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41jmR3o2kBL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51fNaCZXsML.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51IDKBZdriL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31PKPJMGSRL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41puequyRpL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/510xxZTUvcL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/418RPDguNOL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41WjACFWE5L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41OkXI1xu8L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41nkcXZjYmL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41a-IQ7ykEL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41aESLoKoXL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41XzCWiLTtL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31wq7DftlmL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Lp8W9F7yL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41SgIAHroFL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/3185pPQBqGL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41IjceCj59L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31ulM93BOPL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31BksmAN6hL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31LnJQxjUzL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41F15DSOJjL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41i5oniYl6L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41KOV7Ud2EL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31OTJqzy6oL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41XzvzyZnTL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51TkbZXc4dL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41mN88MG%2BwL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31LblPjH3gL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41f-sVxtuML.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41mGgQTk2iL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41ufH1GpYeL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41rlcZuB1TL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31t2-CdHEDL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31-UcUmjgGL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31QvC06LrvL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41ZCYXA8xvL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41evXqLIX6L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/414UKA9cc8L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51DigzCLHmL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/417iZFKjwiL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41nLTvoZlKL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41cqHyi7UoL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41-78dKcHqL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41owsGroV%2BL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/319vmZHRauL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31fFOPBC%2BbL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41U%2BBEiIELL.jpg"
+   ], 
+   "nlg": null, 
+   "images": [
+    "http://ecx.images-amazon.com/images/I/41o%2B6JAKnFL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41%2BAlgDigcL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41oBgRwfxlL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41XJZ8yl2tL.jpg", 
+    "http://ecx.images-amazon.com/images/I/31d5OsfSupL.jpg"
+   ]
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": [], 
+   "false images": [], 
+   "nlg": "For the fifth image, keep it cool and stylish with these trendy vero moda casual trousers."
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "do_not_like_n_show_result", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "I dont like the 3rd result . Show me something in style as in the 5th image"
+  }, 
+  "question-subtype": "do_not_like_n_show_in_attribute_as_in_m"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "false nlg": "", 
+   "false images": [
+    "https://images-na.ssl-images-amazon.com/images/I/416-LtNWoOL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Cqb7MsqZL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41jmR3o2kBL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51fNaCZXsML.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51IDKBZdriL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31PKPJMGSRL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41puequyRpL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/510xxZTUvcL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/418RPDguNOL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41WjACFWE5L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41OkXI1xu8L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41nkcXZjYmL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41a-IQ7ykEL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41aESLoKoXL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41XzCWiLTtL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31wq7DftlmL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Lp8W9F7yL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41SgIAHroFL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/3185pPQBqGL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41IjceCj59L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31ulM93BOPL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31BksmAN6hL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31LnJQxjUzL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41F15DSOJjL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41i5oniYl6L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41KOV7Ud2EL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31OTJqzy6oL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41XzvzyZnTL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51TkbZXc4dL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41mN88MG%2BwL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31LblPjH3gL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41f-sVxtuML.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41mGgQTk2iL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41ufH1GpYeL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41rlcZuB1TL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31t2-CdHEDL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31-UcUmjgGL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31QvC06LrvL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41ZCYXA8xvL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41evXqLIX6L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/414UKA9cc8L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51DigzCLHmL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/417iZFKjwiL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41nLTvoZlKL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41cqHyi7UoL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41-78dKcHqL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41owsGroV%2BL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/319vmZHRauL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31fFOPBC%2BbL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41U%2BBEiIELL.jpg"
+   ], 
+   "nlg": null, 
+   "images": [
+    "http://ecx.images-amazon.com/images/I/41epDL-4SHL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41syhTUsp7L.jpg", 
+    "http://ecx.images-amazon.com/images/I/31k71d0yPYL.jpg", 
+    "http://ecx.images-amazon.com/images/I/31lznwWRnWL.jpg", 
+    "http://ecx.images-amazon.com/images/I/51HyM8oUsRL.jpg"
+   ]
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": [], 
+   "false images": [], 
+   "nlg": "The fourth item, vero moda 98%cotton,blend solid slim casual pant."
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "like_show_result", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "I like the 4th image . Show something like it but having a elastic style"
+  }, 
+  "question-subtype": "like_n_show_in_non_mentioned_attribute_value"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "false nlg": "", 
+   "false images": [
+    "https://images-na.ssl-images-amazon.com/images/I/416-LtNWoOL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Cqb7MsqZL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41jmR3o2kBL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51fNaCZXsML.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51IDKBZdriL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31PKPJMGSRL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41puequyRpL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/510xxZTUvcL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/418RPDguNOL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41WjACFWE5L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41OkXI1xu8L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41nkcXZjYmL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41a-IQ7ykEL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41aESLoKoXL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41XzCWiLTtL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31wq7DftlmL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Lp8W9F7yL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41SgIAHroFL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/3185pPQBqGL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41IjceCj59L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31ulM93BOPL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31BksmAN6hL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31LnJQxjUzL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41F15DSOJjL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41i5oniYl6L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41KOV7Ud2EL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31OTJqzy6oL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41XzvzyZnTL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51TkbZXc4dL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41mN88MG%2BwL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31LblPjH3gL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41f-sVxtuML.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41mGgQTk2iL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41ufH1GpYeL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41rlcZuB1TL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31t2-CdHEDL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31-UcUmjgGL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31QvC06LrvL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41ZCYXA8xvL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41evXqLIX6L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/414UKA9cc8L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51DigzCLHmL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/417iZFKjwiL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41nLTvoZlKL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41cqHyi7UoL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41-78dKcHqL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41owsGroV%2BL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/319vmZHRauL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31fFOPBC%2BbL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41U%2BBEiIELL.jpg"
+   ], 
+   "nlg": "Sorry I couldnt find anything in dark but do you want to see some in other types of color", 
+   "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/31MEekNNnIL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31vEAqtwlsL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/2160BA2J7QL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41-7sUdx4uL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41u8yNnRbcL.jpg"
+   ]
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": [], 
+   "false images": [], 
+   "nlg": "What you see in the 3rd image, these pants will show off all your hard work and allow you to bend and stretch with comfort and ease."
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "ask_attribute", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "What is the color type in the result 2nd?"
+  }, 
+  "question-subtype": "ask_attribute_in_synset_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "The color in 2nd image is soft", 
+   "nlg": "The color in 2nd image is soft"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "repeat-question", 
+  "question-type": "ask_attribute", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "And what about in the 4th image"
+  }, 
+  "question-subtype": "ask_attribute_in_synset_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "The style in 4th image is slim", 
+   "nlg": "The style in 4th image is slim"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "do_not_like_n_show_result", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "I dont like the 1st trousers. Show me something having a ideal style"
+  }, 
+  "question-subtype": "do_not_like_n_show_in_attribute_complement_value"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "false nlg": "", 
+   "false images": [
+    "http://ecx.images-amazon.com/images/I/41zJomFkWhL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41t92kRl4iL.jpg", 
+    "http://ecx.images-amazon.com/images/I/516kdSkK-NL.jpg"
+   ], 
+   "nlg": null, 
+   "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/41nZ%2BcaXYDL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41nHrpC6ocL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41kN1HQoVyL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41W2c10y5gL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41HsPGim8OL.jpg"
+   ]
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": [], 
+   "false images": [], 
+   "nlg": "In the third item, men's wear inspired patterns are subtle yet relevant, creating a tailored look."
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "do_not_like_show_result", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "I don\u2019t really like these. Can you show me more in material as in 3rd image?"
+  }, 
+  "question-subtype": "do_not_like_show_in_attribute_as_in_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "false nlg": "", 
+   "false images": [
+    "https://images-na.ssl-images-amazon.com/images/I/416-LtNWoOL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Cqb7MsqZL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41jmR3o2kBL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51fNaCZXsML.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51IDKBZdriL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31PKPJMGSRL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41puequyRpL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/510xxZTUvcL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/418RPDguNOL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41WjACFWE5L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41OkXI1xu8L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41nkcXZjYmL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41a-IQ7ykEL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41aESLoKoXL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41XzCWiLTtL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31wq7DftlmL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Lp8W9F7yL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41SgIAHroFL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/3185pPQBqGL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41IjceCj59L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31ulM93BOPL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31BksmAN6hL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31LnJQxjUzL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41F15DSOJjL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41i5oniYl6L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41KOV7Ud2EL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31OTJqzy6oL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41XzvzyZnTL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51TkbZXc4dL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41mN88MG%2BwL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31LblPjH3gL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41f-sVxtuML.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41mGgQTk2iL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41ufH1GpYeL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41rlcZuB1TL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31t2-CdHEDL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31-UcUmjgGL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31QvC06LrvL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41ZCYXA8xvL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41evXqLIX6L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/414UKA9cc8L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51DigzCLHmL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/417iZFKjwiL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41nLTvoZlKL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41cqHyi7UoL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41-78dKcHqL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41owsGroV%2BL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/319vmZHRauL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31fFOPBC%2BbL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41U%2BBEiIELL.jpg"
+   ], 
+   "nlg": null, 
+   "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/413ovqZaP2L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41vhtZZUWEL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/419SIPw3w4L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41M5S14qYpL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31aj9znfDSL.jpg"
+   ]
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": [], 
+   "false images": [], 
+   "nlg": "The 4th one, lean silhouette pant with narrow leg and comfort stretch.  And what you can see in the 1st image, the brand ellazhu is owned by ellazhu's white house only."
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "go_with", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Will the 1st result go well with a casual type wedges?"
+  }, 
+  "question-subtype": "ask_if_n_will_go_with_synset_attribute"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "No", 
+   "nlg": "No"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "go_with", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "\u2018Do you have the feeling that sandals which consists of metallic toes will go well with any of these?"
+  }, 
+  "question-subtype": "ask_if_attribute_synset_will_go_with_any"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "Yes", 
+   "nlg": "Yes"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "show_orientation", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "\u2018Can I have 2nd result\u2019s images from all possible orientations\u2019"
+  }, 
+  "question-subtype": "show_all_orientations_of_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": [
+    "https://images-na.ssl-images-amazon.com/images/I/41EbmyslreL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/511el7Q0d8L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41mURDyZNbL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51E77ZspmAL.jpg"
+   ], 
+   "false images": [
+    "https://images-na.ssl-images-amazon.com/images/I/41Oshl5uJwL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51UgfOQCAbL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41HMsAy1CgL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51oB9V9ak6L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Lbqdt2cdL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51FXOzezCvL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51JRhMwl4oL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51sJAgezF5L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31V47NltNzL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41zs9OqhZrL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41iFLv%2Bo3LL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/412LZGtJOjL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51bqL1sxIQL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41ck6bWY46L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31umLZSFKGL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Hvd8z3tbL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41JofWB9rYL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Hvd8z3tbL.jpg"
+   ], 
+   "false nlg": null, 
+   "nlg": "Image from the front,right,back and left viewpoints respectively"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "repeat-question", 
+  "question-type": "show_orientation", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "And what about for 4th image"
+  }, 
+  "question-subtype": "show_all_orientations_of_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": [
+    "https://images-na.ssl-images-amazon.com/images/I/41QkMqdj5cL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51g-RdJnnXL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41HI6DQqT4L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/414y2v1SUGL.jpg"
+   ], 
+   "false nlg": "Image from the front,right,back and left orientations respectively", 
+   "nlg": "Sorry i couldnt find any other orientations for this image"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "go_with", 
+  "utterance": {
+   "images": [
+    "http://ecx.images-amazon.com/images/I/31%2BgZRwCikL.jpg"
+   ], 
+   "false nlg": null, 
+   "nlg": "Do you expect the product in the 3rd result to agree with the one in this image?"
+  }, 
+  "question-subtype": "ask_if_synset_attributes_in_n_will_go_with_image"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "No", 
+   "nlg": "No"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "repeat-question", 
+  "question-type": "go_with", 
+  "utterance": {
+   "images": [
+    "http://static2.jassets.com/p/Antigravity-Blue-Solid-Casual-Trouser-2151-5904471-2-pdp_slider_m.jpg"
+   ], 
+   "false nlg": null, 
+   "nlg": "And for the one in 4th image?"
+  }, 
+  "question-subtype": "ask_if_synset_attributes_in_n_will_go_with_image"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "No", 
+   "nlg": "No"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "exit-message", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Thanks this was helpful, i guess i am done"
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "exit-message", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Sure Bye. Glad i could help"
+  }
+ }
+]

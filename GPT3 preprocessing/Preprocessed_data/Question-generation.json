@@ -1,0 +1,149 @@
+[
+ {
+   "What type of clothes do you prefer?": "I would like to buy a coat",
+   "What is your preferred color?": "It is black",
+   "What is the age?":  "I am about 40",
+   "What size do you wear?": "I wear L size",
+   "What is your gender?": "I'm a male"
+ },
+ {
+   "What is your preferred color?": "I like blue",
+   "What type of clothes do you prefer?": " I will buy T-shirt",
+   "What is the age?":  "I am about 21",
+   "What size do you wear?": "I wear M size",
+   "What is your gender?": "I'm a male"
+ },
+ {
+   "What type of clothes do you prefer?": "I would like to buy sweater",
+   "What is your preferred color?": "It is sky blue",
+   "What is the age?":  "I am about 23",
+   "What size do you wear?": "I wear XL size",
+   "What is your gender?": "I'm a female"
+ },
+ {
+   "What clothing are you interested to purchase?" : "I want to buy jeans",
+   "What size do you need?" : "I need them in L size",
+   "What color do you want them in?" : "I prefer dark blue",
+   "What is the gender?" : "For Female",
+   "What is the age?" : "It's 34"
+ },
+ {
+   "What are you looking for?" : "I want a jacket",
+   "What is your gender?" : "I am a male",
+   "How old are you?" : "I'm 45 years old",
+   "What size do you wear?" : "I prefer XL",
+   "Do you want it in any specific color?": "yes, show me something in brown or grey"
+ },
+ {
+   "What would you like to see?" : "Show me some formal shoes",
+   "What size do you wear?" : "I wear M size Shoes",
+   "What color would you like to see?" : "I would like to see black",
+   "Can you tell me your age?" : "I am about 30",
+   "May I know your gender?" : "I'm a male"
+ },
+ {
+   "What can I show you?" : "Show me pants",
+   "What color do you want to see?" : "show me something in gray",
+   "Can you tell me your gender?" : "I am a male",
+   "What is your age?" : "I am 28 years old",
+   "What size do you wear?" : "I wear XXL ones"
+ },
+ {
+   "Hi, how can may I help you?" : "I would like to see some T-shirts",
+   "Any color of preference?" : "Anything in black, blue or green will do",
+   "What size do you wear?" : "I wear M sized t-shirts",
+   "What is your gender?" : "I guess male",
+   "How old are you?" : "I am 26 years old"
+ },
+ {
+   "What can I show you?" : "Show me some suits",
+   "Which color do you want to see?" : "Preferably in navy blue",
+   "Can you tell me the gender?" : "I am a male",
+   "How old are you?" : " 26 years old",
+   "What size does she wear?" : "Medium is good"
+ },
+ {
+   "Are you looking for anything in particular?" : "Yes, I am looking for a t-shirt",
+   "May I know how old are you?" : "I am 19 years old",
+   "What color would you like to see?" : "I would like to see in red",
+   "Please specify your gender" : " i am a Male",
+   "What size fits you?" : "XXL is my preferred size"
+ },
+ {
+   "What type of clothes do you prefer?": "I would like to buy shorts",
+   "What is your preferred color?": "It is Black",
+   "What is the age?":  "I am about 11",
+   "What size do you wear?": "I wear S size",
+   "What is your gender?": "I'm a male"
+ },
+ {
+   "What can I show you?" : "Show me some frocks",
+   "Which color do you want to see?" : "Preferably in pink or rose",
+   "Can you tell me the gender?" : "It is a female",
+   "What is the age?" : "9 years old",
+   "What size does she wear?" : "Medium will be good"
+ },
+ {
+   "What do you want to buy?" : "I want to buy a hoodie",
+   "What color do you want it in?" : "Pink color",
+   "What size do you need?" : "I need XL size",
+   "what age do you have?" : "I am 21 years old",
+   "What gender are you? " : "Female gender"
+ },
+ {
+   "What are you searching for?" : "I am looking for a boots",
+   "What is the age?" : "Age is 30",
+   "What is the gender?" : "It's for a male",
+   "Any particular color?" : "Yes, black or brown",
+   "What size do you wear?" : "It's L"
+ },
+ {
+   "What would you like to see?" : "Show me heels",
+   "What size do you wear?" : "I wear S size",
+   "What color would you like to see?" : "I would like to see them in red",
+   "Can you tell me your age?" : "I am about 22",
+   "May I know your gender?" : "I'm a female"
+ },
+ {
+   "What are you looking for?" : "I would like to buy jacket",
+   "What is your gender?" : "I am a female",
+   "How old are you?" : "I'm 25 years old",
+   "What size do you wear?" : "I prefer S",
+   "Do you want it in any specific color?": "Show me something in maroon"
+ },
+ {
+   "What are you looking to purchase?" : "I need a pair of shades",
+   "What color do you want them in?" : "black or blue will be cool",
+   "How old are you?" : "About 28",
+   "What is your gender?" : "I'm a Male",
+   "What size do you prefer?" : "I wear the S size"
+ },
+ {
+   "What can I show you?" : "Show me some pants",
+   "What color do you want to see?" : "show me something in red, marron and pink",
+   "Can you tell me your gender?" : "I am a female",
+   "What is your age?" : "I am 24 years old",
+   "What size do you wear?" : "I wear Large ones"
+ },
+ {
+   "What are you searching for?" : "I am looking for a shirt",
+   "What is the age?" : "Age is 34",
+   "What is the gender?" : "It's for a male",
+   "Any particular color?" : "Yes, white or grey",
+   "What size do you wear?" : "It's L"
+ },
+ {
+   "What would you like to see?" : "Show me some lofars",
+   "What size do you wear?" : "I wear L size Shoes",
+   "What color would you like to see?" : "I would like to see brown",
+   "Can you tell me your age?" : "I am about 22",
+   "May I know your gender?" : "I'm a male"
+ },
+ {
+   "Hi, how can may I help you?" : "I would like to see some trousers",
+   "Any color of preference?" : "Anything in gray",
+   "What size do you wear?" : "I wear M sized pants",
+   "What is your gender?" : "I am a male",
+   "How old are you?" : "I am 26 years old"
+ }
+]

@@ -1,0 +1,142 @@
+[
+ {
+   "What are you looking for?" : "I am looking for a jacket",
+   "Please, tell me your gender" : "Male",
+   "Please, tell me your age?" : "I am 76 years old",
+   "What size does you wear?" : "I wear large size",
+   "Do you want it in any specific color?": "yes, show me something in brown or grey"
+ },
+ {
+    "What would you like to see?" : "Show me some formal shoes",
+    "What size do you wear?" : "I wear medium size shoes",
+    "What color would you like to see?" : "I would like to see some black shoes",
+    "Kindly state your gender" : "I am a male",
+    "Kindly state your age" : "I am 25 years old"
+ },
+ {
+    "Hi, how can may I help you?" : "I would like to see some T-shirts",
+    "Any color of preference?" : "Anything in black, blue or green will do",
+    "What size do you wear?" : "I wear medium sized t-shirts",
+    "What is your gender?" : "I am a female",
+    "How old are you?" : "I am 26 years old"
+ },
+ {
+    "Are you looking for anything in particular?" : "Yes, I am looking for a dress",
+    "May I know how old are you?" : "I am 14 years old",
+    "What color dress are you looking for?" : "I am looking for a red dress",
+    "Please specify your gender" : "Male",
+    "What size fits you?" : "Small size dresses fit me"
+ },
+ {
+    "What clothing are you interested to purchase?" : "I want to buy a pair of jeans",
+    "What size do you need?" : "I need them in large size",
+    "What color do you want them in?" : "dark blue",
+    "Which gender do you identify yourself as?" : "I identify myself as a male",
+    "What is your age?" : "I am 34 years of age"
+ },
+ {
+    "What can I show you?" : "Show me some frocks",
+    "Which color do you want to see?" : "Preferably in pink or rose",
+    "Tell me your gender, please" : "I am a female",
+    "How old are you now?" : "I am 9 years old",
+    "What size do you need?" : "Medium will be good"
+ },
+ {
+    "What do you want to buy?" : "I want to buy a hoodie",
+    "What color do you want it in?" : "I need a yellow hoodie",
+    "What size do you need?" : "I need XL size",
+    "what age do you have?" : "I am 32 years old",
+    "What gender are you? " : "Female"
+ },
+ {
+     "What are you looking to purchase?" : "I need a pair of shades",
+     "What color do you want them in?" : "black or blue will be cool",
+     "How old are you?" : "I will be 28 this month",
+     "What is your gender?" : "I am a male",
+     "What size do you need?" : "I need large sized shades"
+ },
+ {
+     "What can I show you?" : "Show me some pants",
+     "What color do you want to see?" : "show me something in red, marron and pink",
+     "Are you a female?" : "No  I am not",
+     "What is your age?" : "I am currently 24 years old",
+     "What size do you wear?" : "I mostly wear large size"
+ },
+ {
+     "What are you searching for?" : "I am looking for a shirt",
+     "What color?" : "I want something in brown",
+     "State your gender" : "I am a female",
+     "Any particular color?" : "Yes, show me something in grey",
+     "What size do you need?" : "i need large size t-shirts"
+ },
+ {
+     "What clothing do you want to purchase?" : "I want to purchase a suite",
+     "What color do you want it to be?" : "I want it to be black",
+     "State your required size" : "I need a small sized suite",
+     "Mention your gender please" : "I am a female",
+     "Mention your age please" : " I am 67 years of age"
+ },
+ {
+     "How may I help you?" : "I am looking for a shirt",
+     "Any color that you would like it in?" : "I would like it to be white",
+     "What is your go to size?" : "I mostly wear medium sized shirts",
+     "Mention your gender" : "I am a male",
+     "Mention your age" : "34 years"
+ },
+ {
+     "Can I help you with anything?" : "Yes, I need some underwear",
+     "What color do you want them in" : "I want them in red",
+     "What size do you need them in" : "I need them in extra large size",
+     "What's your gender?" : "I am a male",
+     "What is your age?" : "I am an adult"
+ },
+ {
+     "Are you looking for anything?" : "Yes, I am looking for some socks",
+     "What size?" : "i need them in small size",
+     "What color?" : "I need them in blue",
+     "How old are you?" : "I am 8 years old",
+     "Which gender are you?" : "I am a female"
+ },
+ {
+     "What would you like to wear?" : "I would like to wear a jacket",
+     "In what color?" : "Preferably in black",
+     "In what size?" : "Preferably in extra large size",
+     "Mention your gender, please" : "I am a male",
+     "Mention your age" : "I am 59 years of age"
+ },
+ {
+     "What kind of clothing are you looking for?" : "I am looking for a muffler",
+     "What color are you looking for?" : "Red would be good",
+     "What size are you looking for?" : "Medium sized would be good",
+     "Reply with your gender" : "i am male",
+     "Reply with your age" : "I am 35 years old"
+ },
+ {
+     "What do you want to buy?" : "I want to buy a belt",
+     "What size do you want to buy" : "I want to buy it in small size",
+     "What color do you buy?" : "I want to buy it in black",
+     "What is your age now?" : "I am 24 years old now",
+     "What is your gender?" : "I am a female"
+ },
+ {
+     "What can I help you with?" : "I need some hats",
+     "In which color do you want them?" : "I want them in yellow",
+     "What size do you want them in?" : "I want them in medium size",
+     "Please tell us how old you are" : "I am 29 years old",
+     "Please tell us what is your gender" : "I am a female"
+ },
+ {
+     "Are you looking for something?" : "Yes, I am looking for shirts",
+     "What color do you need?" : "I need them in blue",
+     "What size do you need them in?" : "I need them in large size",
+     "Please mention your age" : "I am twenty-four years old",
+     "Please mention your gender" : "I am a male"
+ },
+ {
+     "What can i assist you with?" : "Show me some shoes",
+     "What color would you like to see?" : "I would like to see it in black",
+     "What is the size that you wear?" : "I wear small size",
+     "Kindly mention your age" : "I am 25 years of age",
+     "Kindly mention your gender" : "I am a female"
+ }
+]

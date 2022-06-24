@@ -1,0 +1,8 @@
+{Question: What is your age?}
+{Answer: Im 25 years old}
+{Question: What is your gender}
+{Answer: Male}
+{Question: What is your color preference}
+{Answer: I prefer blue, black, red and green}
+{Question: What is your clothing preference?}
+{Answer: I prefer wearing T-shirts}

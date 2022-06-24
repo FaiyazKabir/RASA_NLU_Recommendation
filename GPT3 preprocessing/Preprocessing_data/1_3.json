@@ -1,0 +1,459 @@
+[
+ {
+  "speaker": "user", 
+  "type": "greeting", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Hi"
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "greeting", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Hi, How can i help you today?"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "show me few of your best gloves that i can buy ."
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "user-info", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "I quite like nivia branded but not starx brand that much really ."
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Sure. Just give me a few seconds to make a quick search through my catalog of items"
+  }
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "false nlg": "", 
+   "false images": [], 
+   "nlg": null, 
+   "images": [
+    "http://ecx.images-amazon.com/images/I/414KXZm2HGL.jpg", 
+    "http://ecx.images-amazon.com/images/I/414KXZm2HGL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41UlCWAfLgL.jpg", 
+    "http://ecx.images-amazon.com/images/I/51Yb5lXfFLL.jpg", 
+    "http://ecx.images-amazon.com/images/I/6131r05J82L.jpg"
+   ]
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "suited_for", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Will gloves in the 4th image suit well for hand cleaning?"
+  }, 
+  "question-subtype": "ask_if_synset_in_n_suited_for"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "Yes", 
+   "nlg": "Yes"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "ask_attribute", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "What type is the fit in the result 5th?"
+  }, 
+  "question-subtype": "ask_attribute_in_synset_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "The fit in 5th image is comfortable and premium", 
+   "nlg": "The fit in 5th image is comfortable and premium"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "go_with", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Will the leather material gloves in the 2nd result go well with hooded style neck jacket?"
+  }, 
+  "question-subtype": "ask_if_synset_attribute_in_n_will_go_with_synset_attribute"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "Yes", 
+   "nlg": "Yes"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "repeat-question", 
+  "question-type": "go_with", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "And the leather material gloves in this image with original t-shirt?"
+  }, 
+  "question-subtype": "ask_if_synset_attribute_in_n_will_go_with_synset_attribute"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "No", 
+   "nlg": "No"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "show_similar_to", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "\u2018Can you show something similar to the 3rd image?"
+  }, 
+  "question-subtype": "show_similar_to_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": [
+    "http://ecx.images-amazon.com/images/I/51E%2BqyIpBlL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51v3R8rvYeL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51sYGGNowFL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51Y1BwQGylL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41QFWxWzNOL.jpg"
+   ], 
+   "false images": null, 
+   "false nlg": "Sorry could not find anything similar", 
+   "nlg": "The similar looking ones are"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "ask_attribute", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "What is the print and type in the 2nd result?"
+  }, 
+  "question-subtype": "ask_attributes_in_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "the gloves in the 2nd image has boys print slip type", 
+   "nlg": "the gloves in the 2nd image has boys print slip type"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "repeat-question", 
+  "question-type": "ask_attribute", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "And brand fit in the 1st one?"
+  }, 
+  "question-subtype": "ask_attributes_in_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "the gloves in the 1st image has nivia brand tight fit", 
+   "nlg": "the gloves in the 1st image has nivia brand tight fit"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "ask_attribute", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "\u2018see the 5th image, what do you think is the brand there?\u2019"
+  }, 
+  "question-subtype": "ask_attribute_in_synset_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "The brand in 5th image is nike", 
+   "nlg": "The brand in 5th image is nike"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "repeat-question", 
+  "question-type": "ask_attribute", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "And what about in the 3rd image"
+  }, 
+  "question-subtype": "ask_attribute_in_synset_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "The fit in 3rd image is custom", 
+   "nlg": "The fit in 3rd image is custom"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "show_orientation", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": " From all orientations, show me images of the 2nd result"
+  }, 
+  "question-subtype": "show_all_orientations_of_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": [
+    "https://images-na.ssl-images-amazon.com/images/I/41T%2BSQbrfZL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41K0bQeuzOL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41vR%2BRAIXQL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Zo5RfJL3L.jpg", 
+    "http://ecx.images-amazon.com/images/I/41vlWD6CYLL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41YWPROm4ZL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41jJiSLDYPL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/4167Zci%2BA7L.jpg", 
+    "http://ecx.images-amazon.com/images/I/31tAzQLK3yL.jpg", 
+    "http://ecx.images-amazon.com/images/I/31s-vxYQsZL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41G1aYa9dkL.jpg", 
+    "http://ecx.images-amazon.com/images/I/511bpLSJ31L.jpg", 
+    "http://ecx.images-amazon.com/images/I/41qW5K0m%2B9L.jpg", 
+    "http://ecx.images-amazon.com/images/I/51X17ujJI%2BL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41rUCQMSnbL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41aBn60D2TL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41i1jV7w4eL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41NcMUhMM5L.jpg", 
+    "http://static4.jassets.com/p/Crimsoune-Club-White-Kurta-8912-9391261-2-pdp_slider_m.jpg", 
+    "http://static2.jassets.com/p/Girigauri-Green-Kurta-3020-784535-2-pdp_slider_m.jpg", 
+    "http://static4.jassets.com/p/Earthy-Hues-Beige-Kurta-7784-1267721-2-pdp_slider_m.jpg", 
+    "http://static4.jassets.com/p/Earthy-Hues-Black-Kurta-7801-7067721-2-pdp_slider_m.jpg", 
+    "http://static4.jassets.com/p/Earthy-Hues-Blue-Kurta-7790-9067721-2-pdp_slider_m.jpg", 
+    "http://static4.jassets.com/p/Earthy-Hues-Grey-Kurta-7782-9167721-2-pdp_slider_m.jpg", 
+    "http://static3.jassets.com/p/Sanwara-Orange-Kurta-5555-2990812-2-pdp_slider_m.jpg", 
+    "http://static2.jassets.com/p/Svanik-Biege-Kurta-8902-2791551-2-pdp_slider_m.jpg", 
+    "http://static2.jassets.com/p/Svanik-Red-Kurta-6804-4791551-2-pdp_slider_m.jpg", 
+    "http://ecx.images-amazon.com/images/I/41jCRj67dwL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41UmmCbccUL.jpg", 
+    "http://ecx.images-amazon.com/images/I/31yq9QKSX5L.jpg", 
+    "http://ecx.images-amazon.com/images/I/419ddbnO1ZL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41xsjIL-mqL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/319bY0BLhZL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31c5tB7j5BL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31BANtQKMwL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41WQYNA5hUL.jpg", 
+    "http://ecx.images-amazon.com/images/I/51-YLURsyPL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31y39dkwOIL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31LhdbzxCcL.jpg", 
+    "http://static1.jassets.com/p/Duke-White-Solid-Kurta-1116-7292722-2-pdp_slider_m.jpg", 
+    "http://static3.jassets.com/p/Enchanted-Drapes-Beige-Striped-Kurta-6335-8667232-2-pdp_slider_m.jpg", 
+    "http://static3.jassets.com/p/Enchanted-Drapes-Blue-Striped-Kurta-6338-4667232-2-pdp_slider_m.jpg", 
+    "http://static3.jassets.com/p/Enchanted-Drapes-Green-Solid-Kurta-6303-6567232-2-pdp_slider_m.jpg", 
+    "http://static3.jassets.com/p/Enchanted-Drapes-Maroon-Striped-Kurta-6328-2767232-2-pdp_slider_m.jpg", 
+    "http://static3.jassets.com/p/Enchanted-Drapes-Pink-Striped-Kurta-6312-6767232-2-pdp_slider_m.jpg", 
+    "http://static4.jassets.com/p/Even-Aqua-Blue-Solid-Kurta-0520-7089161-2-pdp_slider_m.jpg", 
+    "http://static3.jassets.com/p/Even-Aqua-Blue-Striped-Kurta-0404-8317212-2-pdp_slider_m.jpg", 
+    "http://static2.jassets.com/p/Even-Beige-Checks-Kurta-7624-3201651-2-pdp_slider_m.jpg", 
+    "http://static3.jassets.com/p/Even-Beige-Printed-Kurta-0411-9217212-2-pdp_slider_m.jpg", 
+    "http://static3.jassets.com/p/Even-Beige-Solid-Short-Kurta-1826-1731712-2-pdp_slider_m.jpg"
+   ], 
+   "false nlg": null, 
+   "nlg": "Sorry i couldnt find any other orientations for this image"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "celebrity", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Does celebrity cel_4362 usually wear the kind of gloves in the 2nd image?"
+  }, 
+  "question-subtype": "does_celebrity_endorse_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "Yes. Celebrities cel_777, cel_2030 and cel_817 also endorse this type of gloves", 
+   "nlg": "Yes. Celebrities cel_777, cel_2030 and cel_817 also endorse this type of gloves"
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "like_n_show_result", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "I like the fit in the 2nd one but not the print. Can you show me some more"
+  }, 
+  "question-subtype": "like_attribute_in_n_do_not_like_attribute_show_more"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "false nlg": "", 
+   "false images": [
+    "http://ecx.images-amazon.com/images/I/41r2Sdlp%2BhL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41r2Sdlp%2BhL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51GuEYGNvfL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51EPboUkkyL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31RvpEXUCNL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41OCT78LhsL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41k7hBRtFgL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41p3lortD4L.jpg", 
+    "http://ecx.images-amazon.com/images/I/51NiyZ%2BsZIL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41k98uNvfuL.jpg", 
+    "http://ecx.images-amazon.com/images/I/51QOjBo-vvL.jpg", 
+    "http://ecx.images-amazon.com/images/I/51zaYaZ90eL.jpg", 
+    "http://ecx.images-amazon.com/images/I/51H41OJvqfL.jpg", 
+    "http://ecx.images-amazon.com/images/I/51763sSM-IL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41%2BAzIjPQoL.jpg", 
+    "http://ecx.images-amazon.com/images/I/51VFHyDdD6L.jpg", 
+    "http://ecx.images-amazon.com/images/I/516gkqO4CML.jpg", 
+    "http://ecx.images-amazon.com/images/I/51ddB5bEieL.jpg", 
+    "http://ecx.images-amazon.com/images/I/51ekY8SrPvL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41XO3QpV8aL.jpg", 
+    "http://ecx.images-amazon.com/images/I/5181SBLWmHL.jpg", 
+    "http://ecx.images-amazon.com/images/I/315xO5HXeiL.jpg", 
+    "http://ecx.images-amazon.com/images/I/315xO5HXeiL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41G8sl7iB2L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/411lPfB6FIL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41DBxk9jy9L.jpg", 
+    "http://ecx.images-amazon.com/images/I/41yz09hKR0L.jpg", 
+    "http://ecx.images-amazon.com/images/I/41pxqVCZzGL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41mvPB-A3CL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41APvpNnwaL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41UBW7AEZsL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41zkqUsfcBL.jpg", 
+    "http://ecx.images-amazon.com/images/I/41KLvMAGw-L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41uPV-C36yL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41jQ6aF3ikL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41zxQeCjdCL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41MuGimBpKL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41Nr4DDFy9L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41N0I2Zp%2BaL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51wUnJKyy8L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41U4OgW8OLL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51bH4hzEMhL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51jJAqkaydL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41RuJOVHNBL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31BkEDiToUL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/31czhVlDlpL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41w3QTnVlUL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41ObazEty-L.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41H8cf1R0lL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41-WlJcEH%2BL.jpg"
+   ], 
+   "nlg": null, 
+   "images": [
+    "http://ecx.images-amazon.com/images/I/51xgNFjjdOL.jpg", 
+    "http://ecx.images-amazon.com/images/I/51YmIIcqcpL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/51oBB-y1JKL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41G63lZwHPL.jpg", 
+    "https://images-na.ssl-images-amazon.com/images/I/41JkGcF3ZsL.jpg"
+   ]
+  }
+ }, 
+ {
+  "speaker": "system", 
+  "type": "answer", 
+  "utterance": {
+   "images": [], 
+   "false images": [], 
+   "nlg": "What you can see in the third item, men's plain thermal knit warm winter gloves with spandex."
+  }
+ }, 
+ {
+  "speaker": "user", 
+  "type": "question", 
+  "question-type": "buy", 
+  "utterance": {
+   "images": null, 
+   "false nlg": null, 
+   "nlg": "Thats it, i think ill buy the 4th one here."
+  }, 
+  "question-subtype": "buy_n"
+ }, 
+ {
+  "type": "answer", 
+  "speaker": "system", 
+  "utterance": {
+   "images": null, 
+   "false images": null, 
+   "false nlg": "Sure. Thats a great glovesThank you for shopping with us", 
+   "nlg": "Sure. Thats a great gloves Thank you for shopping with us"
+  }
+ }
+]
