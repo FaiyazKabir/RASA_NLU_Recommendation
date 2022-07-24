@@ -1,9 +1,32 @@
-version: "2.0"
+version: "3.1"
+
+domain:
 
 intents:
   - greeting
-  - user-info
+  - user-info:
+      use_entities:
+      - clothes
+      - age
+      - gender
+      - size
+      - color
   - repeat-question
+  - suited_for
+  - do_not_like_n_show_result
+  - sort_results
+  - go_with
+  - do_not_like_earlier_show_result
+  - do_not_like_show_result
+  - like_show_result
+  - ask_attribute
+  - show_orientation
+  - celebrity
+  - buy
+  - like_n_show_result
+  - show_similar_to
+  - like_earlier_show_result
+  - filter_results
   - switch-synset
   - exit-message
   - question
@@ -14,49 +37,59 @@ entities:
   - style
   - brand
   - age
-  - male
-  - female
+  - gender
   - footwear
   - size
   - color
 
+slots:
+  age:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: age
+
+  gender:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: gender
+
+  size:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type:  from_entity
+      entity: size
+
+  clothing_pref:
+    type: text
+    influence_conversation: false
+    mappings:
+    - type: from_entity
+      entity: clothes
+
+  color:
+    type: list
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: color
+  
 responses:
-  utter_greet:
+  utter_greeting:
   - text: "Hey! How are you?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
-
   utter_goodbye:
-  - text: "Bye"
+  - text: "ami soli gelam"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "im a bot"
 
-  utter_greeting:
-  - text: "Hello"
-
-  answer_question:
-  - text: "Answer to question"
-
-  take-info:
-  - text: "taking user information"
-
-  utter_switch:
-  - text: "switching working"
-
-  utter_repeat:
-  - text: "khankir pola nutun kisu jiga"
-
-  utter_bye:
-  - text: "ami soli gelam"
+actions:
+  - take_info_and_recommend
 
 session_config:
   session_expiration_time: 60
