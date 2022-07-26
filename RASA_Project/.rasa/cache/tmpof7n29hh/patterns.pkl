@@ -1,0 +1,10 @@
+[
+  {
+    "name": "age",
+    "pattern": "(\\bteen\\b|\\bteenage\\b|\\bchild\\b|\\bgrandmother\\b|\\bgrandfather\\b|\\bchild\\b|\\bchildren\\b|\\bboy\\b|\\blittle\\b|\\bold\\b|\\bgrand\\b|\\bnewborn\\b)"
+  },
+  {
+    "name": "size",
+    "pattern": "(\\bS\\b|\\bsmall\\b|\\bM\\b|\\bmedium\\b|\\bL\\b|\\blarge\\b|\\bXL\\b|\\bextra\\ large\\b|\\bXXL\\b|\\bchubby\\b|\\bshort\\b|\\btall\\b)"
+  }
+]

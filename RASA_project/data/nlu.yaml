@@ -16519,3 +16519,100 @@ nlu:
     - chubby
     - short
     - tall
+
+- lookup: gender
+  examples: |
+    - man
+    - woman
+    - person
+    - father
+    - dad
+    - daddy
+    - father-figure
+    - mother
+    - mom
+    - mommy
+    - parent
+    - boy
+    - girl
+    - uncle
+    - aunt
+    - husband
+    - wife
+    - spouse
+    - actor
+    - actress
+    - prince
+    - princess
+
+- lookup: color
+  examples: |
+    - navy blue
+    - pink
+    - lilac
+    - bottle green
+    - maroon
+    - yellow
+    - bright
+    - dark
+    - bronze
+    - black
+    - shimmer
+    - chocolate
+    - red
+    - bloodred
+    - blue
+    - green
+    - azure
+    - bright
+    - crimson
+    - drab
+    - dull
+    - gold
+    - indigo
+    - multicolored
+    - mustard
+    - pinkish
+    - rosy
+    - scarlet
+    - silver
+    - turquoise
+    - violet
+
+- lookup: clothes
+  examples: |
+    - label
+    - nightclothes
+    - sportswear
+    - swimwear
+    - outwear
+    - leisure wear
+    - knitewear
+    - footwear
+    - fancy
+    - casual
+    - combats
+    - costume
+    - coordinates
+    - accesorry
+    - socks
+    - tie
+    - jacket
+    - jeans
+    - hoodie
+    - dress
+    - versatile
+    - usable
+    - leatherwear
+    - neckpiece
+    - beachwear
+    - nightwear
+    - posh
+    - synthetics
+    - tops
+    - two piece
+    - undergarments
+    - underclothes
+    - underwear
+    - v neck
+    - woollen

@@ -4,6 +4,7 @@ from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from text_generation import gpt3_prompt
+import pandas as pd
 
 class take_info_and_recommend(Action):
 
@@ -18,13 +19,15 @@ class take_info_and_recommend(Action):
             size = tracker.get_slot("size")
             gender = tracker.get_slot("gender")
             color = tracker.get_slot("color")
-            clothes = tracker.get_slot("clothes")
+            clothes = tracker.get_slot("clothing_pref")
             
             print(age)
             print(size)
             print(gender)
             print(color)
             print(clothes)
+
+            df = pd.read_csv("D:/RASA_NLU_Recommendation-main-20220724T203213Z-001/RASA_NLU_Recommendation-main/RASA_project/actions/mmd_custom_dataset_by_scribe.csv")
 
             # if age == None:
             #     prompt = gpt3_prompt()
@@ -46,6 +49,8 @@ class take_info_and_recommend(Action):
                 prompt = gpt3_prompt()
                 dispatcher.utter_message(text = prompt.get_question("clothing_pref")) 
             else:
-                dispatcher.utter_message(text = "Providing you with a recommendation please wait")
+                # query = 'Product_type == ' + clothes + ' and Gender ==' + gender + ' and Size == '+size+' Color=='+color
+                # recommendation = df.query(query)
+                dispatcher.utter_message(text = "preparing a recommendation for you")
                 
             return []
