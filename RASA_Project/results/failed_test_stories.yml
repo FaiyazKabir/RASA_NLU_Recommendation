@@ -1,0 +1,51 @@
+version: "3.1"
+stories:
+- story: happy path 1 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet  # predicted: greeting: hello there!
+  - action: utter_greet  # predicted: utter_greeting
+  - intent: mood_great  # predicted: show_orientation: amazing
+  - action: utter_happy  # predicted: take_info_and_recommend
+- story: happy path 2 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet  # predicted: greeting: hello there!
+  - action: utter_greet  # predicted: utter_greeting
+  - intent: mood_great  # predicted: show_orientation: amazing
+  - action: utter_happy  # predicted: take_info_and_recommend
+  - intent: goodbye  # predicted: exit-message: bye-bye!
+  - action: utter_goodbye  # predicted: take_info_and_recommend
+- story: sad path 1 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet  # predicted: greeting: hello
+  - action: utter_greet  # predicted: utter_greeting
+  - intent: mood_unhappy  # predicted: user-info: not good
+  - action: utter_cheer_up  # predicted: take_info_and_recommend
+  - action: utter_did_that_help  # predicted: action_listen
+  - intent: affirm  # predicted: exit-message: yes
+  - action: utter_happy  # predicted: take_info_and_recommend
+- story: sad path 2 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet  # predicted: greeting: hello
+  - action: utter_greet  # predicted: utter_greeting
+  - intent: mood_unhappy  # predicted: user-info: not good
+  - action: utter_cheer_up  # predicted: take_info_and_recommend
+  - action: utter_did_that_help  # predicted: action_listen
+  - intent: deny  # predicted: user-info: not really
+  - action: utter_goodbye  # predicted: take_info_and_recommend
+- story: sad path 3 (.\tests\test_stories.yml)
+  steps:
+  - intent: greet  # predicted: greeting: hi
+  - action: utter_greet  # predicted: utter_greeting
+  - intent: mood_unhappy  # predicted: user-info: very terrible
+  - action: utter_cheer_up  # predicted: take_info_and_recommend
+  - action: utter_did_that_help  # predicted: action_listen
+  - intent: deny  # predicted: user-info: no
+  - action: utter_goodbye  # predicted: take_info_and_recommend
+- story: say goodbye (.\tests\test_stories.yml)
+  steps:
+  - intent: goodbye  # predicted: exit-message: bye-bye!
+  - action: utter_goodbye  # predicted: utter_greeting
+- story: bot challenge (.\tests\test_stories.yml)
+  steps:
+  - intent: bot_challenge  # predicted: ask_attribute: are you a bot?
+  - action: utter_iamabot  # predicted: utter_greeting

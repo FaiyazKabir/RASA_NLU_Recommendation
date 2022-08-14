@@ -24,7 +24,7 @@ pipeline:
   - name: ResponseSelector
   - name: RegexEntityExtractor
     # text will be processed with case insensitive as default
-    case_sensitive: True
+    case_sensitive: False
     # use lookup tables to extract entities
     use_lookup_tables: True
     # use regexes to extract entities

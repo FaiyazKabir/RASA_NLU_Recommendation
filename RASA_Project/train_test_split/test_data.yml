@@ -1,0 +1,1907 @@
+version: "3.1"
+nlu:
+- intent: repeat-question
+  examples: |
+    - And how about the 4th image
+- intent: filter_results
+  examples: |
+    - Which ones are in my size?
+- intent: sort_results
+  examples: |
+    - Sort these by best seller ranking
+- intent: greeting
+  examples: |
+    - Hello
+- intent: exit-message
+  examples: |
+    - Thanks this was helpful, i guess i am done
+- intent: buy
+  examples: |
+    - I think i want to buy the 1st one
+    - Thats it, im buying the one in the 5th image.
+    - I like the 1st one. I think ill buy that one
+    - I think ill buy the 9th one
+    - I think ill buy the 3rd one
+    - Im interested in buying the 4th one
+    - I think the 1st one is nice. I want to buy that
+    - I think the 2nd one is nice. I want to buy that
+    - I want to buy the 1st one
+    - Thats it, i think ill buy the 3rd one here.
+- intent: show_orientation
+  examples: |
+    - How do the images of 1st result from all different directions look like?
+    - And what can you say about the 1st product
+    - And what can you say about the 5th product
+    - and how about for 2nd image?
+    - And how about for the 10th one as well
+    - 'And what about the 4th image '
+    - 'And for this 1st image '
+    - Can I have 1st results images from all possible orientations
+    - 'And what about the 2nd image '
+    - What about for the 1st image
+    - Can I have 6th results images from all possible orientations
+    - What about for the 2nd image
+    - Show me more images of the 3rd product from some different orientations
+    - Can I have images of the 4th result from all orientations?
+    - And what about for 4th image
+    - And what you think about the 1st one?
+    - and how about for 5th image?
+    - How do the images of 3rd result from all different directions look like?
+    - Show me images of the 3rd result from all possible directions
+    - And what can you say about the 3rd product
+    - ' From all orientations, show me images of the 4th result'
+- intent: show_similar_to
+  examples: |
+    - Show me something similar to the 3rd image but in a different band material
+    - Show me something similar to the 2nd image but in a different closure
+    - Show me something similar to the 4th image but in a different print
+    - Show me something similar to the 4th image but in a different brand
+    - Show me something like the one in 5th image
+    - Can you show something similar to the 4th image?
+    - What about showing me something similar to the 5th image?
+    - Show me something similar to the 3rd image but in a different brand
+    - Show me something similar to the 3rd image but in a different rim
+    - Show me something similar to the 2nd image
+    - Show me something similar to the 1st image but in a different band color
+    - Show me something similar to the 5th image but in a different fit
+    - Show me something similar to the 4th image but in a different fit
+    - Show me something similar to the 4th image but in a different type
+    - Show me items similar to the 3rd image
+    - Show me something similar to the 6th image but in a different type
+    - Show me something similar to the 3rd image but in a different upper material
+    - Show me something similar to the 5th image but in a different sleeves
+    - Show me something similar to the 1st image but in a different material
+    - Show me something similar to the 1st image but in a different print
+    - Show me something similar to the 4th image but in a different color
+    - Show me something similar to the 8th image but in a different color
+    - Show me something similar to the 4th image but in a different material
+- intent: switch-synset
+  examples: |
+    - Can you please ditch the flipflops and go back to the loafers you showed some time back, sorry for that
+    - No i think ditch the loafers I want to go back and look at the trousers you had shown before
+    - No this fine, I want to go back and look at the dungaree you had shown before
+    - No i changed my mind, this fine, I want to go back and look at the party [dress](clothes) you had shown earlier
+    - i want to go back and look at the canvas shoes you had shown some time back
+    - No i changed my mind, I want to go back and look at the sandals you had shown before
+    - Can you please ditch the formal shoes and go back to the footwear you showed before
+    - Can you please ditch the loafers and go back to the joggers you showed before, sorry for that
+    - Sorry, but can you please ditch the casual shoes and go back to the denim shorts you showed some time back
+    - Can you please ditch the footwear and go back to the running shoes you showed some time back, sorry for that
+    - No this fine, I want to go back and look at the joggers you had shown before
+    - No i think ditch the leggings I want to go back and look at the sandals you had shown earlier
+    - No this ok, but I want to go back and look at the brogues you had shown some time back
+    - No i think ditch the jeans I want to go back and look at the watch you had shown earlier
+    - No i changed my mind, I want to go back and look at the boots you had shown some time back
+    - No thanks , this ok but I want to go back and look at the slippers you had shown earlier
+    - No thanks , this ok but I want to go back and look at the high tops you had shown earlier
+    - No thanks , this ok but I want to go back and look at the sports shoes you had shown previously
+    - Sorry, but can you please ditch the jeans and go back to the high tops you showed before
+    - No i changed my mind, I want to go back and look at the glasses you had shown previously
+    - No i changed my mind, this fine, I want to go back and look at the canvas shoes you had shown previously
+    - No i changed my mind, this fine, I want to go back and look at the watch you had shown before
+    - No i think ditch the footwear I want to go back and look at the sunglasses you had shown some time back
+- intent: do_not_like_earlier_show_result
+  examples: |
+    - I dont like the 4th result . Show me something in style as in the 2nd image from what you had previously shown me in gloves
+    - I dont like the 2nd result . Show me something in brand as in the 1st image from what you had previously shown me in running shoes
+    - I dont quite like these. Show me more in the color as in the 2nd image , the style as in the 1st image and the fit as in the 1st image from what you had previously shown me in gloves
+    - I do not like these. Show me in style as in the 1st image from what you had previously shown me in canvas shoes
+    - I do not like these. Show me in print as in the 2nd image from what you had previously shown me in travel bag
+    - I do not like these. Show me in color as in the 4th image from what you had previously shown me in shorts
+    - I dont like the 4th result . Show me something in color as in the 2nd image from what you had previously shown me in hand bag
+    - I dont like the 1st result . Show me something in style as in the 1st image from what you had previously shown me in denim shorts
+    - I do not like these. Show me in material as in the 1st image from what you had previously shown me in training shoes
+    - I dont like the 5th result . Show me something in color as in the 1st image from what you had previously shown me in espadrilles
+    - I do not like these. Show me in material as in the 1st image from what you had previously shown me in travel bag
+    - I do not like these. Show me in brand as in the 1st image from what you had previously shown me in bermuda shorts
+    - I dont quite like these. Show me more in the color as in the 4th image , the type as in the 1st image and the fit as in the 4th image from what you had previously shown me in loafers
+    - I dont like the 2nd result . Show me something in material as in the 2nd image from what you had previously shown me in maxi dress
+    - I do not like these. Show me in material as in the 1st image from what you had previously shown me in high tops
+    - I dont like the 3rd result . Show me something in upper material as in the 3rd image from what you had previously shown me in brogues
+    - I dont quite like these. Show me more in the print as in the 1st image , the style as in the 3rd image and the type as in the 2nd image from what you had previously shown me in bermuda shorts
+    - I do not like these. Show me in print as in the 1st image from what you had previously shown me in sunglasses
+    - I do not like these. Show me in material as in the 5th image from what you had previously shown me in clogs
+    - I dont quite like these. Show me more in the closure as in the 2nd image , the upper material as in the 4th image and the material as in the 4th image from what you had previously shown me in ballerinas
+    - I do not like these. Show me in type as in the 2nd image from what you had previously shown me in bermuda shorts
+    - I dont like the 5th result . Show me something in type as in the 4th image from what you had previously shown me in kurti
+    - I do not like these. Show me in fit as in the 1st image from what you had previously shown me in high tops
+    - I dont quite like these. Show me more in the color as in the 4th image , the style as in the 1st image and the brand as in the 5th image from what you had previously shown me in joggers
+    - I dont like the 2nd result . Show me something in style as in the 3rd image from what you had previously shown me in clogs
+    - I dont like the 4th result . Show me something in tip as in the 1st image from what you had previously shown me in sports shoes
+- intent: like_earlier_show_result
+  examples: |
+    - I like these. Show me more in the style as in the 1st image and the material as in the 5th image from what you had previously shown me in maxi dress
+    - Show me something like the 4th one but in type as in the 5th image from what you had previously shown me in shorts
+    - Show me something like the 2nd one but in upper material as in the 1st image from what you had previously shown me in boots
+    - I like the 2nd result . Show me something like it but in style as in the 1st image from what you had shown in the second last time for slippers
+    - Show me more in the color as in the 3rd image from what you had previously shown me in sports shoes
+    - I like these. Show me more in the upper material as in the 1st image and the sole material as in the 1st image from what you had previously shown me in brogues
+    - Show me more in the dial color as in the 1st image and the material as in the 1st image from what you had previously shown me in watch
+    - Show me more in the pocket as in the 1st image from what you had previously shown me in denim shorts
+    - Show me something like the 4th one but in frame color as in the 1st image from what you had previously shown me in glasses
+    - I like these. Show me more in the color as in the 1st image and the style as in the 5th image from what you had previously shown me in loafers
+    - Show me something like the 3rd one but in material as in the 2nd image from what you had previously shown me in watch
+    - I like these. Show me more in the material as in the 2nd image from what you had shown in the second last time for kurta
+    - I like these. Show me more in the color as in the 2nd image and the sole material as in the 1st image from what you had previously shown me in sandals
+    - Show me more in the type as in the 2nd image from what you had previously shown me in joggers
+    - I like these. Show me more in the print as in the 3rd image from what you had previously shown me in gloves
+    - Show me something like the 2nd one but in style as in the 2nd image from what you had previously shown me in casual trousers
+    - I like the 5th result . Show me something like it but in color as in the 5th image from what you had previously shown me in loafers
+    - I like these. Show me more in the print as in the 5th image and the style as in the 1st image from what you had previously shown me in scarf
+    - Show me something like the 1st one but in material as in the 2nd image from what you had previously shown me in sunglasses
+    - I like the 5th result . Show me something like it but in fit as in the 2nd image from what you had previously shown me in bermuda shorts
+    - Show me more in the fit as in the 1st image from what you had previously shown me in jeans
+    - Show me something like the 3rd one but in material as in the 2nd image from what you had previously shown me in sports shoes
+    - I like the 1st result . Show me something like it but in tip as in the 5th image from what you had previously shown me in brogues
+    - I like the 2nd result . Show me something like it but in style as in the 4th image from what you had previously shown me in footwear
+    - Show me something like the 1st one but in dial glass material as in the 4th image from what you had previously shown me in watch
+    - Show me more in the color as in the 5th image and the fit as in the 2nd image from what you had shown in the second last time for training shoes
+    - I like the 4th result . Show me something like it but in type as in the 1st image from what you had previously shown me in training shoes
+    - Show me more in the style as in the 4th image and the type as in the 2nd image from what you had previously shown me in loafers
+    - Show me more in the tip as in the 1st image and the fit as in the 4th image from what you had previously shown me in slip ons
+    - Show me more in the color as in the 2nd image and the type as in the 1st image from what you had previously shown me in kurti
+    - I like the 1st result . Show me something like it but in fit as in the 4th image from what you had previously shown me in joggers
+- intent: like_show_result
+  examples: |
+    - I like the 1st image . Show something like it but in flexible toe type
+    - I like these. Show me more in the print as in the 3rd image
+    - I like these. Show me more in the color as in the 4th image
+    - I like the 1st image . Show something like it but in synthetic pu material type
+    - Can you show in fit similar to that usually worn by celebrity cel_25?
+    - I like the kind of [trouser](clothes) endorsed by celebrity cel_252. Can you show more like those?
+    - I like the 3rd image . Show something like it but in casual type
+    - I like the kind of footwear endorsed by celebrity cel_2538. Can you show more like those?
+    - I like the 1st image . Show something like it but in lovely colored type
+    - I like the kind of sports shoes endorsed by celebrity cel_839. Can you show more like those?
+    - Can you show in type similar to that usually worn by celebrity cel_1663?
+    - I like the kind of formal shoes endorsed by celebrity cel_830. Can you show more like those?
+    - I like these. Show me more in the color as in the 1st image
+    - I like the 3rd image . Show something like it but having feet designed tip
+    - I like these. Show me more in the brand as in the 1st image , the material as in the 5th image and the band material as in the 3rd image
+    - I like these. Show me more in the fit as in the 2nd image
+    - Can you show in type similar to what celebrity cel_1455 usually wears?
+    - I like these. Show me more in the material as in the 2nd image and the type as in the 1st image
+    - I like the kind of style usually worn by celebrity cel_3985. Can you show more like those?
+    - I like these. Show me more in the type as in the 4th image and the fit as in the 1st image
+    - Can you show in fit similar to that usually worn by celebrity cel_34?
+    - Can you show in print similar to what celebrity cel_2254 usually wears?
+    - I like these. Show me more in the style as in the 2nd image
+    - I like these. Show me more in the print as in the 1st image and the material as in the 2nd image
+    - I like the kind of material usually worn by celebrity cel_1558. Can you show more like those?
+    - I like the 5th image . Show something like it but with two type buttons
+    - I like these. Show me more in the material as in the 3rd image
+    - I like these. Show me more in the brand as in the 1st image and the type as in the 5th image
+    - Can you show in sole material similar to what celebrity cel_1339 usually wears?
+    - I like these. Show me more in the color as in the 1st image and the style as in the 2nd image
+    - Can you show in style similar to that usually worn by celebrity cel_1016?
+    - I like these. Show me more in the print as in the 4th image and the material as in the 1st image
+    - I like the 5th image . Show something like it but in allover print type
+    - I like these. Show me more in the fit as in the 4th image and the sole material as in the 3rd image
+    - I like the kind of color endorsed by celebrity cel_400. Can you show more like those?
+    - I like these. Show me more in the fit as in the 1st image
+    - I like the kind of style usually worn by celebrity cel_781. Can you show more like those?
+    - I like the 4th image . Show something like it but in natural shape type
+    - I like the kind of style usually worn by celebrity cel_77. Can you show more like those?
+    - I like the kind of watch usually worn by celebrity cel_636. Can you show more like those?
+    - I like these. Show me more in the display type as in the 3rd image
+    - I like these. Show me more in the type as in the 2nd image
+    - Can you show in color similar to what celebrity cel_105 usually wears?
+    - I like the kind of slippers endorsed by celebrity cel_56. Can you show more like those?
+    - I like these. Show me more in the color as in the 2nd image
+    - I like these. Show me more in the material as in the 4th image
+- intent: do_not_like_show_result
+  examples: |
+    - These doent seem that interesting. Show me more in custom fitted type
+    - I dont quite like these. Show me more in the print as in the 4th image ,the material as in the 2nd image and the fit as in the 3rd image
+    - I dont quite like these. Show me more in the style as in the 4th image and the type as in the 5th image
+    - I dont quite like these. Show me more in the upper material as in the 1st image and the material as in the 2nd image
+    - I dont like these. Show me more in trendy type
+    - I do not like these. Please show me more having material made out of organic cotton
+    - These dont quite match my taste. Please show me more with classic shape
+    - I do not like these. Can I see more designed with foam upper material
+    - I do not like these. Please show me more in rubber type sole material contained in type
+    - This not what I want. Show me more in closure as in 2nd image.
+    - These are not of my interest. Show me more in mid rise type
+    - I dont really like these. Can you show me more in material as in 3rd image?
+    - I do not like these. Please show me more in shell material type
+    - I dont like these. Show me more in casual fitted type
+    - I dont quite like these. Show me more in the color as in the 2nd image ,the type as in the 5th image and the fit as in the 1st image
+    - I dont find any of these to be that interesting. Show me more in style as in 3rd image.
+    - These are not of my interest. Show me more tinted with [red](color) color
+    - No these are not quite to my taste. Show me more in display type as in 1st image
+    - These are not of my interest. Show me more in drawcord closure type
+    - No these are not quite to my taste. Show me more in print as in 2nd image
+    - I dont like these. Show me more which has a band of [orange](color) color
+    - I dont find any of these to be that interesting. Show me more in type as in 2nd image.
+    - I do not like these. Can I see more in eco friendly print type
+    - I dont like these. Show me more in comfort fitting type
+    - These are not of my interest. Show me more in snug fitted type
+    - These are not of my interest. Show me more in outsole material type
+    - I dont like these. Show me more in comfort fit type
+    - These are not of my interest. Show me more in ultra fit type
+    - I do not like these. Please show me more in turquoise [blue](color) colored type
+    - I dont like these. Show me more in retro type
+    - I dont think any of these will suit me. Show me more in style as in 2nd image.
+    - These doent seem that interesting. Show me more in plain woven type
+    - These dont quite match my taste. Please show me more in arrow brand type
+    - These dont quite match my taste. Please show me more with a elastic fit
+    - I dont think any of these will suit me. Show me more in material as in 1st image.
+    - I dont quite like these. Show me more in the color as in the 2nd image ,the print as in the 5th image and the fit as in the 1st image
+    - I do not like these. Please show me more in cinched type
+    - These are not of my interest. Show me more of 28cm dimension
+    - I dont quite like these. Show me more in the print as in the 3rd image and the type as in the 1st image
+    - I dont find any of these to be that interesting. Show me more in pocket as in 4th image.
+    - I dont quite like these. Show me more in the color as in the 2nd image and the print as in the 1st image
+    - I do not like these. Can I see more with stripe type prints
+    - These doent seem that interesting. Show me more in denim jeans material type
+    - These doent seem that interesting. Show me more in jacquard material
+    - I dont quite like these. Show me more in the closure as in the 2nd image and the style as in the 5th image
+    - I do not like these. Please show me more included sleeves
+- intent: user-info
+  examples: |
+    - she is 46 years of age.
+    - she is 40 years of age.
+    - I want to buy for my best friend. her age is 23 years.
+    - I am looking to buy for my friend who is 24 years of age.
+    - he is 50 years of age.
+    - I am really fond of feet tip but quite hate geometric tip .
+    - 'I am a 19 year old [girl](gender) '
+    - I am buying for my [husband](gender)  he is 27-yr old.
+    - I am a lady, 26 years of age.
+    - I am looking for my colleague who is 46 years of age.
+    - I am 21 yr old.
+    - I am 46 yr old.
+    - 'I am a 14 yr old [boy](gender) '
+    - I prefer tossido branded but not alvaro castagnino brand .
+    - he is 49 years of age.
+    - I am buying for my granddaughter. she is 10-yr old.
+    - I am quite fond of [black](color) [brown](color) frame color but i dont like [grey](color) [black](color) frame color .
+    - I am looking for my granddaughter who is 22 years old.
+    - I am buying for my colleague who is 35 years of age.
+    - I like aitluggage brand in luggage but not heyfair brand quite .
+    - 'I am a 42 yr old [man](gender) '
+    - 'I am a 18 year old [boy](gender) '
+    - I am a male 30 years of age
+    - I am a female, 12 years of age.
+    - I want to buy for my colleague. her age is 43 years.
+    - I quite like loop closure for jeans but not drawstring type closure that much really .
+    - I like regular fit but I quite hate great fit .
+    - I am buying for my father-in-law who is 43 years of age.
+    - 'I am a 23 year old [man](gender) '
+    - I am buying for my [uncle](gender) who is 46 years of age.
+    - I am looking for my cousin. his age is 37 years.
+    - I am not quite fond of romantic style but i like analogue styled .
+    - I am looking to buy for my neice who is 24 years of age.
+    - I am looking for my cousin who is 22 years old.
+    - I am a lady, 33 years old
+    - I want to buy for my brother-in-law. his age is 43 years.
+    - I am a female 23 years of age
+    - I am a [man](gender)  40 years old
+    - I am a female, 22 years old
+    - I am buying for my kid. his age is 12 years.
+    - I am a 27 yr old male.
+    - I am really fond of [medium](size) long type but quite hate full length .
+    - I am a 45 year old female.
+    - I am a 35 year old male.
+    - I am a female, 15 years of age.
+    - I am looking for my friend. he is 25-yr old.
+    - I am a male 10 yr old.
+    - I am a lady, 46 years of age.
+    - I am a 31 year old lady.
+    - I am 50 years of age.
+    - I am 30 years of age.
+    - I am 24 years of age.
+    - I am a [boy](gender)  10 years of age.
+    - she is 15 years of age.
+    - I am 33 years of age.
+    - I am a 18 year old female.
+    - I am a male 12 years of age
+    - I am a [man](gender)  30 years old
+    - I am a [boy](gender) 10 years of age
+    - I am 40 yr old.
+    - I am a [girl](gender)  16 years old
+    - I like suede styled but I quite hate wedges styled .
+    - 'I am a 10 year old [girl](gender) '
+    - I am 23 yr old.
+    - I am 40 years of age.
+    - I am a [woman](gender) 27 years of age
+    - I want to buy for my neice. she is 28-yr old.
+    - she is 45 years of age.
+    - I am a [man](gender) 33 years of age
+    - I am a [boy](gender)  20 years old
+    - I like feet type tip but hate natural type tip for kolhapuri .
+    - I like comfortable style but not ethnic style really .
+    - I am 37 years of age.
+    - I am 13 years of age.
+    - I am a lady 50 yr old.
+    - he is 40 years of age.
+    - I am 39 years of age.
+    - he is 47 years of age.
+    - I am a male 41 yr old.
+    - I am a guy, 22 years of age.
+    - she is 50 years of age.
+    - she is 27 years of age.
+    - I am quite fond of [metallic](color) colored for sports sandals but i dont quite like [grey](color) colored .
+    - she is 35 years of age.
+    - I am a lady, 24 years of age.
+- intent: do_not_like_n_show_result
+  examples: |
+    - I dont like the 5th image . Show me something in fit as in this image
+    - I dont like the collar in the 4th image. Can you show me some more
+    - I dont like the 1st result . Show me something in material as in the 2nd image
+    - I dont like the 3rd result . Show me something in style as in the 1st image
+    - I dont like the lens material in the 4th image. Can you show me some more
+    - I dont like the display type in the 5th image. Can you show me some more
+    - I dont like the upper material in the 4th image. Can you show me some more
+    - I dont like the 3rd result . Show me something in type as in the 2nd image
+    - I dont like the 3rd wedges. Show me something in loose fitting type
+    - I dont like the 4th glasses. Show me something bearing rectangle rims
+    - I dont like the 1st derby. Show me something in link print type
+    - I dont like the 4th result . Show me something in print as in the 1st image
+    - I dont like the 2nd denim shorts. Show me something in baggy style type
+    - I dont like the 4th derby. Show me something with a classic fit
+    - I dont like the 1st brogues. Show me something that is mostly [navy blue](color) in color
+    - I dont like the 4th bermuda shorts. Show me something thats midi lengthed
+    - I dont like the 1st result . Show me something in fit as in the 2nd image
+    - I dont like the 4th peeptoes. Show me something from the house of lovely chick brand
+    - I dont like the 5th result . Show me something in brand as in the 2nd image
+    - I dont like the 5th stilettos. Show me something in suede soled type
+    - I dont like the 3rd trousers. Show me something in graphic type
+    - I dont like the 4th formal trousers. Show me something in classic fit type
+    - I dont like the 2nd image . Show me something in frame color as in this image
+    - I dont like the 4th result . Show me something in type as in the 5th image
+    - I dont like the 4th maxi [dress](clothes)  Show me something having [olive](color) fitting
+    - I dont like the 2nd watch. Show me something that is unisex in style
+    - I dont like the 1st boots. Show me something in tprsoled type
+    - I dont like the print in the 4th image. Can you show me some more
+    - I dont like the 3rd result . Show me something in rim as in the 5th image
+    - I dont like the 3rd image . Show me something in type as in this image
+    - I dont like the 2nd result . Show me something in type as in the 1st image , in my size
+    - I dont like the 5th slip ons. Show me something in regular style type
+    - I dont like the 2nd boots. Show me something in a great fit
+    - I dont like the style in the 2nd image. Can you show me some more
+    - I dont like the 1st image . Show me something in sole material as in this image
+    - I dont like the 1st image . Show me something in pocket as in this image
+    - I dont like the 3rd image . Show me something in fit as in this image
+    - I dont like the 5th blouse. Show me something in contrast collared type
+    - I dont like the 2nd result . Show me something in frame material as in the 1st image
+    - I dont like the pocket in the 2nd image. Can you show me some more
+    - I dont like the 2nd shorts. Show me something having cotton polyester material
+    - I dont like the 1st image . Show me something in shape as in this image
+    - I dont like the 3rd formal trousers. Show me something in stripe printed type
+    - I dont like the closure in the 1st image. Can you show me some more
+    - I dont like the jeans style in the 1st image. Can you show me some more
+    - I dont like the 4th hand bag. Show me something in dasein styled type
+    - I dont like the 3rd derby. Show me something in regular fit
+    - I dont like the 4th result . Show me something in frame color as in the 3rd image , in my size
+    - I dont like the 5th mittens. Show me something with acrylic colors
+    - I dont like the 2nd result . Show me something in print as in the 1st image
+    - I dont like the 5th image . Show me something in pocket as in this image
+    - I dont like the 1st derby. Show me something in casual fitted type
+    - I dont like the 2nd image . Show me something in fit as in this image
+    - I dont like the 2nd bermuda shorts. Show me something in panel material type
+    - I dont like the 1st [trouser](clothes)  Show me something in tapered fit
+    - I dont like the 5th result . Show me something in upper material as in the 2nd image
+    - I dont like the 5th result . Show me something in color as in the 2nd image
+    - I dont like the 4th sports shoes. Show me something which is pastel colored
+    - I dont like the 2nd sleepwear. Show me something having straight fitting
+    - I dont like the 4th result . Show me something in fit as in the 3rd image
+    - I dont like the 2nd result . Show me something in dial color as in the 3rd image
+    - I dont like the 3rd loafers. Show me something in canvas material soled type
+    - I dont like the 1st result . Show me something in fit as in the 3rd image
+    - I dont like the 2nd image . Show me something in rim as in this image
+    - I dont like the 2nd image . Show me something in sole material as in this image
+    - I dont like the 3rd result . Show me something in upper material as in the 4th image
+    - I dont like the 3rd mittens. Show me something formed of super soft material
+    - I dont like the brand in the 4th image. Can you show me some more
+    - I dont like the 5th watch. Show me something which is custom branded
+    - I dont like the 2nd result . Show me something in brand as in the 4th image
+    - I dont like the 2nd result . Show me something in material as in the 4th image
+    - I dont like the sole material in the 4th image. Can you show me some more
+    - I dont like the frame material in the 5th image. Can you show me some more
+    - I dont like the 2nd image . Show me something in print as in this image
+    - I dont like the 1st scarf. Show me something in hip style type
+    - I dont like the 5th boots. Show me something in suede type upper material type
+    - I dont like the 2nd peeptoes. Show me something in wearmates brand type
+    - I dont like the 5th slippers. Show me something made out of polyester upper material
+    - I dont like the 1st running shoes. Show me something that is super in style
+    - I dont like the 4th ballerinas. Show me something having ankle fit
+    - I dont like the 3rd result . Show me something in style as in the 4th image
+    - I dont like the color in the 3rd image. Can you show me some more
+    - I dont like the 3rd sandals. Show me something having attractive style
+    - I dont like the 2nd result . Show me something in style as in the 4th image
+    - I dont like the 5th result . Show me something in brand as in the 4th image
+    - I dont like the band color in the 3rd image. Can you show me some more
+    - I dont like the material in the 2nd image. Can you show me some more
+    - I dont like the lens material in the 1st image. Can you show me some more
+    - I dont like the 3rd result . Show me something in style as in the 5th image
+    - I dont like the style in the 3rd image. Can you show me some more
+    - I dont like the upper material in the 3rd image. Can you show me some more
+    - I dont like the 1st result . Show me something in frame material as in the 2nd image
+    - I dont like the 5th result . Show me something in length as in the 2nd image
+    - I dont like the 4th hand bag. Show me something in boutique styled type
+    - I dont like the 3rd result . Show me something in color as in the 2nd image
+    - I dont like the fit in the 2nd image. Can you show me some more
+    - I dont like the 3rd image . Show me something in material as in this image
+    - I dont like the color in the 4th image. Can you show me some more
+    - I dont like the 9th result . Show me something in [heel](clothes) as in the 4th image
+    - I dont like the 1st trousers. Show me something having a ideal style
+    - I dont like the 5th result . Show me something in type as in the 1st image
+    - I dont like the 2nd result . Show me something in type as in the 1st image
+    - I dont like the 3rd glasses. Show me something in cat eye rim style type
+    - I dont like the 1st running shoes. Show me something in [white](color) coloured type
+    - I dont like the 5th [trouser](clothes)  Show me something in slim fitting type
+    - I dont like the 3rd result . Show me something in material as in the 2nd image
+    - I dont like the 4th floaters. Show me something in happy feet brand type
+    - I dont like the style in the 5th image. Can you show me some more
+    - I dont like the 3rd result . Show me something in length as in the 4th image
+    - I dont like the 5th image . Show me something in dial color as in this image
+    - I dont like the 3rd [dress](clothes)  Show me something in half sleeved
+    - I dont like the 4th loafers. Show me something in comfort fitting type
+    - I dont like the 3rd sandals. Show me something in classic print type
+    - I dont like the 1st [trouser](clothes)  Show me something in layered type
+    - I dont like the 5th joggers. Show me something having a casual fit
+    - I dont like the 3rd result . Show me something in brand as in the 4th image
+    - I dont like the 3rd trackwear. Show me something that is about full length-wise
+    - I dont like the 3rd image . Show me something in frame color as in this image
+    - I dont like the 4th result . Show me something in color as in the 3rd image
+    - I dont like the 5th image . Show me something in type as in this image
+    - I dont like the 1st image . Show me something in fit as in this image
+    - I dont like the 2nd sports shoes. Show me something in super style type
+    - I dont like the 3rd result . Show me something in rim as in the 2nd image
+    - I dont like the 1st flipflops. Show me something shaded with [navy blue](color) color
+    - I dont like the 1st image . Show me something in neck as in this image
+- intent: like_n_show_result
+  examples: |
+    - Show me more in the frame color as in the 5th image
+    - I like the length in the 2nd one but not the fit. Can you show me some more
+    - I like the sleeves in the 1st one but not the collar. Can you show me some more
+    - See the 2nd sunglasses. Show me more like it but from the house of shvas brand
+    - I like the 4th image . Show me something like it but in type as in this image
+    - The 3rd casual trousers looks catchy. Can I see something like it but with sportswear type
+    - I like the brand in the 1st one but not the print. Can you show me some more
+    - I like the upper material in the 3rd one but not the brand. Can you show me some more
+    - I like the brand in the 4th one but not the type. Can you show me some more
+    - I like the fit in the 1st one but not the toe. Can you show me some more
+    - The 4th shorts looks catchy. Can I see something like it but in poly viscose material type
+    - I like the color in the 1st one but not the style. Can you show me some more
+    - See the 1st loafers. Show me more like it but having slip type
+    - I like the brand in the 1st one but not the type. Can you show me some more
+    - I like the brand in the 2nd one but not the style. Can you show me some more
+    - I like the color in the 5th one but not the brand. Can you show me some more, in my size
+    - Show me more in the toe as in the 5th image
+    - I liked the 1st derby. Can I see something like it but that looks [maroon](color) coloured
+    - See the 1st floaters. Can I have more like it but with slip type
+    - I like the type in the 2nd one but not the fit. Can you show me some more
+    - The 3rd footwear looks catchy. Can I see something like it but in classic styled type
+    - I like the sole material in the 1st one but not the fit. Can you show me some more
+    - I liked the 4th high tops. Can I see something like it but in relaxed fitted type
+    - Show me more in the dial color as in the 3rd image
+    - The 1st chinos looks catchy. Can I have something like it but in full length type
+    - Show me more in the fit as in the 5th image
+    - I like the tip in the 1st one but not the material. Can you show me some more, in my size
+    - I like the 1st image . Show me something like it but in length as in this image
+    - I like the material in the 3rd one but not the fit. Can you show me some more
+    - I like the 3rd image . Show me something like it but in length as in this image
+    - Show me more like the 5th running shoes but in original styled type. I liked it
+    - I like the [heel](clothes) in the 1st one but not the style. Can you show me some more
+    - I liked the 4th shorts. Can I see something like it but in aqua [blue](color) colored type
+    - I like the 6th image . Show me something like it but in upper material as in this image
+    - See the 1st watch. I wish to see more like it but in champagne colored dial in type
+    - Show me more like the 1st sports shoes but having material made in mesh. I liked it
+    - Show me more in the fit as in the 2nd image
+    - See the 2nd canvas shoes. I wish to see more like it but of great colors
+    - The 5th watch looks catchy. Can I see something like it but in strap material type
+    - See the 1st driving shoes. Show me more like it but in rubber soled type
+    - I like the 1st image . Show me something like it but in upper material as in this image
+    - I like the fit in the 2nd one but not the print. Can you show me some more
+    - I like the 1st canvas shoes. Show me something similar to it but having a quality style
+    - I like the material in the 1st one but not the neck. Can you show me some more
+    - The 2nd slippers looks catchy. Can I see something like it but constituted with foam upper material
+    - I like the color in the 2nd one but not the neck. Can you show me some more
+    - See the 1st casual shoes. Can I have more like it but in dark [grey](color) colored type
+    - I like the print in the 4th one but not the material. Can you show me some more
+    - I like the material in the 1st one but not the brand. Can you show me some more
+    - Show me more in the style as in the 3rd image
+    - I like the type in the 5th one but not the upper material. Can you show me some more
+    - I liked the 1st wedges. Can I see something like it but having loose fit
+    - I like the print in the 3rd one but not the material. Can you show me some more
+    - I like the type in the 5th one but not the print. Can you show me some more
+    - I like the brand in the 3rd one but not the material. Can you show me some more
+    - Show me more like the 4th canvas shoes but in stylish style type. I liked it
+    - I like the 2nd image . Show me something like it but in print as in this image
+    - See the 1st travel bag. Can I have more like it but having handle material
+    - Show me more in the sole material as in the 1st image, in my size
+    - Show me more in the style as in the 5th image
+    - Show me more in the style as in the 4th image
+    - Show me more in the sleeves as in the 5th image
+    - Show me more in the upper material as in the 4th image
+    - Show me more in the sole material as in the 9th image
+    - I liked the 1st hand bag. Can I see something like it but in aqua [blue](color) coloured type
+    - I like the 1st slippers. Show me something similar to it but with material made in fleece
+    - Show me more in the rise as in the 1st image
+    - I like the color in the 2nd one but not the print. Can you show me some more
+    - I like the brand in the 1st one but not the fit. Can you show me some more
+    - I like the style in the 4th one but not the display type. Can you show me some more
+    - See the 5th watch. Show me more like it but in formal type
+    - Show me more like the 2nd casual shoes but in sporty type. I liked it
+    - I like the brand in the 5th one but not the [heel](clothes)  Can you show me some more
+    - I like the 2nd gloves. Show me something similar to it but in rjm branded type
+    - Show me more in the frame color as in the 4th image
+    - See the 1st watch. I wish to see more like it but in [white](color) multicoloured type
+    - I like the 5th image . Show me something like it but in tip as in this image
+    - Show me more in the band color as in the 3rd image
+    - I like the color in the 2nd one but not the type. Can you show me some more
+    - Show me more in the lens material as in the 1st image
+    - Show me more in the fit as in the 3rd image
+    - I like the material in the 1st one but not the style. Can you show me some more
+    - The 2nd [dress](clothes) looks catchy. Can I see something like it but in charm bridal branded type
+    - I like the sole material in the 4th one but not the fit. Can you show me some more
+    - The 5th loafers looks catchy. Can I see something like it but in suede soled type
+    - I like the 3rd running shoes. Show me something similar to it but designed with spider type patterns
+    - I liked the 5th joggers. Can I see something like it but in athletic fit
+    - I like the material in the 2nd one but not the fit. Can you show me some more
+    - I like the 2nd watch. Show me something similar to it but having special style
+    - Show me more in the color as in the 4th image
+    - The 4th formal trousers looks catchy. Can I have something like it but in navy colored type
+    - I like the 3rd image . Show me something like it but in lens material as in this image
+    - Show me more in the material as in the 4th image
+    - I like the style in the 3rd one but not the color. Can you show me some more
+    - Show me more like the 2nd high tops but in vans brand type. I liked it
+    - I like the color in the 3rd one but not the style. Can you show me some more
+    - I like the 3rd pumps. Show me something similar to it but in standard fit type
+    - I like the collar in the 3rd one but not the neck. Can you show me some more
+    - I like the material in the 5th one but not the type. Can you show me some more
+    - I like the print in the 1st one but not the type. Can you show me some more
+    - I like the material in the 1st one but not the color. Can you show me some more
+    - Show me more in the print as in the 3rd image
+    - Show me more like the 1st cufflinks but in casual type. I liked it
+    - Show me more in the fit as in the 4th image
+    - I like the 4th image . Show me something like it but in color as in this image
+    - I like the 1st bermuda shorts. Show me something similar to it but sporting cross patterns
+    - Show me more like the 4th sports shoes but in graphic type. I liked it
+    - See the 3rd glasses. Show me more like it but in [black](color) [yellow](color) frame color type
+    - Show me more in the [heel](clothes) as in the 3rd image
+    - I like the type in the 5th one but not the material. Can you show me some more
+    - I like the length in the 3rd one but not the brand. Can you show me some more
+    - Show me more in the neck as in the 5th image
+    - I like the color in the 1st one but not the toe. Can you show me some more
+    - I like the 1st derby. Show me something similar to it but in lace material type
+    - The 2nd joggers looks catchy. Can I see something like it but of cotton polyester material
+    - I liked the 1st scarf. Can I see something like it but in luxury divas brand type
+    - I like the 4th image . Show me something like it but in [heel](clothes) as in this image
+    - I like the length in the 2nd one but not the pants pocket. Can you show me some more
+    - I like the fit in the 3rd one but not the type. Can you show me some more
+    - I like the style in the 4th one but not the type. Can you show me some more
+    - See the 3rd peeptoes. Show me more like it but in leather type upper material type
+    - Show me more in the length as in the 1st image
+    - Show me more in the style as in the 2nd image
+    - See the 1st leggings. Show me more like it but in [blue](color) pocketted
+    - I like the upper material in the 5th one but not the color. Can you show me some more
+    - See the 4th training shoes. Can I have more like it but in lace material type
+    - I liked the 2nd glasses. Can I see something like it but in [silver](color) frame material type
+    - I liked the 3rd chinos. Can I see something like it but thats somewhat full length
+    - Show me more in the type as in the 3rd image
+    - See the 1st travel bag. I wish to see more like it but in party type
+    - I like the toe in the 2nd one but not the sole material. Can you show me some more
+- intent: celebrity
+  examples: |
+    - And what about celebrity cel_327 for the 1st one?
+    - Does celebrity cel_104 endorse the kind of slip ons in the 2nd image?
+    - Does celebrity cel_1367 endorse the kind of loafers in the 2nd image?
+    - Which of the celebrities usually wear scarf similar looking to the one in the 2nd image?
+    - Does celebrity cel_793 usually wear the kind of sports shoes in the 3rd image?
+    - Does celebrity cel_298 endorse the kind of slip ons in the 3rd image?
+    - Does celebrity cel_3991 usually wear the kind of brogues in the 2nd image?
+    - Which of the celebrities usually wear similar looking [kurta](clothes) as in the 1st image?
+    - Does celebrity cel_737 usually wear the kind of leggings in the 4th image?
+    - Which of the celebrities usually wear similar looking [dress](clothes) as in the 5th image?
+    - What other apparels and accessories are usually worn by celebrity cel_431?
+    - And celebrity cel_970 for the 5th?
+    - Which of the celebrities endorse similar looking boots as in the 2nd image?
+    - Which of the celebrities endorse similar looking trousers as in the 3rd image?
+    - Which of the celebrities endorse similar looking sports sandals as in the 3rd image?
+    - Does celebrity cel_1276 wear the kind of trousers in the 2nd image?
+    - What other apparels and accessories are usually endorsed by celebrity cel_380?
+    - Does celebrity cel_127 wear the kind of gloves in the 1st image?
+    - And celebrity cel_2538?
+    - What other apparels and accessories are usually endorsed by celebrity cel_114?
+    - Does celebrity cel_2538 wear the kind of espadrilles in the 1st image?
+    - Which of the celebrities usually wear similar looking gloves as in the 2nd image?
+    - Does celebrity cel_191 wear the kind of joggers in the 1st image?
+    - Which of the celebrities wear similar looking [dress](clothes) as in the 4th image?
+    - What other apparels and accessories are usually endorsed by celebrity cel_734?
+    - What other apparels and accessories are usually endorsed by celebrity cel_2081?
+    - What other apparels and accessories does celebrity cel_70 usually wear?
+    - Which of the celebrities usually wear [dress](clothes) similar looking to the one in the 4th image?
+    - And celebrity cel_1959 for the 3rd?
+    - Which of the celebrities usually wear sports shoes similar looking to the one in the 4th image?
+    - Which of the celebrities usually wear sunglasses similar looking to the one in the 5th image?
+    - Which of the celebrities endorse similar looking joggers as in the 1st image?
+    - Does celebrity cel_483 usually wear the kind of brogues in the 2nd image?
+    - Does celebrity cel_768 endorse the kind of jeans in the 3rd image?
+    - What other apparels and accessories does celebrity cel_16 usually wear?
+    - Does celebrity cel_60 wear the kind of sunglasses in the 2nd image?
+    - And celebrity cel_39 for the 1st?
+    - Does celebrity cel_196 endorse the kind of hand bag in the 5th image?
+    - And how about for the 4th one?
+    - Which of the celebrities endorse similar looking sandals as in the 2nd image?
+    - And celebrity cel_1158 for the 4th?
+    - Does celebrity cel_1558 endorse the kind of [dress](clothes) in the 3rd image?
+    - Does celebrity cel_737 wear the kind of scarf in the 1st image?
+    - Does celebrity cel_56 usually wear the kind of chinos in the 4th image?
+    - Does celebrity cel_22 endorse the kind of [kurta](clothes) in the 1st image?
+    - Does celebrity cel_186 wear the kind of gloves in the 2nd image?
+    - What other apparels and accessories are usually worn by celebrity cel_400?
+    - Does celebrity cel_2003 endorse the kind of scarf in the 5th image?
+    - Does celebrity cel_601 usually wear the kind of dungaree in the 1st image?
+    - Does celebrity cel_1367 wear the kind of formal trousers in the 1st image?
+    - Which of the celebrities endorse similar looking casual shoes as in the 3rd image?
+    - And celebrity cel_217 for the 3rd?
+    - Which of the celebrities wear similar looking watch as in the 2nd image?
+    - And what about celebrity cel_615 for the 5th one?
+    - Does celebrity cel_539 endorse the kind of shorts in the 5th image?
+    - Does celebrity cel_1497 endorse the kind of hand bag in the 2nd image?
+    - Does celebrity cel_35 endorse the kind of party [dress](clothes) in the 4th image?
+    - And celebrity cel_1433 for the 2nd?
+    - What other apparels and accessories does celebrity cel_551 usually wear?
+    - Does celebrity cel_9 endorse the kind of high tops in the 1st image?
+    - Does celebrity cel_66 wear the kind of hand bag in the 5th image?
+    - Does celebrity cel_684 wear the kind of sunglasses in the 5th image?
+    - Which of the celebrities wear similar looking denim shorts as in the 2nd image?
+    - And how about what about celebrity cel_2713 for the 1st one?
+    - What other apparels and accessories does celebrity cel_585 usually wear?
+    - Which of the celebrities endorse similar looking sports shoes as in the 2nd image?
+    - And as in 1st?
+    - And what about celebrity cel_362 for the 4th?
+    - Does celebrity cel_47 usually wear the kind of [trouser](clothes) in the 3rd image?
+    - Which of the celebrities wear similar looking trousers as in the 1st image?
+    - Does celebrity cel_258 wear the kind of brogues in the 2nd image?
+    - Which of the celebrities usually wear travel bag similar looking to the one in the 1st image?
+    - What other apparels and accessories are usually endorsed by celebrity cel_19?
+    - Does celebrity cel_3554 endorse the kind of trousers in the 4th image?
+    - What other apparels and accessories does celebrity cel_280 usually wear?
+    - Does celebrity cel_68 wear the kind of running shoes in the 5th image?
+    - Does celebrity cel_254 usually wear the kind of scarf in the 4th image?
+    - And what about what about celebrity cel_581 for the 1st one?
+    - Does celebrity cel_423 usually wear the kind of denim shorts in the 1st image?
+    - Does celebrity cel_821 usually wear the kind of loafers in the 1st image?
+    - What other apparels and accessories are usually worn by celebrity cel_105?
+    - And what about celebrity cel_30?
+    - Which of the celebrities usually wear [short](size) [dress](clothes) similar looking to the one in the 1st image?
+    - Does celebrity cel_1928 wear the kind of denim shorts in the 1st image?
+    - Does celebrity cel_581 endorse the kind of scarf in the 3rd image?
+    - Does celebrity cel_108 wear the kind of glasses in the 2nd image?
+    - Does celebrity cel_1129 usually wear the kind of sandals in the 5th image?
+    - Does celebrity cel_271 usually wear the kind of casual trousers in the 1st image?
+    - Which of the celebrities wear similar looking loafers as in the 4th image?
+    - Does celebrity cel_987 endorse the kind of scarf in the 1st image?
+    - What other apparels and accessories are usually worn by celebrity cel_720?
+    - Which of the celebrities usually wear similar looking trousers as in the 4th image?
+    - Which of the celebrities usually wear sandals similar looking to the one in the 1st image?
+    - Which of the celebrities usually wear similar looking hand bag as in the 4th image?
+    - Does celebrity cel_1590 wear the kind of derby in the 5th image?
+    - Which of the celebrities usually wear similar looking peeptoes as in the 3rd image?
+    - What other apparels and accessories are usually worn by celebrity cel_37?
+    - What other apparels and accessories are usually worn by celebrity cel_1064?
+    - Does celebrity cel_495 usually wear the kind of peeptoes in the 2nd image?
+    - Does celebrity cel_538 usually wear the kind of loafers in the 2nd image?
+    - And what about celebrity cel_1053 for the 1st one?
+    - Which of the celebrities endorse similar looking chinos as in the 2nd image?
+    - And celebrity cel_17?
+    - And celebrity cel_372 for the 1st?
+    - Which of the celebrities usually wear ballerinas similar looking to the one in the 1st image?
+    - Does celebrity cel_10 endorse the kind of boots in the 2nd image?
+    - Does celebrity cel_2291 usually wear the kind of canvas shoes in the 2nd image?
+    - Does celebrity cel_907 usually wear the kind of platform heels in the 1st image?
+    - Does celebrity cel_444 endorse the kind of flipflops in the 1st image?
+    - And celebrity cel_636 for the 4th?
+    - Does celebrity cel_395 endorse the kind of sunglasses in the 3rd image?
+    - Which of the celebrities wear similar looking brogues as in the 4th image?
+    - Does celebrity cel_1878 usually wear the kind of tights in the 2nd image?
+    - Which of the celebrities usually wear similar looking canvas shoes as in the 5th image?
+    - Which of the celebrities endorse similar looking watch as in the 2nd image?
+    - Which of the celebrities usually wear [dress](clothes) similar looking to the one in the 2nd image?
+    - What other apparels and accessories are usually endorsed by celebrity cel_39?
+    - And celebrity cel_2785?
+    - Which of the celebrities wear similar looking sleepwear as in the 3rd image?
+    - And what about celebrity cel_36 for the 4th one?
+    - Does celebrity cel_142 wear the kind of tights in the 4th image?
+    - Which of the celebrities usually wear kurti similar looking to the one in the 3rd image?
+    - What other apparels and accessories does celebrity cel_435 usually wear?
+    - And what about celebrity cel_1204 for the 2nd?
+    - Does celebrity cel_1053 usually wear the kind of dupatta in the 1st image?
+    - Does celebrity cel_1991 endorse the kind of peeptoes in the 4th image?
+    - Which of the celebrities usually wear similar looking training shoes as in the 5th image?
+    - And by celebrity cel_1497?
+    - Does celebrity cel_882 usually wear the kind of formal shoes in the 1st image?
+    - And how about what about celebrity cel_357 for the 4th one?
+    - Which of the celebrities usually wear similar looking jeans as in the 1st image?
+    - Does celebrity cel_1006 usually wear the kind of loafers in the 1st image?
+    - Which of the celebrities usually wear boots similar looking to the one in the 4th image?
+    - And celebrity cel_300 for the 1st?
+    - Does celebrity cel_28 usually wear the kind of denim shorts in the 1st image?
+    - What other apparels and accessories does celebrity cel_661 usually wear?
+    - Which of the celebrities usually wear footwear similar looking to the one in the 3rd image?
+    - And what about celebrity cel_300 for the 1st one?
+    - And what about celebrity cel_205 for the 5th one?
+    - Which of the celebrities usually wear sunglasses similar looking to the one in the 2nd image?
+    - And what about celebrity cel_98 for the 5th one?
+    - And how about what about celebrity cel_435 for the 2nd one?
+    - What other apparels and accessories are usually endorsed by celebrity cel_658?
+    - Which of the celebrities wear similar looking derby as in the 1st image?
+    - Does celebrity cel_836 usually wear the kind of blouse in the 2nd image?
+    - And what about celebrity cel_183 for the 5th?
+    - And for the 4th one?
+    - Which of the celebrities endorse similar looking casual shoes as in the 1st image?
+    - Which of the celebrities usually wear similar looking watch as in the 4th image?
+    - Which of the celebrities usually wear similar looking slip ons as in the 1st image?
+    - Which of the celebrities wear similar looking flipflops as in the 1st image?
+    - And celebrity cel_2640 for the 3rd?
+    - And celebrity cel_46?
+    - What other apparels and accessories does celebrity cel_2036 usually wear?
+    - And celebrity cel_255 for the 1st?
+    - Does celebrity cel_2623 usually wear the kind of peeptoes in the 1st image?
+    - Does celebrity cel_104 endorse the kind of formal trousers in the 3rd image?
+    - And how about celebrity cel_150 for the 1st?
+    - Does celebrity cel_92 endorse the kind of espadrilles in the 3rd image?
+    - And what about what about celebrity cel_513 for the 1st one?
+    - Does celebrity cel_3991 endorse the kind of slip ons in the 5th image?
+    - Which of the celebrities wear similar looking wedges as in the 3rd image?
+    - Does celebrity cel_987 wear the kind of scarf in the 1st image?
+    - Which of the celebrities wear similar looking running shoes as in the 1st image?
+    - Does celebrity cel_2452 wear the kind of mittens in the 2nd image?
+    - And how about celebrity cel_1945 for the 4th?
+    - Which of the celebrities usually wear hand bag similar looking to the one in the 3rd image?
+    - Does celebrity cel_84 wear the kind of brogues in the 1st image?
+    - Which of the celebrities usually wear training shoes similar looking to the one in the 2nd image?
+    - Which of the celebrities wear similar looking dungaree as in the 1st image?
+    - Does celebrity cel_65 usually wear the kind of canvas shoes in the 2nd image?
+    - Does celebrity cel_1276 usually wear the kind of trousers in the 1st image?
+    - Does celebrity cel_1627 usually wear the kind of hand bag in the 1st image?
+    - Does celebrity cel_478 usually wear the kind of flipflops in the 3rd image?
+    - Does celebrity cel_1222 endorse the kind of saree blouse in the 4th image?
+    - And celebrity cel_65 for the 2nd?
+    - And how about as in the 2nd one?
+    - What other apparels and accessories are usually worn by celebrity cel_1928?
+    - Which of the celebrities usually wear glasses similar looking to the one in the 1st image?
+    - What other apparels and accessories are usually endorsed by celebrity cel_1?
+    - Which of the celebrities wear similar looking slippers as in the 3rd image?
+    - Does celebrity cel_255 wear the kind of watch in the 2nd image?
+    - Does celebrity cel_724 endorse the kind of slip ons in the 3rd image?
+    - And what about celebrity cel_848 for the 1st one?
+    - Does celebrity cel_668 wear the kind of saree blouse in the 2nd image?
+    - And what about what about celebrity cel_423 for the 2nd one?
+    - Which of the celebrities usually wear scarf similar looking to the one in the 4th image?
+    - Does celebrity cel_668 wear the kind of [trouser](clothes) in the 2nd image?
+    - Does celebrity cel_1481 wear the kind of watch in the 1st image?
+    - And celebrity cel_110 for the 2nd?
+    - And celebrity cel_1261?
+    - Which of the celebrities usually wear scarf similar looking to the one in the 1st image?
+    - Does celebrity cel_1101 usually wear the kind of travel bag in the 1st image?
+    - Which of the celebrities wear similar looking scarf as in the 3rd image?
+    - And what about celebrity cel_578?
+    - Which of the celebrities usually wear similar looking sports shoes as in the 1st image?
+    - And celebrity cel_37 for the 3rd?
+    - What other apparels and accessories are usually endorsed by celebrity cel_14?
+    - Does celebrity cel_1878 endorse the kind of high tops in the 1st image?
+    - Which of the celebrities usually wear similar looking loafers as in the 1st image?
+    - Does celebrity cel_486 wear the kind of high tops in the 2nd image?
+    - Does celebrity cel_51 usually wear the kind of leggings in the 3rd image?
+    - Which of the celebrities usually wear similar looking loafers as in the 2nd image?
+    - And how about celebrity cel_435 for the 1st?
+    - Does celebrity cel_724 endorse the kind of sports shoes in the 2nd image?
+    - What other apparels and accessories are usually endorsed by celebrity cel_5656?
+    - Which of the celebrities usually wear similar looking pumps as in the 4th image?
+    - Does celebrity cel_668 wear the kind of hand bag in the 4th image?
+    - What other apparels and accessories are usually worn by celebrity cel_563?
+    - Which of the celebrities endorse similar looking jeans as in the 1st image?
+    - Does celebrity cel_1076 endorse the kind of formal trousers in the 2nd image?
+    - Does celebrity cel_146 usually wear the kind of jeans in the 1st image?
+    - Which of the celebrities usually wear derby similar looking to the one in the 3rd image?
+    - Which of the celebrities endorse similar looking chinos as in the 3rd image?
+    - Does celebrity cel_403 usually wear the kind of espadrilles in the 4th image?
+    - Does celebrity cel_1751 endorse the kind of peeptoes in the 1st image?
+    - And celebrity cel_79 for the 1st?
+    - Does celebrity cel_110 usually wear the kind of leggings in the 5th image?
+    - Does celebrity cel_110 wear the kind of bermuda shorts in the 4th image?
+    - And what about celebrity cel_474 for the 5th one?
+    - Does celebrity cel_2036 endorse the kind of shorts in the 5th image?
+    - Does celebrity cel_300 endorse the kind of slippers in the 5th image?
+- intent: ask_attribute
+  examples: |
+    - And how about type, sleeves and style in the 1st one?
+    - What is the color and style in the 2nd result?
+    - What is the type in the result 1st?
+    - Is the sole material rubber in the 5th one.. Can you tell me?
+    - Can you tell me whats the brand in the 1st image?
+    - What do you think is the neck in the 1st image?
+    - Did you check the color in the 1st image? What is it?
+    - Can you tell me the type of style in the result 5th?
+    - And the fit regular is it ?
+    - What is the sole material and upper material in the 3rd result?
+    - What do you think, is the style chunky in the 2nd image?
+    - And color, material and upper material in the 2nd one?
+    - And it has toe grippy, is it ?
+    - And color and brand in the 4th one?
+    - What is the material, brand band material in the 4th result?
+    - 'What is the style in the result 2nd '
+    - what color is it in the 6th image?
+    - Do you feel the color [orange](color) is in the 1st image?
+    - Did you check the tip in the 3rd image? What is it?
+    - What is the type and style in the 4th result?
+    - What style is it in the 4th image?
+    - Is the style durable in the 3rd result?
+    - And what about for 4th image
+    - What do you think about the 5th image?. Is the type formal? there?
+    - What type is the style in the result 1st?
+    - What is the type in the 2nd and 1st images?
+    - What is the style, brand material in the 2nd result?
+    - And how about the toe ?
+    - What is the upper material type in the result 5th?
+    - What is the fit and material in the 5th result?
+    - Does the 2nd image have the color black?
+    - What do you think is the style in the 2nd image?
+    - What is the color in the 3rd and 4th images?
+    - What is the pleats type in the 1st image?
+    - What fit is it in the 2nd image?
+    - What is the material and color in the 4th result?
+    - And color and upper material in the 2nd one?
+    - And how about the type ?
+    - Is the jeans style slim in the 2nd one.. Can you tell me?
+    - What is the band material in the 5th and 1st images?
+    - What is the color in the 5th and 4th images?
+    - 'What about the brand '
+    - What is the type in the 2nd and 3rd images?
+    - Can you tell me whats the type in the 5th image?
+    - Can you tell me the type of style in the result 4th?
+    - And it has fit casual ?
+    - And what about fit and print in the 4th one?
+    - Can you tell me the type of upper material in the result 1st?
+    - Is the brand bersache in the 1st image, what do you think?
+    - What type is the style in the 2nd image?
+    - What fit is it in the result 3rd?
+    - and the material as well
+    - What is the upper material, material and sole material in the 5th result?
+    - What type is the material in the 4th image?
+    - And style and color in the 3rd one?
+    - And it has style seamless ?
+    - Have you checked the print in the 1st image? What is it?
+    - And the sole material?
+    - And what about the frame material?
+    - What type is the fit in the result 1st?
+    - Did you check the fit in the 2nd image? What is it?
+    - Did you check the style in the 2nd image? What is it?
+    - Did you check the material in the 1st image? What is it?
+    - Have you checked the material in the 1st image? What is it?
+    - And it has closure slipon ?
+    - What is the 2nd images fit ?
+    - And how about the material?
+    - What is the type and style in the 1st result?
+    - What is the color and fit in the 4th result?
+    - What is the fit, material and type in the 1st result?
+    - Can you tell me the type of color in the 5th image?
+    - What brand is it in the 5th image?
+    - Is the material stretch in the 4th one.. Can you tell me?
+    - Can you tell me the type of type in the 4th image?
+    - What do you think is the material in the 1st image?
+    - And how about brand material in the 4th one?
+    - What do you think about the 1st image?. Is the upper material rubber? there?
+    - What is the fit in the 1st and 3rd images?
+    - And what about in the 4th image
+    - What is the 2nd images color ?
+    - Is the upper material canvas in the 2nd one.. Can you tell me?
+    - What is the closure and fit in the 1st result?
+    - And it has material cotton, is it ?
+    - Can you tell me the type of brand in the 4th image?
+    - Did you check the print in the 2nd image? What is it?
+    - and the style as well
+    - And material and type in the 3rd one?
+    - And it has type pocket, is it ?
+    - What is the fit in the 4th and 1st images?
+    - 'What is the sole material in the result 1st '
+    - Can you tell me whats the shape in the 5th image?
+    - What is the material and brand in the 1st result?
+    - What is the upper material in the 2nd and 1st images?
+    - What is the type in the 3rd and 1st images?
+    - what about the brand?
+    - and how about for 1st image?
+    - And what about the material?
+    - see the 4th image, what do you think is the print there?
+    - And how about rise and closure in the 1st one?
+    - how about the pocket ?
+    - And how about the display type ?
+    - What is the toe and fit in the 4th result?
+    - What is the material and sole material in the 2nd result?
+    - What is the sole material and type in the 3rd result?
+    - What is the 3rd images style ?
+    - And what can you tell about the 3rd image
+    - And brand fit in the 1st one?
+    - What type is the style in the result 5th?
+    - And fit and type in the 3rd one?
+    - And type and material in the 2nd one?
+    - And how about the dial color?
+    - What is the sole material and style in the 5th result?
+    - What do you think, is the in back pocket in the 2nd image?
+    - What is the style in the 2nd and 4th images?
+    - Can you tell me the type of material in the result 4th?
+    - Can you tell me whats the fit in the 4th image?
+    - Is the material 100%viscose in the 1st image, what do you think?
+    - What do you think about the 3rd image?. Is the material canvas? there?
+    - What is the type and upper material in the 5th result?
+    - What do you think is the style in the 5th image?
+    - What is the style in the 3rd and 1st images?
+    - Do you think is the material tpr in the 1st image?
+    - what band color is it in the 2nd image?
+    - Can you tell me the type of style in the 3rd image?
+    - And how about style and brand in the 2nd one?
+    - see the 2nd image, what do you think is the length there?
+    - And it has style denim ?
+    - What do you think, is the insert pockets in the 1st image?
+    - Do you think is the color [black](color) in the 1st image?
+    - What type is the sole material in the 1st image?
+    - And it has type [princess](gender) ?
+    - What is the style type in the 3rd image?
+    - Have you checked the type in the 1st image? What is it?
+    - What is the print and color in the 3rd result?
+    - And the material synthetic is it ?
+    - What do you think about the 3rd image?. Is the print lace? there?
+    - What do you think about the 4th image?. Is the material artificial leather? there?
+    - What type is it in the result 4th?
+    - Does the 5th image have the color grey?
+    - And what about color and type in the 5th one?
+    - What is the type and brand in the 5th result?
+    - Is the material firm in the 4th result?
+    - What type is the style in the result 4th?
+    - What type is the length in the result 1st?
+    - Do you feel the material modal blend is in the 6th image?
+    - see the 5th image, what do you think is the material there?
+    - What is the fit, print and closure in the 1st result?
+    - And brand color in the 2nd one?
+    - And color and type in the 3rd one?
+    - And type and fit in the 10th one?
+    - What is the 3rd images [heel](clothes) ?
+    - Can you tell me the type of jeans style in the result 1st?
+    - What is the material and sole material in the 4th result?
+    - What material is it in the 1st image?
+    - Can you tell me whats the length in the 1st image?
+    - Is the material wool in the 2nd one.. Can you tell me?
+    - Do you think is the material rubber mesh in the 1st image?
+    - What is the print and style in the 1st result?
+    - What is the brand in the 1st and 2nd images?
+    - how about the brand ?
+    - What is the style and sole material in the 2nd result?
+    - What is the style in the 3rd and 2nd images?
+    - And the style biker is it ?
+    - see the 3rd image, what do you think is the material there?
+    - and what about the color ?
+    - What is the type and color in the 4th result?
+    - What frame material is it in the 2nd image?
+    - And style and type in the 5th one?
+    - Can you tell me the type of color in the result 1st?
+    - And what about style, sole material and upper material in the 2nd one?
+    - What is the toe and type in the 5th result?
+    - And the material quality, do you think ?
+    - Have you checked the print in the 3rd image? What is it?
+    - And style, display type and band color in the 1st one?
+    - Is the material denim in the 4th result?
+    - What is the style in the 1st and 3rd images?
+    - What is the brand in the 1st image?
+    - Do you feel the style derby is in the 3rd image?
+    - Do you feel the brand delize is in the 3rd image?
+    - What upper material is it in the result 1st?
+    - What is the style in the 4th and 5th images?
+    - What do you think about the 2nd image?. Is the in smart phone pocket? there?
+    - What is the display type and material in the 3rd result?
+    - Can you tell me the type of sole material in the result 5th?
+    - And what about fit, type and material in the 4th one?
+    - what print is it in the 2nd image?
+    - What is the rim and material in the 1st result?
+    - And is the style glow ?
+    - What color is it in the result 3rd?
+    - What type is it in the result 2nd?
+    - 'What is the style in the result 1st '
+    - What is the material, tip and fit in the 1st result?
+    - And brand color in the 1st one?
+    - see the 1st image, what do you think is the material there?
+    - and how about for 5th image?
+    - Do you feel the frame color [gold](color) is in the 3rd image?
+    - What is the style type in the 4th image?
+    - What is the toe and material in the 1st result?
+    - What do you think, is the color [green](color) in the 5th image?
+    - What is the style type in the result 1st?
+    - And color and print in the 2nd one?
+    - And is the type straight ?
+    - And what about print and type in the 5th one?
+    - What is the material and fit in the 4th result?
+    - Is the collar [small](size) in the 1st one.. Can you tell me?
+    - And the style denim, do you think ?
+    - And how about style and type in the 2nd one?
+    - And how about brand, style and material in the 4th one?
+    - And what about the dial color?
+    - What is the style in the 1st and 2nd images?
+    - What do you think is the material in the 5th image?
+    - Does the 1st image have the color three?
+    - What is the length in the 5th and 1st images?
+    - What is the toe in the 5th and 1st images?
+    - what material is it in the 3rd image?
+    - What do you think about the 1st image?. Is the style casual? there?
+    - What type is the tip in the 4th image?
+    - What is the fit and type in the 3rd result?
+    - What is the color, fit and style in the 2nd result?
+    - What is the type, material and upper material in the 1st result?
+    - Do you feel the style london is in the 3rd image?
+    - What is the brand material in the 7th result?
+    - 'What is the lens material in the result 1st '
+    - What is the length type in the result 3rd?
+    - And it has style regular, is it ?
+    - What is the fit and color in the 4th result?
+    - And it has style southern, is it ?
+    - Did you check the style in the 4th image? What is it?
+    - Is the brand bella vita in the 3rd result?
+    - What is the print, upper material and material in the 3rd result?
+    - Did you check the color in the 2nd image? What is it?
+    - What fit is it in the result 1st?
+    - What do you think about the 3rd image?. Is the type contemporary? there?
+    - What is the material in the 1st and 5th images?
+    - Can you tell me whats the tip in the 3rd image?
+    - Can you tell me whats the upper material in the 1st image?
+    - What is the print type in the result 3rd?
+    - What is the type, material and style in the 4th result?
+    - And about the length ?
+    - And what about the fit?
+    - And how about the color ?
+    - What is the color and brand in the 4th result?
+    - Do you feel the fit excellent is in the 1st image?
+    - What type is the upper material in the result 5th?
+    - What is the 5th images type ?
+    - And how about the material ?
+    - What do you think is the print in the 2nd image?
+    - And type, color and material in the 9th one?
+    - Can you tell me the type of jeans wash in the result 2nd?
+    - What is the length and upper material in the 2nd result?
+    - Is the print shaded in the 4th result?
+    - What do you think is the color in the 1st image?
+    - Do you think is the upper material foam in the 3rd image?
+    - What is the material and color in the 3rd result?
+    - 'What is the color in the result 1st '
+    - What material is it in the 4th image?
+    - what about the collar?
+- intent: suited_for
+  examples: |
+    - What care would be suited for watch in 4th and 1st images ?
+    - What care would be suited for scarf in 3rd, 1st and 4th images ?
+    - Are the products in the 2nd and 3rd images suited for dryclean?
+    - What clean would be suited for kurti in 4th and 2nd images ?
+    - How do you feel about the sleepwear? Will it be suitable for minimal cleaning washing?
+    - Will brogues in the 3rd image be suitable for dryclean?
+    - Is the 3rd result suited for regular wash cleaning?
+    - And what can you say for cold wash
+    - And something more trendy in quality
+    - Will floaters be suitable for drywarm wash?
+    - How about the 3rd result? Is it suited for regular wash-cleaning?
+    - What clean may go well with this sports shoes?
+    - And how about for normal
+    - Is the 3rd result well suited for hand washing?
+    - What other accessories and apparels will suit the style of this jeans ?
+    - Will wedges be suited for dryclean?
+    - What do you feel aboutgloves? Will that be suited for dryclean?
+    - What about something for dry clean
+    - What clean would be suited for blouse in 1st and 3rd images ?
+    - And something in semi formal
+    - 'And what about hand wash '
+    - And suggest more in this gradient style
+    - Do you feel that normal clean be suited for the watch in the 2nd image?
+    - How do you feel about the sandals? Will it be suitable for soft clean?
+    - What clean would be suited for casual trousers in 4th and 3rd images ?
+    - Will canvas shoes in the 3rd image suit well for cold wash cleaning?
+    - And what do you think about the 3rd result? Is it suited for regular hand clean?
+    - What care will go well with this brogues?
+    - Will sunglasses be suited for hand washing?
+    - Can I have other accessories and apparels will suit the style of this sports shoes ?
+    - What clean will suit this watch?
+    - Are the products in the 2nd and 1st images suited for regularwash?
+    - And what about for normal hand
+    - What do you feel aboutcufflinks? Will that be suited for seperate hand care?
+    - Will canvas shoes be suitable for dryclean?
+    - Do you feel that watch in the 5th image be suited for normal cleaning?
+    - Do you feel that formal shoes in the 1st image be suited for cold water wash?
+    - Do you think that the 1st result is suited for dry clean?
+    - And for the 3rd and 4th images?
+    - Will footwear in the 1st image go with dry clean?
+    - What care would be suited for shorts in 5th and 3rd images ?
+    - And, how about the 3rd result? Is it suited for machine wash?
+    - What do you feel aboutcasual trousers? Will that be suited for mild hand clean?
+    - Will travel bag in the 5th image be suitable for hand cleaning?
+    - Can I have other accessories and apparels will suit the style of this canvas shoes ?
+    - Show the other apparels and accessories will suit the style of this shorts ?
+    - Will watch in the 5th image suit well for hand wash-cleaning?
+    - What clean will go well with this high tops?
+    - Are the products in the 2nd, 1st and 3rd images suited for mild clean?
+    - What clean would be suited for travel bag in 4th and 3rd images ?
+    - And how about for hand cold clean
+    - Are the products in the 5th, 3rd and 4th images suited for 30 degree delicate washing?
+    - What clean would be suited for hand bag in 4th, 2nd and 5th images ?
+    - 'And what about regular hand '
+    - What other apparels and accessories may go well with the style of this jeggings ?
+    - What do you feel aboutbermuda shorts? Will that be suited for machinewash?
+    - Are the products in the 5th, 3rd and 1st images suited for dryclean?
+    - And something more trendy in trendy
+    - Are the products in the 3rd and 2nd images suited for minimal wash?
+    - What care would be suited for training shoes in 1st and 2nd images ?
+    - Do you think that the 1st result is suited for softner cleaning?
+    - Are the products in the 2nd and 1st images suited for dry clean?
+    - What do you feel aboutsandals? Will that be suited for dry clean?
+    - And, how about the 1st result? Is it suited for hand care?
+    - Is the 1st result suited for softner clean?
+    - And what about for the 3rd results?
+    - And how about for the 5th and 4th images?
+    - What clean would be suited for loafers in 2nd and 1st images ?
+    - what about this lightweight ?
+    - Are the products in the 4th, 5th and 3rd images suited for coldwash?
+    - 'And what about handwash '
+    - Are the products in the 3rd and 1st images suited for cold hand wash cleaning?
+    - Will sports shoes suit drywash?
+    - Which clean might go well with this boots?
+    - Will joggers be suitable for no bleach washing?
+    - What do you think about the 5th result? Is it suited for hand wash?
+    - What care would be suited for joggers in 3rd and 1st images ?
+    - And how about for soft washing
+    - Will casual trousers suit cold cleaning?
+    - Will formal shoes in the 2nd image go with regular wash-cleaning?
+    - Do you feel that slippers in the 1st image be suited for soft hand care?
+    - Do you think that the 3rd result is suited for coldwash?
+    - What care will go well with this sleepwear?
+    - And something more trendy in platform
+    - Will joggers be suited for seperate hand cleaning washing?
+    - Will dupatta in the 1st image suit well for hand cold wash cleaning?
+    - And for the 1st and 4th images?
+    - Do you think that derby will be suited for machine cold washing?
+    - Are the products in the 5th, 1st and 4th images suited for mild clean?
+    - Do you feel that trackwear in the 5th image be suited for machine cleaning washing?
+    - What care would be suited for training shoes in 5th and 4th images ?
+    - Are the products in the 1st and 4th images suited for delicate cleaning?
+    - What do you feel about care? Which one will suit this jeans?
+    - What do you feel about clean? What will suit this dress?
+    - Are the products in the 3rd, 2nd and 1st images suited for hand care?
+    - Are the products in the 1st and 5th images suited for regularwash?
+    - What do you feel about clean? What will suit this platform heels?
+    - What clean would be suited for sunglasses in 3rd and 4th images ?
+    - And what can you say for hand cold washing
+    - What care would be suited for high tops in 2nd, 1st and 5th images ?
+    - Are the products in the 3rd and 5th images suited for hand cleaning washing?
+    - And the ones in the 2nd and 4th images?
+    - What do you feel about care? What will suit this jeans?
+    - What about something for machine clean
+    - This scarf will be suited by what care?
+    - Will formal shoes in the 3rd image suit well for hand wash?
+    - And what do you feel about the 1st result? Is it suited for hand wash?
+    - Will [trouser](clothes) suit delicate handwash?
+    - And what do you think about the 4th result? Is it suited for dry clean?
+    - Will saree blouse suit cold wash?
+    - List other apparels and accessories may suit the style of this bermuda shorts ?
+    - What care will suit this bermuda shorts?
+    - What other apparels and accessories may go well with the style of this derby ?
+    - And, how about the 1st result? Is it suited for softner clean?
+    - And what can you say for normal clean
+    - What do you feel aboutformal shoes? Will that be suited for dry clean?
+    - Will hand bag be suited for regular hand cleaning?
+    - What clean would be suited for casual trousers in 3rd, 1st and 5th images ?
+    - Do you feel that watch in the 3rd image be suited for hand wash cleaning?
+    - Can I have other accessories and apparels will suit the style of this tights ?
+    - How do you feel about the training shoes? Will it be suitable for regular clean?
+    - What do you feel about clean? Which one will suit this travel bag?
+    - Will derby be suited for hand wash?
+    - 'And what about normal hand '
+    - Do you think that hand cold cleaning washing with suit the running shoes in the 5th image?
+    - What do you feel about care? What will suit this casual trousers?
+    - What care will go well with this gloves?
+    - And the ones in the 5th and 2nd images?
+    - What about dryclean?
+    - And what do you feel about the 1st result? Is it suited for soft cleaning washing?
+    - And what about for dryclean
+    - And show me something in regular style
+    - Will trackpants in the 1st image be suitable for machine cleaning?
+    - Are the products in the 4th, 1st and 2nd images suited for durable for multiple hand cleaning washing?
+    - What do you feel about clean? Which one will suit this running shoes?
+    - What other accessories and apparels will suit the style of this flipflops ?
+    - What care would be suited for flipflops in 1st and 2nd images ?
+    - What do you feel aboutcufflinks? Will that be suited for no bleach washing?
+    - Do you think that easy hand care with suit the [dress](clothes) in the 1st image?
+    - Will loafers be suited for mild hand clean?
+    - What care would be suited for sunglasses in 2nd and 1st images ?
+    - Do you think that shorts will be suited for normal cold washing?
+    - And what about for drywash
+    - Is the 2nd result well suited for mild hand care?
+    - What do you feel aboutslippers? Will that be suited for machine wash cleaning?
+    - Is the 4th result suited for normal wash cleaning?
+    - And how about for mild wash-cleaning
+    - And how about which care?
+    - And what do you feel about the 4th result? Is it suited for cold hand wash cleaning?
+    - And how about for minimal clean
+    - Will mini [skirt](clothes) in the 1st image be suitable for cold wash-cleaning?
+    - Is the 1st result suited for seperate hand cleaning?
+    - What care would be suited for [trouser](clothes) in 5th and 2nd images ?
+    - And what do you think about the 4th result? Is it suited for dryclean?
+    - How about the 2nd result? Is it suited for machine cleaned?
+    - What care would be suited for training shoes in images ?
+    - How about the 4th result? Is it suited for mild hand washing?
+    - What clean may go well with this slip ons?
+    - And show me something in quality style
+    - Is the 1st result suited for dry clean?
+    - And what about which clean?
+    - Will gloves be suitable for soft wash cleaning?
+    - What about the 4th image?
+    - What about something for handwash
+    - What about dry clean?
+    - What do you feel abouttrouser? Will that be suited for intensive clean?
+    - 'And what about cold hand '
+    - And, how about the 4th result? Is it suited for drywarm washing?
+    - What clean would be suited for glasses in 1st and 2nd images ?
+    - Do you think that brogues will be suited for dryclean?
+    - Will shorts be suitable for normal hand wash?
+    - What care would be suited for derby in 2nd and 1st images ?
+    - And, how about the 3rd result? Is it suited for soft hand cleaning?
+    - Do you think that brogues will be suited for normal washing?
+    - What care may go well with this trackwear?
+    - Is the 1st result well suited for gentle hand washing?
+    - Do you think that high tops will be suited for machine cleaned?
+    - And what about for gentle washing
+    - Are the products in the 1st, 5th and 3rd images suited for handwash?
+    - Are the products in the 3rd, 4th and 1st images suited for hand wash-cleaning?
+    - And what can you say about the one in 3rd image?
+    - What care would be suited for sunglasses in 4th, 2nd and 1st images ?
+    - And which care do you think?
+    - Do you think that the 4th result is suited for dryclean?
+    - What care would be suited for bermuda shorts in 5th and 3rd images ?
+    - Will kurti in the 3rd image be suitable for dryhand clean?
+    - What clean would be suited for bermuda shorts in 3rd and 2nd images ?
+    - What other apparels and accessories may go well with the style of this ballerinas ?
+    - Is the 4th result well suited for dryclean?
+    - And something in great
+    - Is the 3rd result well suited for easy hand cleaning?
+    - What do you think about the 3rd result? Is it suited for dryclean?
+    - What do you think about the 5th result? Is it suited for dryclean?
+    - What care would be suited for slip ons in 2nd, 5th and 3rd images ?
+    - And for the one in 1st image
+    - Are the products in the 5th and 2nd images suited for dry clean?
+    - Will sleepwear in the 1st image suit well for drywarm washing?
+    - What do you think about the 5th result? Is it suited for softner wash?
+    - Will watch suit machine care?
+    - And how about for machine
+    - Show the other apparels and accessories will suit the style of this pumps ?
+    - Is the 1st result well suited for hand cold wash-cleaning?
+    - What care would be suited for bermuda shorts in 2nd and 4th images ?
+    - Will dupatta suit dryhand cleaning washing?
+    - Will ballerinas be suitable for regular cleaning?
+    - Are the products in the 3rd and 1st images suited for dry clean?
+    - Will joggers be suited for soft washing?
+    - What other accessories and apparels will suit the style of this joggers ?
+    - Are the products in the 4th, 3rd and 2nd images suited for seperate hand wash cleaning?
+    - Are the products in the 2nd and 4th images suited for dry clean?
+    - What other apparels and accessories may go well with the style of this joggers ?
+    - What do you feel about clean? Which one will suit this mini skirt?
+    - What do you think about the 2nd result? Is it suited for cold water wash?
+    - What do you think about the 1st result? Is it suited for soft cleaning?
+    - This brogues will be suited by what care?
+    - Is the 2nd result suited for machine cleaned?
+    - Are the products in the 5th, 3rd and 4th images suited for cold hand clean?
+    - what about this tassel ?
+    - Will ballerinas in the 3rd image suit well for dryclean?
+    - What other accessories and apparels will suit the style of this slippers ?
+    - What other accessories and apparels will suit the style of this boots ?
+    - What about machine cold washing?
+    - And, how about the 2nd result? Is it suited for handwash?
+    - Will watch suit intensive cleaning washing?
+    - And what can you tell about clean?
+    - And what about the clean?
+    - Are the products in the 5th and 3rd images suited for soft hand washing?
+    - Do you think that the 4th result is suited for durable for multiple hand washing?
+    - Do you feel that stilettos in the 3rd image be suited for mild cleaning?
+    - What other accessories and apparels will suit the style of this sports sandals ?
+    - Are the products in the 3rd and 4th images suited for machine cleaned?
+    - Are the products in the 5th, 4th and 1st images suited for dryclean?
+    - Will glasses suit hand washing?
+    - What about hand wash?
+    - Is the 1st result well suited for drywash?
+    - And suggest more in this quality style
+    - Will loafers in the 5th image go with cold cleaning washing?
+    - Are the products in the 3rd, 4th and 2nd images suited for softner cleaning washing?
+    - Do you think that cufflinks will be suited for hand-wash?
+    - What clean may go well with this brogues?
+    - This formal shoes will be suited by what care?
+    - Will clogs in the 1st image go with dryclean?
+    - Are the products in the 3rd, 1st and 5th images suited for hand wash cleaning?
+    - How about the 1st result? Is it suited for machine washing?
+    - Will clogs suit dryclean?
+    - Do you think that normal wash cleaning with suit the peeptoes in the 2nd image?
+    - How about the 2nd result? Is it suited for cold care?
+    - Will joggers in the 1st image be suitable for mild wash cleaning?
+    - And how about for durable for multiple hand
+    - Do you think that machine wash cleaning with suit the casual trousers in the 1st image?
+    - Which care might go well with this boots?
+    - What clean would be suited for mittens in 2nd and 1st images ?
+    - Are the products in the 1st, 2nd and 4th images suited for regularwash?
+    - Will formal trousers in the 1st image go with normal hand washing?
+    - Will maxi [dress](clothes) in the 1st image suit well for normal hand wash cleaning?
+    - Are the products in the 5th and 3rd images suited for dryclean?
+    - Will sports shoes in the 3rd image suit well for cold water wash cleaning?
+    - And what about for professional
+    - Do you think that normal clean with suit the formal trousers in the 4th image?
+    - And what can you say for drywash
+    - And how about for drywash
+    - And how about the ones in the 1st and 2nd images?
+    - Is the 4th result well suited for regularwash?
+- intent: go_with
+  examples: |
+    - What will suit the 2nd image?
+    - What do you think flip-flops? Will it go with any of these?
+    - How about the product in the 1st image? Will it go well with necktie?
+    - And what about the [brown](color) material messenger bag?
+    - And what do you think about going with shorts ?
+    - How about the gloves in the 5th image? What will go well with it?
+    - 'And what about jeans having a loop closure '
+    - What will pair well with the sports shoes in the 1st image?
+    - What do you think about jeans? Will it go well with espadrilles?
+    - And what about the delsey brand bags?
+    - And, do you think the product in this image go well with the 3rd result?
+    - And what about the training shoes thats somewhat outdoor in type in this image with duffle bag?
+    - What do you feel about the [silver](color) coloured driving shoes in the 4th image? Will it go with canvas-shoes?
+    - What do you feel about the woven type chinos in the 3rd image? Will it go with casual shirt?
+    - What do you think about cap? Will it go well with brogues?
+    - Can you think of something that will go with this mittens?
+    - What do you feel about the stilettos containing stiletto type heels in the 1st image? Will it pair well with jeans?
+    - And how do you think [flat](clothes) front pleated 3/4th will go with contrast colored footwear?
+    - What will pair well with this casual trousers?
+    - Will the product in the 1st image complement the shorts?
+    - And how about for hand bag ?
+    - Will any of these get paired well with bag of foam material?
+    - And how about [bronze](color) coloured wedges?
+    - Will [sweatshirt](clothes) go well with denim shorts?
+    - What do you feel about messenger styled bag and joggers? Will they pair well?
+    - How about the product in the 4th result? Do you think it will go with the casual regular fit shorts in this image?
+    - And how about the one in the 2nd image?
+    - The leggings in the 2nd image will be paired well with what?
+    - Will the product in the 2nd result go well with the wedges in super style in this image?
+    - And what do you think, with the 1st image?
+    - What do you think about watch? Will it go well with brogues?
+    - Will training shoes made out of foam upper material and footwear make a good pair?
+    - Do you think that the product in the 1st result will agree with the one in this image?
+    - And how about the 1st result complement? Will it go well with a mesh material sports shoes?
+    - What will pair well with the sunglasses in the 2nd image?
+    - And what do you think, with the one in this image?
+    - How about the product in the 4th image and trouser? Will they pair well?
+    - What do you feel about the stylish style slip ons in the 3rd image? Will it go with shorts?
+    - What will make a good combination with the glasses in the 3rd image?
+    - Do you have the feeling that wind cheater whose color is acrylic will go well with any of these?
+    - What do you feel about plain woven treggings and tights? Will they pair well?
+    - Will the faux leather material travel bag in the 2nd result go well with footwear with elastic type heels?
+    - And how about formal-shoes sporting a lace print
+    - And what about running-shoes from puma brand
+    - What do you think about t-shirt?
+    - And what about the ballerinas in the 3rd image? What will go well with it?
+    - Will footwear complement any of these?
+    - And what about the flats sporting a loop closure?
+    - Is there something that will go well this slip ons?
+    - Will the synthetic leather tpu material [dress](clothes) shoes in this image make a good combination with that in the 3rd result?
+    - What will make a good combination with the derby in the 2nd image?
+    - Do you expect the product in the 4th result to go with the one in this image?
+    - How about the product in the 4th result? Do you think it will go with the natural tipped shoes in this image?
+    - What do you think about wraparound having [purple](color) frame color and kurta? Will they go well?
+    - What do you think will go with this trousers?
+    - Will the hot colored ballerinas in the 2nd result go well with pleated folded top?
+    - And what do you think about going with footwear ?
+    - Will the jeans having plain type in the 3rd result go well with regular or smart fitting sunglasses?
+    - Do you feel that the 1st result go well with a casual type jeans?
+    - What do you think about flipflops? Will it go well with joggers?
+    - What do you feel about wildcraft branded bag and travel bag? Will they pair well?
+    - And, do you feel that a great styled t-shirt pair well with any of these
+    - What do you think about chest printed bag and gloves? Will they go well?
+    - Will the platform heels with ankle fit in the 1st result go well with upper tipped footwear? What do you feel about it?
+    - And how about suit with buttons of solid type
+    - Do you feel that product in the 5th result complement the one in this image?
+    - 'And what about footwear in navy style '
+    - What will pair well along with the 3rd image?
+    - Will the training shoes which is of adidas brand go with the5th result in this image?
+    - What will pair well with the scarf in the 2nd image?
+    - Will card holder go well with sports shoes?
+    - What will make a great pair with the denim shorts in the 2nd image?
+    - Will back pack make a good combination with any of these?
+    - Will a [petite](size) long type polo go well with any of these
+    - What will match the 4th image?
+    - Will the product in the 5th result go with the one in this image?
+    - Will the adrienne vittadini brand ballerinas in this image make a good combination with that in the 1st result?
+    - 'And what about crepe woven [top](clothes) '
+    - ' And, do you feel that the product in this image go well with the 3rd result?'
+    - And, do you feel that a briefcase in portfolio pattern pair well with any of these
+    - Will any of these be complemented by [dress](clothes) ?
+    - How about the product in the 2nd result? Do you think it will go with the skinny styled jeans in this image?
+    - And the sensitive styled shorts in this image with plastic or metal sunglasses?
+    - And what about the training shoes in the 2nd image? What will go well with it?
+    - And what about with the 1st one?
+    - Will a sunglasses having lens material of plastic go with atleast one of these
+    - Will the sandals having a ultra fit go with the4th result in this image?
+    - What will go along with this brogues?
+    - Will [trouser](clothes) go well with blouse?
+    - Do you feel that the 2nd result go well with a bag constituted of polyester material?
+    - And how about the casual fit joggers?
+    - What do you think about the product in the 1st image? Will it make a nice pair with sweatshirt?
+    - What can you say about the polo?
+    - Then one in [romper](clothes) type?
+    - Do you think that blouse will be complemented byleggings?
+    - What will make a good combination with the peeptoes in the 6th image?
+    - And what about with the 2nd one?
+    - And what about the 2nd result complement? Will it go well with a four button [romper](clothes) suit?
+    - And what about the joggers in the 5th image? What will go well with it?
+    - Will the 1st result complement a nylon material messenger bag?
+    - Do you expect the product in the 3rd result to agree with the one in this image?
+    - Do you think the 1st result pair well with a boots with ankle type heels?
+    - What about a driving-shoes having a driver style? Do you think it will go well with any of these?
+    - how about with sports shoes?
+    - And how about driving shoes having the upper material of type rubber
+    - 'And what about tie with 25 cm size '
+    - Will slippers pair well with any of these?
+    - What can you say about the jacket?
+    - Will the happy feet branded floaters in this image go well with the 3rd result?
+    - Do you feel Will the trousers made out of spandex material in the 4th result go well with peter pan collar,crew neck or open bodysuit?
+    - What is your opinion whether the slip ons sporting triangle footbed patterns in the 5th image go with rain wear?
+    - Will card-case sporting a engineered print be paired well with any of these?
+    - What do you feel will pair with trousers having skinny fitting in the 3rd one?
+    - And the synthetic material jeans in this image with kidorable or rjm gloves?
+    - And what do you think, with suit?
+    - And what about with espadrilles ?
+    - Will the product in the 4th result go well with the formal-shoes that is derby in style in this image?
+    - Do you think Will the scarf formed of voile material in the 2nd result go well with wedges having a nude print?
+    - Will the matt weave leggings in the 1st result go well with leather type upper material casual shoes?
+    - And what about for [top](clothes) ?
+    - And what about the tight fitted gloves?
+    - What about with the classic fitted sports shoes in this image
+    - Will the ankle length boot that contains generic designed tip in this image enhance the look of the product in the 5th result ?
+    - And what do you think, with the 5th one?
+    - Will leather material [jacket](clothes) and derby go well with each other?
+    - Will the product in the 2nd result complement the one in this image?
+    - And how about the nightie having material of net?
+    - Will shoe pair well with any of these?
+    - Do you get the feeling that the travel bag moulded in classic shape in this image go well with the 2nd result?
+    - How about the product in the 3rd image? Will it go well with watch?
+    - Do you think the 2nd result pair well with a georgette material maxi dress?
+    - Will the [trouser](clothes) that is regular in style go with the2nd result in this image?
+    - How about the product in the 4th result? Do you think it will go with the formal trousers having special style in this image?
+    - And how about that in the 3rd one with this image?
+    - And with the boots that is quality in style in the 2nd one?
+    - Will the product in this image go well with the 1st result?
+    - And, do you feel that a sports type trackpants pair well with any of these
+    - And how about three button cargo pant
+    - Will slippers go well with slippers?
+    - And how about trousers in slim style
+    - What do you feel about the wide type gloves in the 1st image? Will it pair well with purse?
+    - What do you feel about pyjama with a regular fit? Will it go well with any of these?
+    - And what about the cap that is [pink](color) in colored?
+    - What will pair well with the travel bag in the 3rd image?
+    - And how about 29cm dimension travelbag
+    - Show me something that will pair well with the 3rd image?
+    - And what about the 1st result complement? Will it go well with a [blue](color) coloured watch?
+    - And what about the 5th result complement? Will it go well with a casual shoes that looks [blue](color) coloured?
+    - What do you think will go with this training shoes?
+    - what do you think, with the 4th one?
+    - And, do you feel that the product in this image go well with the 4th result?
+    - What could you say about lace print trousers? Will it go well with any of these?
+    - And what about with casual shoes ?
+    - And what about for the one in the 3rd image?
+    - What will make a nice pair with formal shoes in derby style in the 4th result?
+    - Will [sweatshirt](clothes) go well with any of these?
+    - What is your opinion whether the rubber type upper material clogs in the 2nd image go with trouser?
+    - Do you think the 1st result pair well with a t-shirt of polo type?
+    - How about pairing pajama which is from jbn creation brand clog? Will they look good?
+    - And how about with winter-jacket ?
+    - What can you say about the leggings?
+    - What do you think will go well with the scarf in the 5th image?
+    - And how about with the 7th one?
+    - What do you feel about the joggers thats casual in style in the 3rd image? Will it pair well with backpack?
+    - what do you think, with the 2nd one?
+    - Then how about jeans from pepe brand?
+    - Do you think that blouson with stretchable fitting will complement any of these?
+    - How do you feel about pairing coconut buttoned sherwani with casual shoes having the upper material of type leather?
+    - Will the trousers with slim closure in this image go well with the 2nd result?
+    - And how about thermal formed of rib type weave?
+    - What about the beautiful shape bag?
+    - What do you feel about maxi [dress](clothes) in navy style and brogues? Will they pair well?
+    - What do you feel will pair with design print scarf in the 5th result?
+    - Will [jacket](clothes) with ecru print and formal shoes go well with each other?
+    - What about the striped print sweater?
+    - Is there something that will go well this dress?
+    - Do you have the feeling that sports-shoes in natural shape will go well with any of these?
+    - What can you say about the 3rd one?
+    - Will the product in the 5th image complement the cap?
+    - Will watch with strap material [silver](color) be paired well with any of these?
+    - Do you get the feeling that the sandals of embellished type in this image go well with the 1st result?
+    - Will the mermaid style scarf go with the5th result in this image?
+    - Will any of these get paired well with long sleeves top?
+    - And with the plastic frame material glasses in the same product?
+    - And what about the formal style running shoes?
+    - Will any of these get paired well with cap with [purple](color) color?
+    - And what about the pocket type watch I see in this image?
+    - what do you think about the 1st one?
+    - What will pair well with ballerinas in rise fit in the 1st result?
+    - Will three buttoned pajamand derby make a good pair?
+    - So, do you think that a back pants pocket bodysuit go with any of these
+    - What is your opinion whether the slippers having feet type tip in the 1st image go with suit?
+    - And, do you feel that a 28cm size satchel pair well with any of these
+    - And how about the derby having casual style in this image with bodice [romper](clothes) suit?
+    - What will pair well with this watch?
+    - Will the product in the 3rd result pair nicely with the jeggings having a regular type closure in this image?
+    - What do you think about joggers?
+    - Will the sports shoes thats sneaker in style in the 4th result go well with trendy or casual type laptopbag?
+    - ' Will atleast one of these be paired well with a [pink](color) colored suit?'
+    - Do you think that the product in the 3rd result go along with the ankle length boots having feet style in tip in this image?
+    - Will the product in the 5th image go well with trousers?
+    - And the lightweight styled slip ons in this image with [princess](gender) or 80s wraparound?
+    - And, do you feel that the product in this image go well with the 3rd result?
+    - Will the 3rd result go well with a [brown](color) material bag?
+    - What about the fullpants thats somewhere full length in this image?
+    - Will [top](clothes) complement any of these?
+    - And what about the 4th result complement? Will it go well with a footwear with casual type?
+    - Then one with solid collar?
+    - And how about classy color footwear
+    - And, what do you think about casual trouser? Will it go well with canvas shoes?
+    - Will the product in the 4th result go well with the [red](color) colored scarf in this image?
+    - Do you feel that regular fitted sweater go well with any of these?
+    - And with the genuine leather soled derby in the same product?
+    - What will complement the slip ons with casual fitting in the 3rd result?
+    - Do you think that the formal type loafers in the 3rd image go with nightwear?
+    - And what about for the one in the 1st image?
+    - What do you feel about hat of brand stetson? Will it go well with any of these?
+    - And what about with the 5th one?
+    - Do you expect the product in the 2nd result to go with the one in this image?
+    - What will make a good combination with the watch in the 1st image?
+    - And what about with jeans ?
+    - What do you feel will pair with blouse with a neckline shape of open in the 4th one?
+    - And what about for the one in the 2nd image?
+    - And the cotton material sleepwear in this image with plastic bag?
+    - How about the product in the 3rd result? Do you think it will go with the pu leather material soled sandals in this image?
+    - And how about for jeans ?
+    - Will the platform heels having material made out of sandals in the 2nd result go well with [dress](clothes) having a [navy blue](color) or bodycon fit?
+    - Will wallet make a good combination with any of these?
+    - What do you feel about the glasses having ladies style in the 3rd image? Will it agree with sunglasses?
+    - What do you think about footwear? Will it go well with blouse?
+    - Can you think of something that will go with this glasses?
+    - Then one in vans styled type?
+    - Will the espadrilles having slip type in the 2nd result go well with charu boutique or msm brand saree blouse?
+    - And how about the one in the 5th image?
+    - What will pair well with the glasses in the 1st image?
+    - Will watch go well with any of these?
+    - Do you think [trouser](clothes) go with any of these?
+    - What about the natural tipped formal shoe?
+    - Will the kurti that is ethnic type in the 2nd result go well with trendy print sandals?
+    - Will leather [jacket](clothes) complement any of these?
+    - Will the loafers having navy print in this image make a good combination with that in the 2nd result?
+    - Will the 4th result complement a solid patterned t-shirt?
+    - Will the product in the 5th result make a nice pair with the formal [trouser](clothes) in a slim fit in this image?
+    - Will the derby style derby in the 2nd result go well with plastic material bag?
+    - And how about the classic type clogs?
+    - What can you say about the moccasin?
+    - Will satchel make a good fashion combination with the sunglasses which is from niceeshop brand in the 1st image?
+    - Do you think that the product in the 3rd result go along with the velcro type closure moccasin this image?
+    - Will the product in the 2nd image go well with kurti?
+    - Do you have the feeling that ankle length type formal [trouser](clothes) will go well with any of these?
+    - What do you think sweatshirt? Will it go with any of these?
+    - What do you think three-fourths? Will it go with any of these?
+    - Will the product in the 3rd result go with the one in this image?
+    - Do you think that the product in the 3rd image pair well with top?
+    - And what about the 2nd one with this image?
+    - And what do you think about scarf constituted of polka dot material?
+    - What do you think about body suit?
+    - What will make a nice pair with brogues having a lace print in the 4th result?
+    - What about the balloon sleeves dresses in this image?
+    - Will the product in the 2nd result pair nicely with the cotton material gloves in this image?
+    - Do you think the footwear having the sole made out of suede material in the 5th image go with running-shoes?
+    - And how about the one in the 4th image?
+    - Will any of these get paired well with proline branded track suit?
+    - And what about the derby style footwear?
+    - And what about the graphic print frames I see in this image?
+    - Do you think it will look good if we pair [blazer](clothes) that is like [black](color) in color with formal shoes?
+    - Do you think footwear go with any of these?
+- intent: question
+  examples: |
+    - I am keen on shopping for scarf that is special in style that she would like .
+    - I am here to look for a few of your best platform-heels having retro type for myself .
+    - I want to shop for denim type joggers with relaxed fitting that my colleague would like .
+    - I intend to see few casual style stilettos that i can buy for her .
+    - show me some watch for her .
+    - I am here to look for glasses made in [large](size) size for myself .
+    - I need to buy some floater containing soles made out of leather for myself .
+    - show me few long sleeved sherwani .
+    - show me few slim fit muffler that i can buy .
+    - I would like to buy some [flat](clothes) front pleated trousers thats somewhat cropped length that she would like .
+    - I am interested in looking at feet tip acorn branded chappals sporting adjustable type closing in size [large](size) that i can buy for her .
+    - Can you show me a ballerina with a laceup type closing that would suit me .
+    - I would love to buy few glasses constituted of friendly material for myself .
+    - Hi, Can you show me some knee long blouse that would suit me .
+    - I would love to look for a few of your best full pants for myself .
+    - I intend to buy lace printed short-dress made of plain weave .
+    - I am keen on browsing through your collection of plain weave thigh length type [trouser](clothes) having [flat](clothes) front pleats .
+    - I want to look for nylon material sunglasses that would suit me .
+    - Please show me few of your best washed jeans wash jeans that i can buy .
+    - I am here to look for back pants pocket full pants .
+    - Please show me a few cargo type pant that i would like .
+    - I am interested in seeing [silver](color) material cuff links for my buddy .
+    - Hi, Can you show me a wedges thats like [short](size) in type that i would like .
+    - Hi, Can you show me a few of your [top](clothes) 3/4th designed with buttons of four type for myself .
+    - I would be happy if you can show me a few slim closure mid high jeans having skinny fit type in size [large](size) that i can buy for my [dad](gender) .
+    - I would be happy if you can show me ankle length boots having brand vionic for her .
+    - I am very much keen on seeing [yellow](color) colored canvas shoes .
+    - I would like to buy a few driving shoes of lucius brand for myself .
+    - I need to look at a few of your best anti fit sunglasses that he would like .
+    - show me a prolific branded [dress](clothes) shoe consisting of oxford toes that i might like .
+    - I intend to look at fit and flare [dress](clothes) .
+    - I need to look at ultra fitted gloves for myself .
+    - I intend to see few athletic styled trousers which is fourgee branded that he would like .
+    - I would like to see smart styled full pant with an drawcord type closing that would suit me .
+    - I am here to buy pantaloons patterned jeans for myself .
+    - I am here to look at eva material sneakers in casual type .
+    - Can you show me rubber type upper material training shoes that i would like .
+    - I am interested in going through your collection of flats .
+    - I am keen on looking at natural shaped running-shoes having an loop type closure that i can buy for him .
+    - I need to buy snowflake patterned mittens that would suit me .
+    - I would love to look for a few bootcut fitting jeans that he would like .
+    - Please show me some of your best butterfly sleeved kaftan that i can buy .
+    - I would be happy if you can show me some moccasin from marc fisher brand that i would like .
+    - Please show me few of your best sneaker having natural shape that would suit me .
+    - I would love to buy some size brogue with synthetic material .
+    - I want to shop for some slim shaped pants for him .
+    - I intend to look for a few of your best ones that would suit me .
+    - I would like to look at a few of your best embroidered patterned thong toed slippers having anti fitting that he would like .
+    - I would be happy if you can show me a few of your best casual fit derby that i would like .
+    - Please show me few of your [top](clothes) three buttoned [trouser](clothes) for myself .
+    - I am very much keen on joggers containing rib weave type in size [xxl](size) that he would like .
+    - I am interested in browsing through your collection of smart fit formal [trouser](clothes) that would suit me .
+    - I am here to look for a few of your best rubbersoled derby of brand hugo chavez for her .
+    - I need to look at some of your best pique material joggers sporting a drawstring type closing that i can buy for her .
+    - Please show me few [gold](color) frame material wayfarer that i can buy .
+    - I would love to look at your collection poncho designed with button down collar that would suit me .
+    - I intend to see few jeans that he would like .
+    - I want to see a few of your best semi rim style eyeframe .
+    - I would be happy if you can show me some of your [top](clothes) feet tip running shoe that he would like .
+    - I am keen on looking at some knee long type pant having plain type weave for myself .
+    - I would love to see a few outdoor type slip-ons in great style .
+    - I would be happy if you can show me a design print loafers that would suit me .
+    - I am keen on buying full length slim fitted trackpants having material made in cotton blend that i can gift my sister .
+    - I would like to see few lace type upper material brogue that i can buy for him .
+    - I am very much keen on going through [dress](clothes) having novelty type patterns that would suit me .
+    - I intend to see few of your best sneakers sporting a natural tip that i can buy for him .
+    - I am here to shop for a few stole with ethnic type prints .
+    - show me adjustable style lace type upper material espadrille of steppings brand that i can buy .
+    - I intend to see few of your [top](clothes) soft color [sandal](clothes) for myself .
+    - I want to see jeans .
+    - I intend to shop for a few casual type natural shaped floaters with a classic fit for myself .
+    - I need to shop for some eyeglasses sporting cat eye styled rims that i can gift him .
+    - I would like to shop for a few [dress](clothes) shoes which consists of modern toes that he would like .
+    - I am very much keen on going through mufler in stylish style that i can gift my nephew .
+    - I am keen on looking at a few boots with natural design in tip that i can buy for my brother .
+    - I would be happy if you can show me a pu material [formal shoe](clothes) with stiletto heels for myself .
+    - I am here to look at your collection of washed jeans wash jeans for myself .
+    - I am very much interested in browsing through classic shape boot .
+    - I am interested in buying watch with the glass of the dial made of mineral crystal type material that my kid would like .
+    - Can you show me few of your [top](clothes) design patterned tights that would suit me .
+    - I would be happy if you can show me few of your best [l](size) size [trouser](clothes) having logo patterns that i can buy for her .
+    - I would love to see some sports [sandal](clothes) designed with upper material type as suede that i can buy for my sister-in-law .
+    - I am here to look for a few leggings which rises mid high for myself .
+    - I am very much interested in looking at a few of your best light [brown](color) colored brogues that i can gift my nephew .
+    - I am very much keen on going through your collection of lightweight styled derby which contains alice toes for myself .
+    - I want to shop for some rubber soled running-shoes containing natural designed tip that would suit me .
+    - Please show me few of your best back pants pocket [trouser](clothes) that i can buy for her .
+    - Can you show me a few of your [top](clothes) half pants thats flap in style that would suit me .
+    - Hi, Can you show me a few boot thats somewhere calf lengthwise that he would like .
+    - I need to look at your collection of round rimmed sunglasses having diesel style that would suit me .
+    - Can you show me some of your best natural tipped flip-flops .
+    - I am very much keen on buying ankle boot whose color is great that would suit me .
+    - I am keen on going through your collection of included sleeves party [dress](clothes) that would suit me .
+    - I intend to buy a few clogs which is aravon branded .
+    - Can you show me a few of your [top](clothes) natural shape slipper with thong toes that i would like .
+    - I would like to see few ethylene vinyl acetate heeled jutis in textile print that would suit me .
+    - I am keen on buying logo printed watch .
+    - I would like to buy few synthetic leather type upper material flipflops that she would like .
+    - I intend to look for slim shaped trousers having material made out of rayon that she would like .
+    - I want to see a few of your [top](clothes) canvas type upper material platform-heels from velcans brand that i can buy for her .
+    - I am very much keen on looking at some feet tip brogue in casual type that he would like .
+    - I want to shop for a few hidekraft branded brogue having a business style .
+    - Can you show me some of your best ethylene vinyl acetate [heel](clothes) slip-ons that i might like .
+    - Please show me a few feet type tip high [top](clothes) having almond toe that i can buy for him .
+    - I need to see some shades printed sunglass for myself .
+    - I am here to buy some driving-shoes having comfort fit for myself .
+    - Can you show me [kurta](clothes) in regular prints .
+    - I am here to look at normal fitted half pants sporting three type buttons for him .
+    - I intend to look at your collection of floaters having a regular fit .
+    - I need to look at some of your best knee lengthed denim-shorts for myself .
+    - I would be happy if you can show me few navy style formal shoes having the genuine leather type soles that would suit me .
+    - I want to see some shoe tinged with light burgundy color for him .
+    - I am very much interested in going through your collection of included sleeves blouse that she would like .
+    - I need to buy some oval shaped wraparound for myself .
+    - I want to see a few of your best size chino for myself .
+    - show me some of your best wedge heeled boot that i can buy .
+    - I want to look for some of your best padded-heel jutis .
+    - male
+    - I need to shop for a few design printed british walkers brand formal-shoes with the upper material of type synthetic leather for him .
+    - I would love to look for a few of your best culottes .
+    - show me few of your best sports shoes with rubber material soles that i can buy .
+    - I am here to see few of your [top](clothes) special style gloves thats somewhat [medium](size) lengthwise that she would like .
+    - I am here to buy some back pants pocket full pants that i can buy for my sister .
+    - I would love to buy some cargo for myself .
+    - I would be happy if you can show me few of your best kolhapuris in cutout heels that i would like .
+    - I would like to look at your collection dupatta in bhagalpuri silk material for her .
+    - I want to shop for jeans sporting a slim type closing that i can buy for my nephew .
+    - I want to look for a few of your best [flat](clothes) front pleats in casual [trouser](clothes) thats jogger in style that he would like .
+    - I am interested in looking at some of your best natural type tip training-shoes getable in [l](size) size for her .
+    - I intend to shop for few baretraps brand boot in classic style for myself .
+    - Can you show me a few of your [top](clothes) mid rise full pant with chest type prints that i can gift him .
+    - I want to look for drawcord closure full pants with cross type prints that would suit me .
+    - I am keen on going through wraparound made in extra [small](size) size for my mother-in-law .
+    - I am here to shop for some leather type upper material loafers that i can gift her .
+    - I would like to look at your collection watch having strap color [gold](color) for myself .
+    - Hi, Can you show me few of your best [formal shoe](clothes) containing natural type tip that would suit me .
+    - I am very much interested in going through your collection of driving-shoes having material made of nubuck .
+    - I am keen on looking at some wraparound having [red](color) frame color that would suit me .
+    - show me some of your [top](clothes) lacesoled espadrilles getable in [small](size) size for my cousin .
+    - I am very much interested in going through your collection of pleated chino that would suit me .
+    - Can you show me few of your [top](clothes) dark great color training shoe for myself .
+    - I am very much interested in looking at running shoe having a textured toe that my [aunt](gender) would like .
+    - I am interested in going through mittens that is soft colored that would suit me .
+    - I need to see peep toe thats quality in style that would suit me .
+    - I am here to see a few of your best sandals that i can buy for her .
+    - I would be happy if you can show me a few of your best [short](size) sleeved [kurta](clothes) that i can buy for her .
+    - I intend to see few comfortable type bermuda-shorts that i can gift my cousin .
+    - I want to see a few of your best loop type closure boot having soles made out of faux leather material that he would like .
+    - I would love to see few of your [top](clothes) tight fit gloves that would suit me .
+    - I am very much interested in browsing through sports shoes containing a classic toe that she would like .
+    - show me boot that i would like .
+    - I want to see few [large](size) sized watch in screen prints for myself .
+    - Can you show me some classic toed moccasin for myself .
+    - show me a elastic type closure denim-shorts .
+    - Please show me some of your best back pants pocket three-quarters that i can gift my cousin .
+    - I would be happy if you can show me some of your best resistant toe flats that would suit me .
+    - I am interested in looking at some rectangular shaped watch in a s-size .
+    - I am interested in ethnic type [dress](clothes) [sandal](clothes) with natural shape that she would like .
+    - I am here to look at your collection of muffler moulded in rectangle shape for myself .
+    - Can you show me a few of your best [blue](color) [pink](color) colored synthetic type upper material slippers sporting a elastic closure in size [large](size) that i might like .
+    - I would love to look for resistant toe [casual shoe](clothes) which is of karizma brand that my colleague would like .
+    - I am here to see four colored different slipon with natural shape that i can buy for him .
+    - I intend to see a few of your [top](clothes) mocassin that would suit me .
+    - show me few derby tinted with [black](color) color that i would like .
+    - I am very much keen on jeans that would suit me .
+    - I want to see a few wayfarer that i can buy for my friend .
+    - I want to shop for a few faballey brand three quarter in a xl-size .
+    - I want to shop for sundress for her .
+    - I would like to shop for few sangria branded dupatta with trendy type for myself .
+    - I would like to look at a few textile material [sports shoe](clothes) for myself .
+    - I intend to look at your collection natural type tip ballerina having natural shape .
+    - I want to shop for engineered printed leggings made in poly cotton material for myself .
+    - I would love to shop for few back pants pocket treggings that would suit me .
+    - I would like to see a few cufflinks for myself .
+    - Can you show me few of your [top](clothes) sneaker having a durable style that i can buy .
+    - I want to look for a few of your best rampwalk branded pantyhose that she would like .
+    - I am keen on looking at some leather material [sandal](clothes) of size [s](size) that would suit me .
+    - I would love to shop for few peeptoes which is from j collection brand for her .
+    - I would like to see few of your [top](clothes) acrylic material travel-bag with classic shape for myself .
+    - I am very much interested in looking at suede soled chappal in casual type that would suit me .
+    - I would like to see minute display watch having attractive style that he would like .
+    - I intend to look at some of your best dupatta that would suit me .
+    - Hi, Can you show me a few warm gray coloured full pant with rise as mid that i would like .
+    - I am interested in buying rib woven shorts that i can buy for him .
+    - I would love to look at regular collared kameez made in [xxl](size) size for myself .
+    - show me few of your best party [dress](clothes) thats somewhat chic in type that i would like .
+    - I would like to see jeans in size [xl](size) .
+    - I would love to see a few of your best different print leggings moulded in natural shape for her .
+    - Please show me few adjustable type closure slipons that would suit me .
+    - Hi, Can you show me a few of your [top](clothes) durable styled [casual shoe](clothes) for myself .
+    - I would love to shop for a few loop type closure slipon whose upper material is of type suede in size [s](size) .
+    - I am very much interested in going through your collection of basic style jeans for my buddy .
+    - I would like to see a few of your best brogue that is slim fit type for him .
+    - I would like to buy few loop closure canvas-shoes having logo patterns for him .
+    - show me a cargo having slim fitting .
+    - I want to shop for some maxi .
+    - I am here to look at some of your best churidar whose neck has a keyhole design that would suit me .
+    - I would be happy if you can show me a denim-shorts for myself .
+    - I am here to shop for few tpu external [heel](clothes) boot .
+    - I would like to look at a few of your best loafers having [medium](size) heels .
+    - I want to buy clean wash jeans that would suit me .
+    - I intend to look for a few jacquard woven three quarter getable in [l](size) size for myself .
+    - I intend to look at your collection designer material churidar that i can buy for her .
+    - I want to see placket buttoned blouson for myself .
+    - I intend to see a few of your [top](clothes) [sports shoe](clothes) having material in two tone for myself .
+    - I am keen on going through your collection of slim shaped [trouser](clothes) that is quality in style for myself .
+    - I am here to shop for scarves for myself .
+    - I am interested in going through back pants pocket pant .
+    - I am very much interested in looking at [charcoal](color) coloured poncho in woven type for myself .
+    - I am interested in browsing through watch sporting quartz movement type for myself .
+    - I would love to buy few comfortable type casual [trouser](clothes) that she would like .
+    - Hi, Can you show me few sports type classic shape travel bag thats universal in style in size [large](size) for myself .
+    - Can you show me some of your [top](clothes) full length boot that i would like .
+    - I am keen on looking at some of your best glow type [sandal](clothes) that he would like .
+    - Hi, Can you show me few [sandal](clothes) having slip type that i might like .
+    - I would like to shop for a few sundress which is old [khaki](color) branded that i can buy for my sister-in-law .
+    - I need to look for a few of your best leggings for myself .
+    - Can you show me a few of your [top](clothes) woven type joggers for her .
+    - Hi, Can you show me a few of your best lace type upper material [dress](clothes) shoes .
+    - I would like to shop for some ones with extra [large](size) size for myself .
+    - I want to see some [formal shoe](clothes) that is [brown](color) in color that would suit me .
+    - I would love to look at some of your best flats having a loop type closing that would suit me .
+    - Hi, Can you show me a few of your [top](clothes) polyester material joggers that i can gift her .
+    - I am keen on looking at some fabric type upper material sports-shoes that i can gift my friend .
+    - I want to see stole shaped in rectangular form for myself .
+    - I am keen on browsing through twill woven fullpants sporting placket buttons .
+    - I need to look at chinos thats mid lengthed for myself .
+    - I intend to look for a few platform [heel](clothes) thats somewhat retro in type for myself .
+    - I am very much keen on looking at some of your best mustard printed hand-bag tinged with [multi](color) color that my mother-in-law would like .
+    - I want to see a few of your best [flip flop](clothes) having natural shape for myself .
+    - I am very much keen on looking at some mid length half-pants of brand izod that would suit me .
+    - I am keen on looking at a few derby having outdoor style for myself .
+    - I need to shop for tapered type full pants for myself .
+    - I am keen on browsing through your collection of full length party [dress](clothes) containing chiffon weave type in a l-size .
+    - I am very much interested in looking at a few moccassins having snug fitting for myself .
+    - I would be happy if you can show me elegant type slipon for myself .
+    - I want to see a few of your [top](clothes) brogues thats like round in type for myself .
+    - Please show me some of your best casual style espadrilles having soles made out of rubber that he would like .
+    - I am very much interested in looking at some back pants pocket joggers that i can gift my [dad](gender) in size [xl](size) .
+    - I would like to see few slim type closure formal-trousers for him .
+    - I am very much keen on buying feet tip derby having faybox brand that would suit me .
+    - I want to see few of your best slipper that is mostly [brown](color) in colored for myself .
+    - I would love to buy leather material soled brogues with synthetic leather tpr material for myself .
+    - I would love to see few orthaheel brand [casual shoe](clothes) for her .
+    - I am here to look for some of your best derby adorned with texture patterns that she would like .
+    - I am very much interested in browsing through your collection of platform heels .
+    - I am very much interested in looking at some velcro closure [sandal](clothes) .
+    - I am interested in looking at a few canvas type upper material training-shoes that i can gift my brother-in-law in size [l](size) .
+    - I am very much keen on going through rubber type upper material clog having a relief toe for myself .
+    - Please show me few of your [top](clothes) antigravity brand joggers that contains plain type weave for myself .
+    - I would like to shop for some sports [sandal](clothes) made of suede upper material that i can gift my sister-in-law .
+    - show me a few of your [top](clothes) elastic type closure sleepwear made of chiffon type weave that i can buy for her .
+    - I would like to look for some of your best jeans .
+    - I am here to look at your collection aravon branded [sandal](clothes) having normal fitting for myself .
+    - Please show me a few dark [black](color) coloured wraparound that my [dad](gender) would like .
+    - I need to see few faux leather type upper material synthetic material training-shoes thats breathability in style that i can buy for my friend .
+    - I intend to buy a few chocolate colored footwear for myself .
+    - I am keen on looking at some logo printed travelbag that would suit me .
+    - Can you show me some loop type closure jeans with placket type buttons for myself .
+    - I am very much interested in going through your collection of moccasin moulded in natural shape that would suit me .
+    - show me some of your best full length type full pant sporting a solid print that would suit me .
+    - Hi, Can you show me few strong styled wayfarer having vast brand that i would like .
+    - show me a few of your [top](clothes) natural type leggings that i can buy .
+    - I intend to buy polyester spandex material poncho with rise as mid that would suit me .
+    - I am here to see few of your [top](clothes) polyester type upper material chappal in size [large](size) .
+    - I am here to buy a few derby with casual type for my papa .
+    - I am very much interested in looking at some [white](color) colored mittens .
+    - I need to look at columns closure running-shoes for my nephew .
+    - Hi, Can you show me a few of your best chanderi styled dupatta that she would like .
+    - I would like to see a few of your best sherwani in default fitting that would suit me .
+    - Please show me few of your best sherwani having fusion color that he would like .
+    - I intend to buy some culottes that is full lengthed that she would like .
+    - I am here to shop for a few lace printed wrap type [formal shoe](clothes) having soft heels that he would like .
+    - I am very much interested in looking at some of your best joggers with rib type weave that would suit me .
+    - show me mactree brand [formal shoe](clothes) for myself .
+    - I am interested in looking at frames with compatible size .
+    - I am interested in browsing through your collection of ground patterned shoes designed with rubber type upper material that would suit me .
+    - I would like to see albertorresi brand boot having 90 degree heels for myself .
+    - Please show me a few [sports shoe](clothes) that looks [brown](color) coloured that i can buy for my [uncle](gender) .
+    - I would like to see few ombre patterned travel-bag in waistband type for myself .
+    - I am very much keen on browsing through jeans with skinny styled jeans that i can gift him .
+    - I would love to look for some of your best running shoes adorned with graphic patterns for myself .

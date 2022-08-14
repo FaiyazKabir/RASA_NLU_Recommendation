@@ -32,25 +32,36 @@ class take_info_and_recommend(Action):
             # if age == None:
             #     prompt = gpt3_prompt()
             #     dispatcher.utter_message(text = prompt.get_question("age"))
+            if gender == None:
+                prompt = gpt3_prompt()
+                dispatcher.utter_message(text = prompt.get_question("It's for a male"))
             
             if size == None:
                 prompt = gpt3_prompt()
-                dispatcher.utter_message(text = prompt.get_question("size"))
-
-            elif gender == None:
-                prompt = gpt3_prompt()
-                dispatcher.utter_message(text = prompt.get_question("gender"))
+                dispatcher.utter_message(text = prompt.get_question("I need them in L size"))
 
             elif color == None:
                 prompt = gpt3_prompt()
-                dispatcher.utter_message(text = prompt.get_question("color"))
+                dispatcher.utter_message(text = prompt.get_question("yes, show me something in brown or grey"))
 
             elif clothes == None:
                 prompt = gpt3_prompt()
-                dispatcher.utter_message(text = prompt.get_question("clothing_pref")) 
+                dispatcher.utter_message(text = prompt.get_question("I want to buy jeans")) 
             else:
-                # query = 'Product_type == ' + clothes + ' and Gender ==' + gender + ' and Size == '+size+' Color=='+color
-                # recommendation = df.query(query)
-                dispatcher.utter_message(text = "preparing a recommendation for you")
+                if gender in ['man','father','dad','daddy','boy','uncle','husband','grandfather','grandson']:
+                    gender = "male"
+                elif gender in ['woman','mother','mom','mommy','aunt','wife','grandmother','granddaughter']:
+                    gender = "female"
+                else:
+                    gender = "other"
+
+                query ="Gender == @gender and Size == @size and Color in @color and Product_type == @clothes"
+                print(query)
+                first_search_result = df.query(query)
+                print(first_search_result)
+                recommendation = first_search_result["ITEM"].to_list()
+                print(recommendation)
+                for item in recommendation[:5]:
+                    dispatcher.utter_message(image = item)
                 
             return []

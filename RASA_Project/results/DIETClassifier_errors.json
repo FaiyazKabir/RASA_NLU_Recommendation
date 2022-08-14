@@ -1,0 +1,196 @@
+[
+  {
+    "text": "I am here to look for some of your best gore type sports sandals that i can buy for her .",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "clothes",
+        "start": 57,
+        "end": 64,
+        "confidence_entity": 0.7474254965782166,
+        "value": "sandals",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "What care would be suited for trouser in 5th and 2nd images ?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 37,
+        "value": "trouser",
+        "entity": "clothes"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What clean would be suited for trouser in 5th and 1st images ?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 38,
+        "value": "trouser",
+        "entity": "clothes"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Can I have other accessories and apparels will suit the style of this trouser ?",
+    "entities": [
+      {
+        "start": 70,
+        "end": 77,
+        "value": "trouser",
+        "entity": "clothes"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Will trouser in the 5th image suit well for drywarm wash?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "trouser",
+        "entity": "clothes"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Do you think trouser go with any of these?",
+    "entities": [
+      {
+        "start": 13,
+        "end": 20,
+        "value": "trouser",
+        "entity": "clothes"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Will the product in the 5th result make a nice pair with the formal trouser in a slim fit in this image?",
+    "entities": [
+      {
+        "start": 68,
+        "end": 75,
+        "value": "trouser",
+        "entity": "clothes"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which of the celebrities usually wear trouser similar looking to the one in the 5th image?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 45,
+        "value": "trouser",
+        "entity": "clothes"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which of the celebrities endorse similar looking trousers as in the 3rd image?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "clothes",
+        "start": 49,
+        "end": 57,
+        "confidence_entity": 0.5905355215072632,
+        "value": "trousers",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Which of the celebrities endorse similar looking formal trousers as in the 8th image?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "clothes",
+        "start": 56,
+        "end": 64,
+        "confidence_entity": 0.5196424722671509,
+        "value": "trousers",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Which of the celebrities wear similar looking trousers as in the 2nd image?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "clothes",
+        "start": 46,
+        "end": 54,
+        "confidence_entity": 0.7638358473777771,
+        "value": "trousers",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Which of the celebrities wear similar looking trousers as in the 1st image?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "clothes",
+        "start": 46,
+        "end": 54,
+        "confidence_entity": 0.7576403021812439,
+        "value": "trousers",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Which of the celebrities usually wear similar looking trousers as in the 1st image?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "clothes",
+        "start": 54,
+        "end": 62,
+        "confidence_entity": 0.6993501782417297,
+        "value": "trousers",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Which of the celebrities usually wear similar looking trousers as in the 4th image?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "clothes",
+        "start": 54,
+        "end": 62,
+        "confidence_entity": 0.7049838900566101,
+        "value": "trousers",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "The 3rd trouser looks catchy. Can I see something like it but having a nylon style",
+    "entities": [
+      {
+        "start": 8,
+        "end": 15,
+        "value": "trouser",
+        "entity": "clothes"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

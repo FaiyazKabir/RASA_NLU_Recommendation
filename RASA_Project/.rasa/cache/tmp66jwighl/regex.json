@@ -1,0 +1,22 @@
+[
+  {
+    "name": "age",
+    "pattern": "(\\bteen\\b|\\bteenage\\b|\\bchild\\b|\\bgrandmother\\b|\\bgrandfather\\b|\\bchild\\b|\\bchildren\\b|\\bboy\\b|\\blittle\\b|\\bold\\b|\\bgrand\\b|\\bnewborn\\b)"
+  },
+  {
+    "name": "size",
+    "pattern": "(\\bS\\b|\\bM\\b|\\bL\\b|\\bXL\\b|\\bXXL\\b)"
+  },
+  {
+    "name": "gender",
+    "pattern": "(\\bman\\b|\\bwoman\\b|\\bfather\\b|\\bdad\\b|\\bdaddy\\b|\\bmother\\b|\\bmom\\b|\\bmommy\\b|\\bboy\\b|\\bgirl\\b|\\buncle\\b|\\baunt\\b|\\bhusband\\b|\\bwife\\b|\\bgrandfather\\b|\\bgrandmother\\b|\\bgrandson\\b|\\bgranddaughter\\b)"
+  },
+  {
+    "name": "color",
+    "pattern": "(\\bnavy\\ blue\\b|\\bpink\\b|\\blilac\\b|\\bbottle\\ green\\b|\\bmaroon\\b|\\byellow\\b|\\bbright\\b|\\bdark\\b|\\bbronze\\b|\\bblack\\b|\\bshimmer\\b|\\bchocolate\\b|\\bred\\b|\\bbloodred\\b|\\bblue\\b|\\bgreen\\b|\\bazure\\b|\\bbright\\b|\\bcrimson\\b|\\bdrab\\b|\\bdull\\b|\\bgold\\b|\\bindigo\\b|\\bmulticolored\\b|\\bmustard\\b|\\bpinkish\\b|\\brosy\\b|\\bscarlet\\b|\\bsilver\\b|\\bturquoise\\b|\\bviolet\\b)"
+  },
+  {
+    "name": "clothes",
+    "pattern": "(\\btop\\b|\\bcapri\\b|\\bdress\\b|\\bshort\\b|\\btshirt\\b|\\bskirt\\b|\\bjeans\\b|\\blegging\\b|\\binnerwear\\ Vest\\b|\\bromper\\b|\\blehenga\\ Choli\\b|\\bsalwar\\b|\\bbootie\\b|\\bclothing\\ Set\\b|\\bjacket\\b|\\bshirt\\b|\\bkurta\\b|\\bsweatshirt\\b|\\bkurta\\ Set\\b|\\bwaistcoat\\b|\\bblazer\\b|\\btrouser\\b|\\bcasual\\ Shoe\\b|\\bflip\\ Flop\\b|\\bsandal\\b|\\bformal\\ Shoe\\b|\\bsports\\ Shoe\\b|\\bflat\\b|\\bheel\\b|\\bsport\\b|\\bsandal\\b)"
+  }
+]
