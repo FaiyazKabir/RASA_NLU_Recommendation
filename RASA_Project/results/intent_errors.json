@@ -1,74 +1,18 @@
 [
   {
-    "text": "I like polyester material but not cotton material for suit pants .",
-    "intent": "user-info",
-    "intent_prediction": {
-      "name": "question",
-      "confidence": 0.9381343722343445
-    }
-  },
-  {
     "text": "And how about the 4th image",
     "intent": "suited_for",
     "intent_prediction": {
       "name": "repeat-question",
-      "confidence": 0.93747878074646
+      "confidence": 0.9406997561454773
     }
   },
   {
-    "text": "And how about the 1st image",
-    "intent": "suited_for",
+    "text": "And the leggings having a evening style in this image with soft slippers?",
+    "intent": "go_with",
     "intent_prediction": {
-      "name": "repeat-question",
-      "confidence": 0.6793733239173889
-    }
-  },
-  {
-    "text": "And how about the 2nd image",
-    "intent": "suited_for",
-    "intent_prediction": {
-      "name": "repeat-question",
-      "confidence": 0.7000664472579956
-    }
-  },
-  {
-    "text": "And how about the 5th image",
-    "intent": "suited_for",
-    "intent_prediction": {
-      "name": "repeat-question",
-      "confidence": 0.8467773199081421
-    }
-  },
-  {
-    "text": "and how about for 2nd image?",
-    "intent": "ask_attribute",
-    "intent_prediction": {
-      "name": "show_orientation",
-      "confidence": 0.7555786967277527
-    }
-  },
-  {
-    "text": "and how about for 1st image?",
-    "intent": "ask_attribute",
-    "intent_prediction": {
-      "name": "show_orientation",
-      "confidence": 0.7388668060302734
-    }
-  },
-  {
-    "text": "and how about for 3rd image?",
-    "intent": "ask_attribute",
-    "intent_prediction": {
-      "name": "show_orientation",
-      "confidence": 0.8000994920730591
-    }
-  },
-  {
-    "text": "'And for this 1st image '",
-    "intent": "ask_attribute",
-    "intent_prediction": {
-      "name": "show_orientation",
-      "confidence": 0.8584007620811462
+      "name": "suited_for",
+      "confidence": 0.5785558819770813
     }
   },
   {
@@ -76,23 +20,7 @@
     "intent": "ask_attribute",
     "intent_prediction": {
       "name": "show_orientation",
-      "confidence": 0.941319465637207
-    }
-  },
-  {
-    "text": "And some suggestions for 2nd image",
-    "intent": "ask_attribute",
-    "intent_prediction": {
-      "name": "show_orientation",
-      "confidence": 0.8236566185951233
-    }
-  },
-  {
-    "text": "And some suggestions for 4th image",
-    "intent": "ask_attribute",
-    "intent_prediction": {
-      "name": "show_orientation",
-      "confidence": 0.8237094283103943
+      "confidence": 0.5974782109260559
     }
   },
   {
@@ -100,7 +28,7 @@
     "intent": "ask_attribute",
     "intent_prediction": {
       "name": "show_orientation",
-      "confidence": 0.875932514667511
+      "confidence": 0.5297563076019287
     }
   },
   {
@@ -108,47 +36,7 @@
     "intent": "ask_attribute",
     "intent_prediction": {
       "name": "show_orientation",
-      "confidence": 0.944649875164032
-    }
-  },
-  {
-    "text": "'And for this 4th image '",
-    "intent": "ask_attribute",
-    "intent_prediction": {
-      "name": "show_orientation",
-      "confidence": 0.8817943334579468
-    }
-  },
-  {
-    "text": "and how about for 5th image?",
-    "intent": "ask_attribute",
-    "intent_prediction": {
-      "name": "show_orientation",
-      "confidence": 0.7804888486862183
-    }
-  },
-  {
-    "text": "'And for this 2nd image '",
-    "intent": "ask_attribute",
-    "intent_prediction": {
-      "name": "show_orientation",
-      "confidence": 0.8878770470619202
-    }
-  },
-  {
-    "text": "and how about for 4th image?",
-    "intent": "ask_attribute",
-    "intent_prediction": {
-      "name": "show_orientation",
-      "confidence": 0.7609032988548279
-    }
-  },
-  {
-    "text": "And some suggestions for 1st image",
-    "intent": "ask_attribute",
-    "intent_prediction": {
-      "name": "show_orientation",
-      "confidence": 0.8017747402191162
+      "confidence": 0.6500847339630127
     }
   },
   {
@@ -156,23 +44,7 @@
     "intent": "ask_attribute",
     "intent_prediction": {
       "name": "show_orientation",
-      "confidence": 0.908604085445404
-    }
-  },
-  {
-    "text": "'And for this 5th image '",
-    "intent": "ask_attribute",
-    "intent_prediction": {
-      "name": "show_orientation",
-      "confidence": 0.8884174227714539
-    }
-  },
-  {
-    "text": "And what about for 4th image",
-    "intent": "ask_attribute",
-    "intent_prediction": {
-      "name": "show_orientation",
-      "confidence": 0.9047560691833496
+      "confidence": 0.5547757744789124
     }
   },
   {
@@ -180,7 +52,7 @@
     "intent": "ask_attribute",
     "intent_prediction": {
       "name": "show_orientation",
-      "confidence": 0.9138713479042053
+      "confidence": 0.6365464925765991
     }
   },
   {
@@ -188,7 +60,143 @@
     "intent": "ask_attribute",
     "intent_prediction": {
       "name": "show_orientation",
-      "confidence": 0.9187652468681335
+      "confidence": 0.5482181906700134
+    }
+  },
+  {
+    "text": "And what about for 4th image",
+    "intent": "show_orientation",
+    "intent_prediction": {
+      "name": "ask_attribute",
+      "confidence": 0.50783771276474
+    }
+  },
+  {
+    "text": "and how about for 2nd image?",
+    "intent": "show_orientation",
+    "intent_prediction": {
+      "name": "ask_attribute",
+      "confidence": 0.6203858256340027
+    }
+  },
+  {
+    "text": "'And for this 4th image '",
+    "intent": "show_orientation",
+    "intent_prediction": {
+      "name": "ask_attribute",
+      "confidence": 0.6622467041015625
+    }
+  },
+  {
+    "text": "and how about for 1st image?",
+    "intent": "show_orientation",
+    "intent_prediction": {
+      "name": "ask_attribute",
+      "confidence": 0.6710078716278076
+    }
+  },
+  {
+    "text": "'And for this 3rd image '",
+    "intent": "show_orientation",
+    "intent_prediction": {
+      "name": "ask_attribute",
+      "confidence": 0.6367462873458862
+    }
+  },
+  {
+    "text": "'And for this 5th image '",
+    "intent": "show_orientation",
+    "intent_prediction": {
+      "name": "ask_attribute",
+      "confidence": 0.6043714880943298
+    }
+  },
+  {
+    "text": "And some suggestions for 5th image",
+    "intent": "show_orientation",
+    "intent_prediction": {
+      "name": "ask_attribute",
+      "confidence": 0.7297800779342651
+    }
+  },
+  {
+    "text": "And some suggestions for 2nd image",
+    "intent": "show_orientation",
+    "intent_prediction": {
+      "name": "ask_attribute",
+      "confidence": 0.7448877096176147
+    }
+  },
+  {
+    "text": "And some suggestions for 1st image",
+    "intent": "show_orientation",
+    "intent_prediction": {
+      "name": "ask_attribute",
+      "confidence": 0.7357335090637207
+    }
+  },
+  {
+    "text": "And some suggestions for 3rd image",
+    "intent": "show_orientation",
+    "intent_prediction": {
+      "name": "ask_attribute",
+      "confidence": 0.7132717370986938
+    }
+  },
+  {
+    "text": "and how about for 3rd image?",
+    "intent": "show_orientation",
+    "intent_prediction": {
+      "name": "ask_attribute",
+      "confidence": 0.6228466033935547
+    }
+  },
+  {
+    "text": "'And for this 1st image '",
+    "intent": "show_orientation",
+    "intent_prediction": {
+      "name": "ask_attribute",
+      "confidence": 0.6351514458656311
+    }
+  },
+  {
+    "text": "and how about for 4th image?",
+    "intent": "show_orientation",
+    "intent_prediction": {
+      "name": "ask_attribute",
+      "confidence": 0.6836467981338501
+    }
+  },
+  {
+    "text": "and how about for 5th image?",
+    "intent": "show_orientation",
+    "intent_prediction": {
+      "name": "ask_attribute",
+      "confidence": 0.6593738198280334
+    }
+  },
+  {
+    "text": "And some suggestions for 4th image",
+    "intent": "show_orientation",
+    "intent_prediction": {
+      "name": "ask_attribute",
+      "confidence": 0.7667401432991028
+    }
+  },
+  {
+    "text": "'And for this 2nd image '",
+    "intent": "show_orientation",
+    "intent_prediction": {
+      "name": "ask_attribute",
+      "confidence": 0.6199443936347961
+    }
+  },
+  {
+    "text": "And some suggestions for 6th image",
+    "intent": "show_orientation",
+    "intent_prediction": {
+      "name": "ask_attribute",
+      "confidence": 0.6925032138824463
     }
   }
 ]

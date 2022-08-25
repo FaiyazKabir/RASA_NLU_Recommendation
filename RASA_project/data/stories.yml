@@ -5,7 +5,7 @@ stories:
 - story: user_recommendation
   steps:
    - intent: greeting
-   - action: utter_greeting
+   - action: greet_customer
    - intent: question
    - action: take_info_and_recommend
    - intent: user-info

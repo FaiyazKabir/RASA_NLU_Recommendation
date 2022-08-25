@@ -7,7 +7,118 @@
         "entity": "clothes",
         "start": 57,
         "end": 64,
-        "confidence_entity": 0.7474254965782166,
+        "confidence_entity": 0.959097146987915,
+        "value": "sandals",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Please show me few of your best back pants pocket trouser that i can buy for her .",
+    "entities": [
+      {
+        "start": 50,
+        "end": 57,
+        "value": "trouser",
+        "entity": "clothes"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hi, Can you show me sandals material chappals with pu material soles for myself .",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "clothes",
+        "start": 20,
+        "end": 27,
+        "confidence_entity": 0.6648021340370178,
+        "value": "sandals",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I am here to see a few of your best sandals that i can buy for her .",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "clothes",
+        "start": 36,
+        "end": 43,
+        "confidence_entity": 0.6152679324150085,
+        "value": "sandals",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would love to look at some of your best convenient closure sandals that i can buy for her .",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "clothes",
+        "start": 61,
+        "end": 68,
+        "confidence_entity": 0.5692982077598572,
+        "value": "sandals",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Please show me few of your best regular fit sandals that i might like .",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "clothes",
+        "start": 44,
+        "end": 51,
+        "confidence_entity": 0.4992401897907257,
+        "value": "sandals",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I want to see few of your top sandals designed in size that he would like .",
+    "entities": [
+      {
+        "start": 26,
+        "end": 29,
+        "value": "top",
+        "entity": "clothes"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "clothes",
+        "start": 26,
+        "end": 29,
+        "confidence_entity": 0.9997193217277527,
+        "value": "top",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "clothes",
+        "start": 30,
+        "end": 37,
+        "confidence_entity": 0.6425276398658752,
+        "value": "sandals",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "I would be happy if you can show me some alice toe sandals that i can buy .",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "clothes",
+        "start": 51,
+        "end": 58,
+        "confidence_entity": 0.5050283074378967,
         "value": "sandals",
         "extractor": "DIETClassifier"
       }
@@ -50,16 +161,33 @@
     "predicted_entities": []
   },
   {
-    "text": "Will trouser in the 5th image suit well for drywarm wash?",
+    "text": "And how about casual trouser thats full in length",
     "entities": [
       {
-        "start": 5,
-        "end": 12,
+        "start": 21,
+        "end": 28,
         "value": "trouser",
         "entity": "clothes"
       }
     ],
-    "predicted_entities": []
+    "predicted_entities": [
+      {
+        "entity": "clothes",
+        "start": 21,
+        "end": 28,
+        "confidence_entity": 0.9815413951873779,
+        "value": "trouser",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "size",
+        "start": 33,
+        "end": 34,
+        "confidence_entity": 0.5255051851272583,
+        "value": "s",
+        "extractor": "DIETClassifier"
+      }
+    ]
   },
   {
     "text": "Do you think trouser go with any of these?",
@@ -74,11 +202,73 @@
     "predicted_entities": []
   },
   {
-    "text": "Will the product in the 5th result make a nice pair with the formal trouser in a slim fit in this image?",
+    "text": "So, do you think that a trouser in casual fitting go with any of these",
     "entities": [
       {
-        "start": 68,
-        "end": 75,
+        "start": 24,
+        "end": 31,
+        "value": "trouser",
+        "entity": "clothes"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Will trouser go well with blouse?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "trouser",
+        "entity": "clothes"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What will make a great pair with the trouser in the 3rd image?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 44,
+        "value": "trouser",
+        "entity": "clothes"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What do you feel will pair with casual styled trouser in the 1st one?",
+    "entities": [
+      {
+        "start": 46,
+        "end": 53,
+        "value": "trouser",
+        "entity": "clothes"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "What could you say about casual printed dress? Will it go well with any of these?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "clothes",
+        "start": 40,
+        "end": 45,
+        "confidence_entity": 0.5400584936141968,
+        "value": "dress",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Which of the celebrities wear similar looking trouser as in the 2nd image?",
+    "entities": [
+      {
+        "start": 46,
+        "end": 53,
         "value": "trouser",
         "entity": "clothes"
       }
@@ -98,95 +288,95 @@
     "predicted_entities": []
   },
   {
-    "text": "Which of the celebrities endorse similar looking trousers as in the 3rd image?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "clothes",
-        "start": 49,
-        "end": 57,
-        "confidence_entity": 0.5905355215072632,
-        "value": "trousers",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Which of the celebrities endorse similar looking formal trousers as in the 8th image?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "clothes",
-        "start": 56,
-        "end": 64,
-        "confidence_entity": 0.5196424722671509,
-        "value": "trousers",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Which of the celebrities wear similar looking trousers as in the 2nd image?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "clothes",
-        "start": 46,
-        "end": 54,
-        "confidence_entity": 0.7638358473777771,
-        "value": "trousers",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Which of the celebrities wear similar looking trousers as in the 1st image?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "clothes",
-        "start": 46,
-        "end": 54,
-        "confidence_entity": 0.7576403021812439,
-        "value": "trousers",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Which of the celebrities usually wear similar looking trousers as in the 1st image?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "clothes",
-        "start": 54,
-        "end": 62,
-        "confidence_entity": 0.6993501782417297,
-        "value": "trousers",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "Which of the celebrities usually wear similar looking trousers as in the 4th image?",
-    "entities": [],
-    "predicted_entities": [
-      {
-        "entity": "clothes",
-        "start": 54,
-        "end": 62,
-        "confidence_entity": 0.7049838900566101,
-        "value": "trousers",
-        "extractor": "DIETClassifier"
-      }
-    ]
-  },
-  {
-    "text": "The 3rd trouser looks catchy. Can I see something like it but having a nylon style",
+    "text": "Which of the celebrities usually wear similar looking trouser as in the 1st image?",
     "entities": [
       {
-        "start": 8,
-        "end": 15,
+        "start": 54,
+        "end": 61,
+        "value": "trouser",
+        "entity": "clothes"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which of the celebrities wear similar looking trouser as in the 4th image?",
+    "entities": [
+      {
+        "start": 46,
+        "end": 53,
+        "value": "trouser",
+        "entity": "clothes"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which of the celebrities usually wear similar looking trouser as in the 3rd image?",
+    "entities": [
+      {
+        "start": 54,
+        "end": 61,
+        "value": "trouser",
+        "entity": "clothes"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which of the celebrities wear similar looking trouser as in the 1st image?",
+    "entities": [
+      {
+        "start": 46,
+        "end": 53,
+        "value": "trouser",
+        "entity": "clothes"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which of the celebrities wear similar looking trouser as in the 3rd image?",
+    "entities": [
+      {
+        "start": 46,
+        "end": 53,
+        "value": "trouser",
+        "entity": "clothes"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Which of the celebrities endorse similar looking trouser as in the 4th image?",
+    "entities": [
+      {
+        "start": 49,
+        "end": 56,
+        "value": "trouser",
+        "entity": "clothes"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "I like the 1st peeptoes. Show me something similar to it but with a sandal toe",
+    "entities": [
+      {
+        "start": 68,
+        "end": 74,
+        "value": "sandal",
+        "entity": "clothes"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "No i think ditch the ballerinas I want to go back and look at the trouser you had shown before",
+    "entities": [
+      {
+        "start": 66,
+        "end": 73,
         "value": "trouser",
         "entity": "clothes"
       }

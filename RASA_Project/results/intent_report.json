@@ -1,134 +1,25 @@
 {
-  "celebrity": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 1111,
-    "confused_with": {}
-  },
-  "like_n_show_result": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 655,
-    "confused_with": {}
-  },
-  "do_not_like_show_result": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 233,
-    "confused_with": {}
-  },
-  "question": {
-    "precision": 0.999290780141844,
-    "recall": 1.0,
-    "f1-score": 0.9996452642781128,
-    "support": 1409,
-    "confused_with": {}
+  "suited_for": {
+    "precision": 0.9992389649923896,
+    "recall": 0.9992389649923896,
+    "f1-score": 0.9992389649923896,
+    "support": 1314,
+    "confused_with": {
+      "repeat-question": 1
+    }
   },
   "user-info": {
     "precision": 1.0,
-    "recall": 0.9976359338061466,
-    "f1-score": 0.9988165680473373,
+    "recall": 1.0,
+    "f1-score": 1.0,
     "support": 423,
-    "confused_with": {
-      "question": 1
-    }
-  },
-  "do_not_like_n_show_result": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 626,
     "confused_with": {}
-  },
-  "buy": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 48,
-    "confused_with": {}
-  },
-  "greeting": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 4,
-    "confused_with": {}
-  },
-  "like_show_result": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 230,
-    "confused_with": {}
-  },
-  "filter_results": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 1,
-    "confused_with": {}
-  },
-  "suited_for": {
-    "precision": 1.0,
-    "recall": 0.9969558599695586,
-    "f1-score": 0.9984756097560976,
-    "support": 1314,
-    "confused_with": {
-      "repeat-question": 4
-    }
-  },
-  "ask_attribute": {
-    "precision": 1.0,
-    "recall": 0.9851909586905689,
-    "f1-score": 0.9925402434236357,
-    "support": 1283,
-    "confused_with": {
-      "show_orientation": 19
-    }
   },
   "show_similar_to": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 116,
-    "confused_with": {}
-  },
-  "switch-synset": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 117,
-    "confused_with": {}
-  },
-  "go_with": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 1338,
-    "confused_with": {}
-  },
-  "like_earlier_show_result": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 152,
-    "confused_with": {}
-  },
-  "do_not_like_earlier_show_result": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 130,
-    "confused_with": {}
-  },
-  "exit-message": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 16,
     "confused_with": {}
   },
   "sort_results": {
@@ -138,37 +29,148 @@
     "support": 3,
     "confused_with": {}
   },
-  "repeat-question": {
-    "precision": 0.2,
+  "filter_results": {
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.33333333333333337,
+    "f1-score": 1.0,
     "support": 1,
     "confused_with": {}
   },
-  "show_orientation": {
-    "precision": 0.8442622950819673,
+  "switch-synset": {
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.9155555555555556,
-    "support": 103,
+    "f1-score": 1.0,
+    "support": 117,
     "confused_with": {}
   },
-  "accuracy": 0.9974229571566627,
+  "do_not_like_show_result": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 233,
+    "confused_with": {}
+  },
+  "like_show_result": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 230,
+    "confused_with": {}
+  },
+  "exit-message": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "like_earlier_show_result": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 152,
+    "confused_with": {}
+  },
+  "ask_attribute": {
+    "precision": 0.9868624420401855,
+    "recall": 0.995323460639127,
+    "f1-score": 0.9910748932867676,
+    "support": 1283,
+    "confused_with": {
+      "show_orientation": 6
+    }
+  },
+  "go_with": {
+    "precision": 1.0,
+    "recall": 0.9992526158445441,
+    "f1-score": 0.9996261682242991,
+    "support": 1338,
+    "confused_with": {
+      "suited_for": 1
+    }
+  },
+  "buy": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 48,
+    "confused_with": {}
+  },
+  "like_n_show_result": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 655,
+    "confused_with": {}
+  },
+  "greeting": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "celebrity": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1111,
+    "confused_with": {}
+  },
+  "repeat-question": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 1,
+    "confused_with": {}
+  },
+  "do_not_like_earlier_show_result": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 130,
+    "confused_with": {}
+  },
+  "do_not_like_n_show_result": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 626,
+    "confused_with": {}
+  },
+  "show_orientation": {
+    "precision": 0.9347826086956522,
+    "recall": 0.8349514563106796,
+    "f1-score": 0.8820512820512821,
+    "support": 103,
+    "confused_with": {
+      "ask_attribute": 17
+    }
+  },
+  "question": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1409,
+    "confused_with": {}
+  },
+  "accuracy": 0.9973155803715237,
   "macro avg": {
-    "precision": 0.954454908343991,
-    "recall": 0.9990372739269654,
-    "f1-score": 0.9637317416378129,
+    "precision": 0.9724230483680107,
+    "recall": 0.9918460237041306,
+    "f1-score": 0.9780313321534002,
     "support": 9313
   },
   "weighted avg": {
-    "precision": 0.9980843686903577,
-    "recall": 0.9974229571566627,
-    "f1-score": 0.997644284842637,
+    "precision": 0.997307754948267,
+    "recall": 0.9973155803715237,
+    "f1-score": 0.9972690701051202,
     "support": 9313
   },
   "micro avg": {
-    "precision": 0.9974229571566627,
-    "recall": 0.9974229571566627,
-    "f1-score": 0.9974229571566627,
+    "precision": 0.9973155803715237,
+    "recall": 0.9973155803715237,
+    "f1-score": 0.9973155803715237,
     "support": 9313
   }
 }

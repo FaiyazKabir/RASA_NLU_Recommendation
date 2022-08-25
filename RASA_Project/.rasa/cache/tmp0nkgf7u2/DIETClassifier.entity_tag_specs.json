@@ -1,0 +1,44 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-clothes",
+      "2": "I-clothes",
+      "3": "L-clothes",
+      "4": "U-clothes",
+      "5": "B-color",
+      "6": "I-color",
+      "7": "L-color",
+      "8": "U-color",
+      "9": "B-gender",
+      "10": "I-gender",
+      "11": "L-gender",
+      "12": "U-gender",
+      "13": "B-size",
+      "14": "I-size",
+      "15": "L-size",
+      "16": "U-size",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-clothes": 1,
+      "I-clothes": 2,
+      "L-clothes": 3,
+      "U-clothes": 4,
+      "B-color": 5,
+      "I-color": 6,
+      "L-color": 7,
+      "U-color": 8,
+      "B-gender": 9,
+      "I-gender": 10,
+      "L-gender": 11,
+      "U-gender": 12,
+      "B-size": 13,
+      "I-size": 14,
+      "L-size": 15,
+      "U-size": 16,
+      "O": 0
+    },
+    "num_tags": 17
+  }
+]

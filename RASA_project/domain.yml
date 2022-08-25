@@ -41,14 +41,18 @@ entities:
   - footwear
   - size
   - color
+  - number
+  - time
 
 slots:
-  age:
-    type: text
+
+  number:
+    type: float
     influence_conversation: false
     mappings:
     - type: from_entity
-      entity: age
+      entity: number
+
 
   gender:
     type: text
@@ -78,9 +82,6 @@ slots:
     - type: from_entity
       entity: color
   
-responses:
-  utter_greeting:
-  - text: "Hey! How are you?"
 
   utter_goodbye:
   - text: "ami soli gelam"
